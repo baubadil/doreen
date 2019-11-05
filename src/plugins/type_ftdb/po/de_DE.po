@@ -1,0 +1,175 @@
+# Doreen
+# Copyright (C) Baubadil GmbH. All rights reserved
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: bugs@baubadil.de\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ulrich Möller <moeller@baubadil.de>\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:101
+msgid "%COUNT% different parts"
+msgstr "%COUNT% verschiedene Bauteile"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:270
+msgid "%COUNT1% different parts, %COUNT2% parts in total"
+msgstr "%COUNT1% verschiedene Bauteile, %COUNT2% Bauteile insgesamt"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:131
+msgid "Add this row to the list of article numbers"
+msgstr "Diese Zeile zu den Artikelnummern hinzufügen"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:180
+msgid "Add to parts list"
+msgstr "Add to parts list"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:50
+msgid "Article numbers"
+msgstr "Artikelnummern"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_cat.php:51
+msgid "Category"
+msgstr "Kategorie"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:309
+msgid "Contained in"
+msgstr "Enthalten in"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:25
+msgid "Contents"
+msgstr "Inhalt"
+
+#: src/plugins/type_ftdb/ftdb_ticket.php:37
+msgid "Create a new fischertechnik kit or part"
+msgstr "Neuen Fischertechnik-Artikel (Kasten oder Einzelteil) anlegen"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:52
+msgid "FTARTNOINTRO"
+msgstr ""
+"Hier können die offiziellen Artikelnummern des Artikels angegeben werden. "
+"Jede Zeile sollte das Jahr enthalten, in dem der Artikel eingeführt wurde. "
+"Eine Jahresangabe ohne Artikelnummer bezeichnet, dass der Artikel in dem "
+"Jahr aus dem Programm genommen wurde."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_icon.php:32
+msgid ""
+"Here you can select one of the attachments as this article variant's icon."
+msgstr ""
+"Hier können Sie eine der an den Artikel angehängten Dateien als Bild des "
+"Artikels auswählen."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_icon.php:31
+msgid "Icon"
+msgstr "Bild"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:26
+msgid ""
+"If this is a kit containing other parts, you can specify a complete parts "
+"list here (or you can do so later)."
+msgstr ""
+"Für Baukästen, die andere Bauteile enthalten, kann hier eine vollständige "
+"Stückliste eingegeben (oder später hinzugefügt) werden."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_weight.php:22
+msgid "If this is a single part, you can specify the weight in grams here."
+msgstr ""
+"Wenn dieser Artikel ein einzelnes Bauteil ist, kann hier das Gewicht in "
+"Gramm angegeben werden."
+
+#: src/plugins/type_ftdb/ftdb_import_gui.php:27
+#: src/plugins/type_ftdb/ftdb_import_gui.php:49
+#: src/plugins/type_ftdb/type_ftdb.php:311
+msgid "Import from FTDB"
+msgstr "Import aus der fischertechnik-Datenbank"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_uuid.php:22
+msgid ""
+"In the FTDB every kit or part must have a unique identifier (in UUID "
+"format), which has been generated automatically here."
+msgstr ""
+"In der FTDB muss jeder Baukasten und jedes Bauteil einen eindeutigen "
+"Bezeichner (im UUID-Format) haben, der hier automatisch generiert wurde."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_cat.php:52
+msgid ""
+"In the FTDB, every kit or part should have a category, which you can specify "
+"here."
+msgstr ""
+"Jeder Baukasten und jedes Bauteil sollte eine Kategorie haben, die Sie hier "
+"festlegen können."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:189
+msgid "Invalid number %AN% in article numbers"
+msgstr "Ungültige Nummer %AN% in Artikelnummerliste"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:182
+msgid "Invalid year %YEAR% in article numbers"
+msgstr "Ungültiges Jahr %YEAR% in Artikelnummerliste"
+
+#: src/plugins/type_ftdb/ftdb_ticket.php:54
+msgid "Open editor for %{%TITLE%}%"
+msgstr "Editor öffnen für %{%TITLE%}%"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:155
+msgid "Part is already in the list"
+msgstr "Bauteil ist bereits in der Liste"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_artno.php:132
+msgid "Remove this article number row"
+msgstr "Diese Zeile aus den Artikelnummern entfernen"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:154
+msgid "Remove this part row"
+msgstr "Diese Zeile aus der Stückliste entfernen"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:310
+msgid ""
+"This allows for specifying which fischertechnik kits this part is contained "
+"in."
+msgstr ""
+"Dies bezeichnet, in welchen fischertechnik-Baukästen dieses Teil enthalten "
+"ist."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_contain.php:28
+msgid "This article contains no other parts."
+msgstr "Dieser Artikel enthält keine anderen Bauteile."
+
+#: src/plugins/type_ftdb/ftdb_ticket.php:34
+msgid ""
+"This should describe the fischertechnik kit or part as closely as possible, "
+"for example like %{Baustein 30 schwarz}%."
+msgstr ""
+"Dies sollte den Baukasten oder das Bauteil so präzise wie möglich "
+"beschreiben, wie zum Beispiel: %{Baustein 30 schwarz}%."
+
+#: src/plugins/type_ftdb/ftdb_fieldh_uuid.php:21
+msgid "Unique identifier"
+msgstr "Eindeutige Nummer"
+
+#: src/plugins/type_ftdb/ftdb_ticket.php:55
+msgid "View details for %{%TITLE%}%"
+msgstr "Details für %{%TITLE%}% anzeigen"
+
+#: src/plugins/type_ftdb/ftdb_fieldh_weight.php:21
+msgid "Weight in g"
+msgstr "Gewicht in g"
+
+#: src/plugins/type_ftdb/ftdb_blurb.php:46
+msgid "Welcome to the FTDB!"
+msgstr "Willkommen bei der FTDB!"
+
+#: src/plugins/type_ftdb/type_ftdb.php:183
+msgid "category"
+msgstr "Kategorie"
+
+#: src/plugins/type_ftdb/ftdb_install.php:70
+msgid "fischertechnik part"
+msgstr "Fischertechnik-Teil"

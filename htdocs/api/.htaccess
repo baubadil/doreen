@@ -1,0 +1,7 @@
+RewriteEngine On
+# LogLevel trace
+# Only apply rewriting if the request filename is not actually a physical file:
+RewriteCond %{REQUEST_FILENAME} !-f
+# The actual rules.
+# Anything else goes into index.php.
+RewriteRule ^(.*)$ api.php [QSA,L]

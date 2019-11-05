@@ -1,0 +1,93 @@
+// Doreen-specific bootstrap extensions (that depend on less variables)
+
+.drn-nav-justify {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+
+    li {
+        & > a {
+            padding: @nav-link-padding;
+            display: block;
+            border-radius: @nav-pills-border-radius;
+
+            /*&:hover,
+            &:focus {
+                text-decoration: none;
+                background-color: @nav-link-hover-bg;
+            }*/
+        }
+
+        /*&.active > a {
+              &,
+              &:hover,
+              &:focus {
+                color: @nav-pills-active-link-hover-color;
+                background-color: @nav-pills-active-link-hover-bg;
+              }
+        }*/
+    }
+}
+
+.bootstrap-table {
+    table.table {
+        border-radius: @border-radius-base;
+    }
+
+    .fixed-table-container {
+        border-radius: @border-radius-base;
+
+        table thead th{
+            &:first-child {
+                border-top-left-radius: @border-radius-base;
+            }
+            &:last-child {
+                border-top-right-radius: @border-radius-base;
+            }
+        }
+    }
+}
+
+.select2-container {
+    .selection .select2-selection,
+    .select2-dropdown {
+        border-radius: @border-radius-base;
+    }
+}
+
+.drn-email {
+    border-radius: @border-radius-base;
+}
+
+@media (max-width: @screen-xs-max) {
+    .drn-navbar-toolbar {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        & > li {
+            float: left;
+            position: static;
+
+            & > a {
+                padding-top: @navbar-padding-vertical;
+                padding-bottom: @navbar-padding-vertical;
+            }
+        }
+
+        .open .dropdown-menu {
+            .dropdown-menu;
+            display: block;
+            margin-top: 0;
+            left: 0;
+            right: 0;
+            .text-overflow();
+        }
+    }
+
+    .navbar-fixed-top .drn-navbar-toolbar .open .dropdown-menu {
+        max-height: 450px;
+        overflow-y: auto;
+    }
+}

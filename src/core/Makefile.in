@@ -1,0 +1,14 @@
+#
+# Included from main Doreen Makefile.
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+MAKEFILETHISPATH := $(lastword $(MAKEFILE_LIST))
+include $(FULLPATH_HEADER_IN)
+
+MODULETHIS := $(DIRTHISONLY)
+
+SKIP_WEBPACK_core = 1
+
+include $(FULLPATH_FOOTER_IN)

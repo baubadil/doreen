@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DLG>
+<p>{{L//Here you can change the information %DOREEN% has stored about you.}}</p>
+
+<form class="form-horizontal" id="myaccount">
+    <ROW label="{{L//Login name}}" nameId="myaccount-login"><FIELD>
+        <p class="form-control-static">%LOGINNAME% (This cannot be changed.)</p>
+    </FIELD></ROW>
+
+    <ROW label="{{L//Groups}}" nameId="myaccount-groups"><FIELD>
+        <p class="form-control-static">%GROUPS%</p>
+    </FIELD></ROW>
+
+    <ROW label="{{L//Current password}}" nameId="myaccount-current-password" color="warning"><FIELD>
+        <INPUT type="password" placeholder="{{L//Password}}" required="yes" icon="password" autocomplete="current-password" />
+        <p class="help-block">{{L//<b>You must always provide your current password</b> to change your account data. This helps prevent fraudulent access.}}</p>
+    </FIELD></ROW>
+
+    <div class="form-group" id="myaccount-password-row"><label for="myaccount-password" class="col-xs-2 control-label">{{L//Change password}}</label>
+      <div class="col-xs-10">
+        <div class="row">
+          <div class="col-xs-5">
+            <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-fw fa-key"></i></span><input type="password" class="form-control" name="myaccount-password" id="myaccount-password" placeholder="{{L//Password}}" value="" autocomplete="new-password" />
+            </div>
+          </div>
+          <label for="myaccount-password" class="col-xs-2 control-label">{{L//Confirm}}</label>
+          <div class="col-xs-5">
+            <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-fw fa-key"></i></span><input type="password" class="form-control" name="myaccount-password-confirm" id="myaccount-password-confirm" placeholder="{{L//Password}}" value="" autocomplete="new-password" />
+            </div>
+          </div>
+        </div>
+        %PASSWORDINFO%
+      </div>
+    </div>
+
+    <ROW label="{{L//Real name}}" nameId="myaccount-longname"><FIELD>
+        <INPUT type="text" value="%REALNAME%" required="yes" icon="realname" autocomplete="name" />
+        <p class="help-block">{{L//Your real name may be displayed to other users together with your activities, for example in ticket changelogs.}}</p>
+    </FIELD></ROW>
+
+    <ROW label="{{L//Email address}}" nameId="myaccount-email"><FIELD>
+        <INPUT type="text" value="%EMAIL%" required="yes" icon="mail" autocomplete="email" />
+        %EMAILINFO%
+    </FIELD></ROW>
+
+    <ROW label="{{L//Ticket mail}}" nameId="myaccount-fTicketMail"><FIELD>
+      <CHECKBOX type="checkbox" label="{{L//Send me ticket mail}}" />
+      <p class="help-block">{{L/TICKETMAILMYACCOUNT/Every ticket has a CC list of users that should be notified when it changes.
+          Your account may be on that CC list if you have created a ticket or have been added to the list by an administrator.
+          Uncheck this box if you do not want to receive ticket mail at the above address at all, regardless what has been configured for certain tickets.
+          The above email address will still be used for resetting your password, if necessary.}}</p>
+    </FIELD></ROW>
+
+    <ROW label="{{L//Date formatting}}" nameId="myaccount-dateFormat"><FIELD>
+        <div id="myaccount-dateFormat" class="drn-radio-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="myaccount-dateFormat" value="2"/>
+                    <span>{{L//Long format}} (%{%LONGDATE%}%)</span>
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="myaccount-dateFormat" value="1"/>
+                    <span>{{L//Short format}} (%{%SHORTDATE%}%)</span>
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="myaccount-dateFormat" value="0"/>
+                  <!-- Please leave a line break between the two L strings below. Our text parser is too stupid to handle anything else. -->
+                    <span>{{L//Relative}}
+                        (%{{{L//Less than two hours ago}}}%)</span>
+                </label>
+            </div>
+        </div>
+        <p class="help-block">{{L/ABSOLUTEDATESMYACCOUNT/When %DOREEN% prints date/time stamps, it normally reformats
+            them to indicate how long ago an event happened. This corresponds to the %{Relative}% format option. Choose an absolute format to prevent this behavior.}}</p>
+    </FIELD></ROW>
+
+    <ROW nameId="apiToken" label="{{L//API Client Token}}" rowId="%TOKENCLASS%"><FIELD>
+        <div class="input-group">
+            <INPUT type="text" value="%APITOKEN%" readonly="yes" class="pull-left" />
+            <span class="input-group-btn">
+                <button class="btn btn-default%TOKENGENERATORCLASS%" aria-controls="apiToken" id="apiToken-generate">
+                    <ICON type="refresh"/>
+                </button>
+            </span>
+        </div>
+    </FIELD></ROW>
+
+    <ROW nameId="save"><FIELD>
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="submit" id="myaccount-submit" class="btn btn-primary">{{L//Save}}</button>
+    </FIELD></ROW>
+
+</form>
+
+</DLG>

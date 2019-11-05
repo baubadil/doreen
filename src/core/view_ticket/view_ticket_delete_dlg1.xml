@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DLG>
+<!-- Delete ticket dialog. -->
+<div class="modal fade" tabindex="-1" id="deleteTicketDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
+        <h1 class="modal-title drn-find-replace-ticket" id="deleteTicketDialog-title">Really delete ticket #%IDTICKET%?</h1>
+      </div>
+      <div class="modal-body drn-find-replace-ticket">
+        <p id="deleteTicketDialog-ticket_id" class="hide">%TICKETID%</p>
+        <div class="alert alert-warning" role="alert">
+            <p><b>Warning!</b></p>
+            <p>You are about to delete the ticket #%IDTICKET% (%{%SUMMARY%}%).</p>
+            <p>Deleting a ticket will remove all traces of it from the database, including changelog entries. <b>This change cannot be undone.</b></p>
+            <p>Are you sure you want to do this?</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-primary" id="deleteTicketDialog-submit" autocomplete="off">Yes, delete this ticket!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" tabindex="-1" id="mergeFileAttachmentsDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
+        <h1 class="modal-title drn-find-replace-ticket" id="mergeFileAttachmentsDialog-title">Really merge attachments?</h1>
+      </div>
+      <div class="modal-body drn-find-replace-attachments">
+        <p id="mergeFileAttachmentsDialog-ticket_id" class="hide">%TICKETID%</p>
+        <div class="alert alert-warning" role="alert">
+            <p><b>Warning!</b></p>
+            <p>You are about to merge two attachments: the older version %IDOLDERVERSION% will be hidden under the newer version %IDNEWERVERSION%.</p>
+            <p>Are you sure you want to do this?</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="mergeFileAttachmentsDialog-save" autocomplete="off">Yes, merge! <ICON type="spinner" /></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</DLG>

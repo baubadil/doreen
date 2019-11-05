@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DLG>
+<!-- Edit user dialog. This is used for both "edit existing user" and the "add new user" dialog. -->
+<div class="modal fade" tabindex="-1" id="editUserDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
+        <h1 class="modal-title drn-find-replace-user" id="editUserDialog-title">User account %{%LOGIN%}%</h1>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal"><!-- Adding .form-horizontal to the form (which doesn't have to be a <form>) changes .form-groups to behave as grid rows, so no need for .row. -->
+          <ROW label="{{L//Login name}}" nameId="editUserDialog-login"><FIELD>
+            <div id="editUserDialog-login-div">(to be replaced)</div>
+            <p class="help-block">{{L//The login name is set when the account is created and cannot be changed later.}}</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Internal user ID}}" rowId="editUserDialog-uid-row" nameId="editUserDialog-uid"><FIELD>
+            <p id="editUserDialog-uid">%UID%</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Password}}" rowId="editUserDialog-password-row" nameId="editUserDialog-password"><FIELD>
+            <div class="input-group">
+              <INPUT type="text" placeholder="{{L//Password}}" icon="password" />
+                <span class="input-group-btn">
+                  <button id="editUserDialog-generate-password" class="btn btn-default">{{L//Generate}}</button>
+                </span>
+            </div>
+          </FIELD></ROW>
+          <ROW label="{{L//Real name}}" nameId="editUserDialog-longname"><FIELD>
+            <INPUT type="text" placeholder="{{L//Real name}}" icon="realname" />
+            <p class="help-block">{{L/REALNAMEHELP/The "real name" is merely descriptive and is publicly displayed with the user's activity, for example in ticket changelogs.
+                This can be changed by the user in the user account settings.}}</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Email address}}" nameId="editUserDialog-email"><FIELD>
+            <INPUT type="text" placeholder="{{L//Email address}}" icon="mail" />
+            <p class="help-block">{{L//This address is used for ticket mail and also when the user needs to reset his or her password. This can be changed by the user in the user account settings.}}</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Ticket mail}}" nameId="editUserDialog-fTicketMail"><FIELD>
+            <CHECKBOX type="checkbox" label="{{L//Send ticket mail to this user}}" />
+            <p class="help-block">{{L/FTICKETMAILEDITUSER/Disable this if the user should not want to receive ticket mail at all, regardless of what is configured in ticket templates.
+              This can be changed by the user in his or her account settings.}}</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Groups}}" nameId="editUserDialog-groups-row"><FIELD>
+              <div class="btn-group drn-checkbox-group" data-toggle="buttons" id="editUserDialog-groups">
+              </div>
+          </FIELD></ROW>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{L//Close}}</button>
+        <button type="submit" class="btn btn-primary" id="editUserDialog-submit">{{L//Save changes}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Change password dialog. -->
+<div class="modal fade"  tabindex="-1" id="changePasswordDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">{{L//Close}}</span></button>
+        <h1 class="modal-title drn-find-replace-user" id="changePasswordDialog-title">Change password for user %{%LOGIN%}%</h1>
+      </div>
+      <div class="modal-body">
+        <p class="drn-find-replace-user">You have permission to change this user's password.
+          After you press %{Save changes}%, the user %{%LONGNAME%}% will have to use the user name %{%LOGIN%}%
+          with the password you specify here to sign in. The user's existing password will then no longer work!</p>
+        <form class="form-horizontal"><!-- Adding .form-horizontal to the form (which doesn't have to be a <form>) changes .form-groups to behave as grid rows, so no need for .row. -->
+          <div class="hide drn-find-replace-user" id="changePasswordDialog-uid">%UID%</div>
+          <ROW label="{{L//New password}}" rowId="changePasswordDialog-password-row" nameId="changePasswordDialog-password"><FIELD>
+            <INPUT type="text" placeholder="{{L//Password}}" icon="password" />
+          </FIELD></ROW>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{L//Close}}</button>
+        <button type="submit" class="btn btn-primary" id="changePasswordDialog-submit">{{L//Save changes}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Remove user dialog. -->
+<div class="modal fade" tabindex="-1" id="removeUserDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">{{L//Close}}</span></button>
+        <h1 class="modal-title drn-find-replace-user" id="removeUserDialog-title">{{L//Really disable user account %{%LOGIN%}%?}}</h1>
+      </div>
+      <div class="modal-body drn-find-replace-user">
+        <p id="removeUserDialog-uid" class="hide">%UID%</p>
+        <div class="alert alert-warning" role="alert">
+            <p><b>{{L//Warning}}!</b></p>
+            <p>{{L//You are about to disable the user account %{%LOGIN%}%" for %{%LONGNAME%}%.}}</p>
+            <p>{{L/USERSGROUPS2/The user's past activity will remain in the database, but the account will be disabled.
+            After this, the user can no longer sign in, and the user ID will be removed from all groups.}}</p>
+            <p><b>{{L//Are you sure you want to do this?}}</b></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{L//Cancel}}</button>
+        <button type="submit" class="btn btn-primary" id="removeUserDialog-submit" autocomplete="off">{{L//Yes, disable this account!}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- edit group dialog -->
+<div class="modal fade" tabindex="-1" id="editGroupDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">{{L//Close}}</span></button>
+        <h1 class="modal-title drn-find-replace-group" id="editGroupDialog-title">{{L//Group %{%GNAME%}%}}</h1>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal"><!-- Adding .form-horizontal to the form (which doesn't have to be a <form>) changes .form-groups to behave as grid rows, so no need for .row. -->
+          <ROW label="{{L//Internal group ID (cannot be changed)}}" rowId="editGroupDialog-gid-row" nameId="editGroupDialog-gid"><FIELD>
+            <p id="editGroupDialog-gid">%GID%</p>
+          </FIELD></ROW>
+          <ROW label="{{L//Group name}}" nameId="editGroupDialog-gname"><FIELD>
+            <INPUT type="text" placeholder="{{L//Group name}}" />
+          </FIELD></ROW>
+          <ROW label="{{L//Members}}" nameId="editGroupDialog-groups-row"><FIELD>
+              <div class="btn-group drn-checkbox-group" data-toggle="buttons" id="editGroupDialog-members">
+              </div>
+          </FIELD></ROW>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{L//Close}}</button>
+        <button type="submit" class="btn btn-primary" id="editGroupDialog-submit">{{L//Save changes}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Remove group dialog. -->
+<div class="modal fade" tabindex="-1" id="removeGroupDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
+        <h1 class="modal-title drn-find-replace-group" id="removeGroupDialog-title">Really remove group %{%GNAME%}%?</h1>
+      </div>
+      <div class="modal-body drn-find-replace-group">
+        <p id="removeGroupDialog-gid" class="hide">%GID%</p>
+        <div class="alert alert-warning" role="alert">
+            <p><b>Warning!</b></p>
+            <p>You are about to remove the group %{%GNAME%}%.</p>
+            <p>This group has no members and is not used in project settings or access control, so deleting this group will not have sweeping consequences.
+            However, this change cannot be undone.</p>
+            <p><b>Are you sure you want to do this?</b></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-primary" id="removeGroupDialog-submit" autocomplete="off">Yes, delete this group!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</DLG>

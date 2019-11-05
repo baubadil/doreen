@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- !!DGETTEXT DOMAIN: ftdb -->
+<DLG>
+<p>This page allows you to import an entire Fischertechnik Community database (FTDB).</p>
+
+<p>Note: For the import to work, there must be a copy of the FTDB in your PostgreSQL installation <i>before</i>
+    the import. This database will then be analyzed by Doreen and imported into the Doreen database. To create
+    the source FTDB database from an FTDB dump file before the Doreen import, the following commands are recommended:</p>
+
+    <p>
+    <code>createuser -U postgres ftdbread -P</code><br/>
+    <code>createdb -U postgres -O ftdbread ftdb</code><br/>
+    <code>psql -U postgres ftdb &lt; DUMPFILE</code><br/></p>
+
+<p>These commands create an 'ftdb' database in PostgreSQL from the dump file, as well as an 'ftdbread' PostgreSQL
+    user account, who will be the owner of that database. When prompted for a password, enter 'ftdbread'.</p>
+
+<p>Once you have the FTDB in PostgreSQL, we can continue. In step 1, we merely analyze the data to be imported.
+    Only step 2 after that will actually modify data in your %DOREEN% database.</p>
+
+
+<form class="form-horizontal" method="post">
+    <ROW label="Host" nameId="import-dbhost"><FIELD>
+        <INPUT type="text" value="localhost" required="yes" />
+        <p class="help-block">On which computer the FTDB is located. %{localhost}% specifies the same server on which %DOREEN% is running.</p>
+    </FIELD></ROW>
+
+    <ROW label="Database" nameId="import-dbname"><FIELD>
+        <INPUT type="text" value="%IMPORTDBNAME%" required="yes" />
+        <p class="help-block">The name of the PostgreSQL database where the FTDB resides. %DOREEN% will connect to this database as the 'ftdbread' PostgreSQL user with a 'ftdbread' password.</p>
+    </FIELD></ROW>
+
+    <ROW nameId="submit"><FIELD>
+        <button type="submit" class="btn btn-primary">Read data!</button>
+    </FIELD></ROW>
+
+</form>
+
+</DLG>

@@ -1,0 +1,22 @@
+{
+    "require": {
+        "giggsey/libphonenumber-for-php": "^7.4",
+        "neitanod/forceutf8": "^2.0",
+        "eden/mail": "^4.0",
+        "phpmailer/phpmailer": "^5.2",
+        "nesbot/carbon": "^1.21",
+        "php-mime-mail-parser/php-mime-mail-parser": "^3.0",
+        "jeroendesloovere/vcard": "^1.5",
+        "lcobucci/jwt": "^3.2",
+        "grntartaglia/netmask": "^1.0",
+      "ext-json": "*",
+      "ext-pcntl": "*",
+      "ext-posix": "*",
+      "ext-iconv": "*",
+      "ext-pgsql": "*",
+      "ext-gettext": "*",
+      "ext-xmlreader": "*",
+      "ext-sysvmsg": "*",
+      "ext-gd": "*"
+    }
+}

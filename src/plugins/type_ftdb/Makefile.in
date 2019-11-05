@@ -1,0 +1,12 @@
+#
+# Included from main Doreen Makefile.
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+MAKEFILETHISPATH := $(lastword $(MAKEFILE_LIST))
+include $(FULLPATH_HEADER_IN)
+
+MODULETHIS := $(DIRTHISONLY)
+
+include $(FULLPATH_FOOTER_IN)

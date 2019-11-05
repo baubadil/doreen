@@ -1,0 +1,41 @@
+# Doreen .
+# Copyright (C) Baubadil GmbH. All rights reserved
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: bugs@baubadil.de\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/plugins/type_office/ofc_fieldh_contacts.php:36
+msgid "Associated contacts"
+msgstr "Associated contacts"
+
+#: src/plugins/type_office/ofc_contact.php:125
+msgid "Client"
+msgstr "Client"
+
+#: src/plugins/type_office/ofc_contact.php:122
+msgid "Customer"
+msgstr "Customer"
+
+#: src/plugins/type_office/ofc_contact.php:128
+msgid "Opponent"
+msgstr "Opponent"
+
+#: src/plugins/type_office/ofc_contact.php:131
+msgid "Representative"
+msgstr "Representative"
+
+#: src/plugins/type_office/ofc_contact.php:119
+msgid "Supplier"
+msgstr "Supplier"
+
+#: src/plugins/type_office/ofc_fieldh_contacts.php:37
+msgid "This has all the contacts associated with this file."
+msgstr "This has all the contacts associated with this file."

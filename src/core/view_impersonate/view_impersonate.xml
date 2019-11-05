@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DLG>
+
+<!-- Impersonate dialog. -->
+<div class="modal fade" tabindex="-1" id="impersonateDialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="sr-only">{{L//Close}}</span></button>
+        <h1 class="modal-title drn-find-replace-ticket" id="impersonateDialog-title">{{L//Impersonate another user}}</h1>
+      </div>
+      <div class="modal-body">
+        {{L/IMPERSONATEINTRO/<p>As an administrator, you can temporarily impersonate another user. This can be useful to test access permissions.</p>
+        <p>While you are impersonating another user, %DOREEN% will look and behave exactly as if you were logged in as that user.
+        Administrator functions will therefore not be available. There is one exception: there will be a %{Stop impersonating}% menu
+        item in the user menu at the top right of the screen which allows you to your normal administrator interface.</p>
+        <p>Please select the user you would like to impersonate:</p>}}
+        <div id="impersonateDialog-user"><ICON type="spinner" /></div>
+      </div>
+      <div class="modal-footer">
+        <div class="alert alert-danger hidden drn-error-box" role="alert"><p>Error message</p></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{L//Cancel}}</button>
+        <button type="submit" class="btn btn-primary" id="impersonateDialog-submit" autocomplete="off">{{L//Impersonate!}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+</DLG>

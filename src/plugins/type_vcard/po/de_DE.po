@@ -1,0 +1,128 @@
+# Doreen .
+# Copyright (C) Baubadil GmbH. All rights reserved
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: bugs@baubadil.de\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:73
+msgid "Address"
+msgstr "Adresse"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:391
+msgid "City"
+msgstr "Stadt"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:161
+msgid "Company"
+msgstr "Firma"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:61
+#: src/plugins/type_vcard/vcard_install.php:64
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:316
+msgid "Country"
+msgstr "Land"
+
+#: src/plugins/type_vcard/vcard_ticket.php:38
+msgid "Display name"
+msgstr "Angezeigename"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:289
+msgid "Extended"
+msgstr "Erweitert"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:146
+#: src/plugins/type_vcard/vcard_fieldhandler.php:676
+msgid "Fax"
+msgstr "Fax"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:71
+msgid "First name"
+msgstr "Vorname"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:143
+msgid "Home"
+msgstr "Privat"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:545
+msgid ""
+"Insufficient data to make a new contact. Please fill out at least the name "
+"fields."
+msgstr ""
+"Unzureichende Daten, um Kontakt zu erstellen. Bitte füllen Sie zumindest die "
+"Namensfelder aus."
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:162
+msgid "Job title"
+msgstr "Stellung"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:72
+msgid "Last name"
+msgstr "Nachname"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:147
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:145
+msgid "Other"
+msgstr "Sonstiges"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:148
+msgid "Pager"
+msgstr "Pager"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:74
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:157
+msgid "Prefix"
+msgstr "Präfix"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:396
+msgid "Region/state"
+msgstr "Region/Bundesland"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:181
+msgid "Show most important contact fields only"
+msgstr "Nur wichtigste Felder anzeigen"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:301
+msgid "Street"
+msgstr "Straße"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:160
+msgid "Suffix"
+msgstr "Suffix"
+
+#: src/plugins/type_vcard/vcard_ticket.php:41
+msgid ""
+"This is automatically set to the first and last names combined, but you can "
+"also enter any value manually."
+msgstr ""
+"Dies wird automatisch aus Vor- und Nachname zusammengesetzt, aber Sie können "
+"auch andere Werte eingeben."
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:174
+msgid "Web"
+msgstr "Web"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:144
+#: src/plugins/type_vcard/vcard_fieldhandler.php:672
+msgid "Work"
+msgstr "Arbeit"
+
+#: src/plugins/type_vcard/vcard_fieldhandler.php:403
+msgid "Zip"
+msgstr "PLZ"

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "ES3",
+        "baseUrl": ".",
+        "paths": {
+            "core/*": [ "src/js/*" ]
+        },
+        "isolatedModules": true
+    },
+    "exclude": [
+        "node_modules",
+        "vendor"
+    ]
+}

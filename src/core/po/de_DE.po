@@ -1,0 +1,2082 @@
+# Doreen .
+# Copyright (C) Baubadil GmbH. All rights reserved
+# Baubadil <doreen@baubadil.de>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: bugs@baubadil.de\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-01-15 14:34+0100\n"
+"Last-Translator: Ulrich Möller <moeller@baubadil.de>\n"
+"Language-Team: Deutsch <>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/core/class_locale.php:345
+msgid ""
+"%AMOUNT% is not a valid monetary amount: there must be at most two digits "
+"after the decimal point %DEC%"
+msgstr ""
+"%AMOUNT% is not a valid monetary amount: there must be at most two digits "
+"after the decimal point %DEC%"
+
+#: src/core/globalfuncs.php:105
+msgid ""
+"%AMOUNT% is not a valid number here. Please use only digits and the decimal "
+"point %DEC%"
+msgstr ""
+"%AMOUNT% ist hier keine gültige Eingabe. Bitte benutzen Sie nur Ziffern und "
+"%DEC% als Dezimaltrenner."
+
+#: src/core/class_fieldh_parents.php:439
+msgid "%COUNT% items"
+msgstr "%COUNT% Einträge"
+
+#: src/plugins/config_changelog/changelog_view.php:31
+msgid "%COUNT% items found."
+msgstr "%COUNT% Einträge gefunden."
+
+#: src/core/class_timestamp.php:318
+msgid "%DAYS% days ago"
+msgstr "vor %DAYS% Tagen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:188
+msgid "%DBSERVER% on host %DBHOST%"
+msgstr "%DBSERVER% auf Host %DBHOST%"
+
+#: src/core/view_globalsettings/view_globalsettings.php:348
+msgid "%DOREEN% database tables version"
+msgstr "Version der %DOREEN%-Tabellen in Datenbank"
+
+#: src/core/api_help.php:43
+msgid "%DOREEN% fulltext search"
+msgstr "%DOREEN%-Volltextsuche"
+
+#: src/core/view_globalsettings/view_globalsettings.php:355
+msgid "%DOREEN% services"
+msgstr "%DOREEN%-Dienste"
+
+#: src/core/class_fieldh_select.php:115 src/core/class_fieldh_ticket.php:189
+#: src/core/class_fieldhandler.php:1078 src/core/class_fieldhandler.php:1579
+#: src/core/class_workflowhandler.php:136
+msgid "%FIELD% changed from %OLD% to %NEW%"
+msgstr "%FIELD% geändert von %OLD% nach %NEW%"
+
+#: src/core/class_fieldh_parents.php:259
+msgid "%FIELD% changed: %LIST%"
+msgstr "%FIELD% geändert: %LIST%"
+
+#: src/core/class_timestamp.php:313
+msgid "%HOURS% hours ago"
+msgstr "vor %HOURS% Stunden"
+
+#: src/core/class_ticket.php:20
+msgid "%ID% is not a valid numeric ticket ID"
+msgstr "%ID% ist keine zulässige numerische Ticket-ID"
+
+#: src/core/class_keyword.php:119
+msgid ""
+"%KEY% is not a valid keyword; it must start with a letter followed by digits "
+"or more letters"
+msgstr ""
+"%KEY% ist kein gültiges Schlüsselwort; es müsste mit einem Buchstaben "
+"beginnen, dem Ziffern oder weitere Buchstaben folgen"
+
+#: src/core/class_locale.php:202
+msgid "%LANG% is not a supported locale"
+msgstr "%LANG% ist keine gültige Spracheinstellung"
+
+#: src/core/class_user.php:749
+msgid "%MAIL% does not look like a valid email address."
+msgstr "%MAIL% sieht nicht nach einer gültigen E-Mail-Adresse aus."
+
+#: src/core/class_longtask.php:1079
+msgid "%MINS% minutes remaining"
+msgstr "Noch %MINS% Minuten"
+
+#: src/core/class_timestamp.php:305
+msgid "%MINUTES% minutes ago"
+msgstr "vor %MINUTES% Minuten"
+
+#: src/core/class_timestamp.php:323
+msgid "%MONTHS% months ago"
+msgstr "vor %MONTHS% Monaten"
+
+#: src/core/class_htmlchunk.php:1794
+msgid "%SELECTED% selected"
+msgstr "%SELECTED% ausgewählt"
+
+#: src/core/class_ticket.php:1717
+msgid "%USER% has added the following comment to %TICKET%:"
+msgstr "%USER% hat den folgenden Kommentar zu %TICKET% hinzugefügt:"
+
+#: src/core/class_ticket.php:2023
+msgid "%USER% has attached a file to %TICKET%:"
+msgstr "%USER% hat eine Datei an %TICKET% gehängt:"
+
+#: src/core/class_ticket.php:1474
+msgid "%USER% has changed the following in ticket %TICKET%:"
+msgstr "%USER% hat Folgendes in %TICKET% geändert:"
+
+#: src/core/class_ticket.php:1251
+msgid "%USER% has created %TICKET%."
+msgstr "%USER% hat %TICKET% erstellt."
+
+#: src/core/class_timestamp.php:327
+msgid "%YEARS% years ago"
+msgstr "vor %YEARS% Jahren"
+
+#: src/plugins/config_changelog/changelog_view.php:170
+msgid "(current name: %GNAME2%)"
+msgstr "(derzeiter Name: %GNAME2%)"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:16
+msgid ""
+"<b>You must always provide your current password</b> to change your account "
+"data. This helps prevent fraudulent access."
+msgstr ""
+"<b>Sie müssen immer Ihr aktuelles Passwort eingeben,</b> um Einstellungen "
+"Ihres Nutzerprofils zu ändern. Damit wird Angriffen vorgebeugt."
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:79
+msgid "ABSOLUTEDATESMYACCOUNT"
+msgstr ""
+"%DOREEN% formatiert Zeitstempel standardmäßig relativ, so dass angezeigt "
+"wird, wie lange ein Ereignis zurückliegt.\n"
+"Dies entspricht der %{Relativ}% Formatierungsoption.\n"
+"Auswahl eines absoluten Formats verhindert dieses Verhalten."
+
+#: src/core/view_usersgroups/view_usersgroups.php:32
+msgid "ADMINUSERGROUPINTRO"
+msgstr ""
+"Hier können Benutzer, Gruppen und Gruppenmitgliedschaften geändert werden. \n"
+"Ein <b>Benutzerkonto mit einem Passwort</b> ist notwendig, damit man sich "
+"bei %DOREEN% anmelden kann.\n"
+"Eine <b>Gruppe</b> fasst mehrere Benutzer zusammen; alle Zugriffsrechte in "
+"%DOREEN% werden aufgrund von Gruppenmitgliedschaften organisiert.\n"
+"Insbesondere sind die Mitglieder der Gruppe %{Administratoren}% "
+"%{Supernutzer}%, die sämtliche Administratorenrechte haben.\n"
+"Gruppenmitgliedschaften können sowohl in den Benutzereinstellungen als auch "
+"in den Gruppeneinstellungen geändert werden."
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:83
+msgid "API Client Token"
+msgstr "API Client Token"
+
+#: src/core/view_globalsettings/view_globalsettings.php:241
+#: src/core/view_usersgroups/view_usersgroups.php:67
+#: src/core/view_usersgroups/view_usersgroups.php:84
+msgid "Actions"
+msgstr "Vorgang"
+
+#: src/core/view_ticket/view_ticket.php:695
+#: src/core/view_ticket/view_ticket.php:772
+msgid "Add a comment"
+msgstr "Kommentar hinzufügen"
+
+#: src/core/view_ticket/view_ticket.php:664
+msgid "Add an attachment (max. %MB%)"
+msgstr "Datei anhängen (max. %MB%)"
+
+#: src/core/view_ticket/view_ticket.php:830
+msgid "Add comment"
+msgstr "Kommentar hinzufügen"
+
+#: src/core/view_usersgroups/view_usersgroups.php:49
+msgid "Add group"
+msgstr "Gruppe hinzufügen"
+
+#: src/core/view_usersgroups/view_usersgroups.php:48
+msgid "Add user"
+msgstr "Benutzer hinzufügen"
+
+#: src/core/class_wholepage.php:759
+msgid "Administration"
+msgstr "Verwaltung"
+
+#: src/core/view_globalsettings/view_globalsettings.php:155
+msgid "All mail is sent via SMTP host <b>%HOST%</b> with login <b>%LOGIN%</b>"
+msgstr ""
+"Alle Mail wird über SMTP-Host <b>%HOST%</b> versandt mit Login <b>%LOGIN%</b>"
+
+#: src/core/view_globalsettings/view_globalsettings.php:157
+msgid "All mail is sent via local sendmail without validation"
+msgstr "Alle Mail wird über lokales sendmail versandt ohne Prüfung"
+
+#: src/core/api_user.php:27
+msgid "All users must always be members of the group %ALLUSERS%"
+msgstr "Alle Benutzer müssen stets Mitglieder der Gruppe %ALLUSERS% sein"
+
+#: src/core/view_globalsettings/view_globalsettings.php:350
+msgid "Allocated database size"
+msgstr "Belegter Speicher in Datenbank"
+
+#: src/core/form_register.php:117
+msgid ""
+"An email has been sent to the above address. Please follow the instructions "
+"in that email to have your password reset."
+msgstr ""
+"Eine E-Mail wurde an die obige Adresse geschickt. Bitte folgen Sie den "
+"Hinweisen in der Mail, um Ihr Kennwort zurückzusetzen."
+
+#: src/core/class_htmlchunk.php:1816
+msgid "An error occured loading the results."
+msgstr "Beim Laden der Ergebnisse ist ein Fehler aufgetreten."
+
+#: src/core/class_htmlchunk.php:2341
+msgid "An error occured uploading the file. The server reported:"
+msgstr ""
+"Beim Hochladen der Datei ist ein Fehler aufgetreten. Der Server meldete:"
+
+#: src/core/install/install5_update.php:33
+msgid ""
+"An update has been installed on this server, but the %DOREEN% database has "
+"not been updated yet."
+msgstr ""
+"Eine neue Programmversion wurde auf dem Server installiert, aber die %DOREEN"
+"%-Datenbank ist noch nicht aktualisiert."
+
+#: src/core/view_globalsettings/view_globalsettings.php:331
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:95
+msgid "Are you sure you want to do this?"
+msgstr "Möchten Sie fortfahren?"
+
+#: src/core/class_fieldh_assignee.php:31
+msgid "Assignee"
+msgstr "Verantwortlich"
+
+#: src/core/view_ticket/view_ticket.php:763
+msgid "Attach a file"
+msgstr "Datei anhängen"
+
+#: src/core/view_ticket/view_ticket.php:493
+msgid "Attached"
+msgstr "Angehängt"
+
+#: src/core/class_fieldhandlers2.php:601
+msgid "Attached file %LINK% (type %TYPE%, %SIZE%)"
+msgstr "Datei %LINK% wurde angehängt (Typ %TYPE%, %SIZE%)"
+
+#: src/core/api_help.php:82
+msgid "Auto-starting %DOREEN% services"
+msgstr "%DOREEN%-Dienste automatisch starten"
+
+#: src/core/view_globalsettings/view_globalsettings.php:240
+msgid "Autostart"
+msgstr "Autostart"
+
+#: src/core/view_globalsettings/view_globalsettings.php:356
+msgid "Available services"
+msgstr "Vorhandene Dienste"
+
+#: src/core/class_htmlchunk.php:2072
+msgid "Back to top"
+msgstr "Nach oben"
+
+#: src/core/class_fieldh_parents.php:474
+msgid "Blockers (children)"
+msgstr "Blocker (Kinder)"
+
+#: src/core/view_globalsettings/view_globalsettings.php:332
+msgid "Branding"
+msgstr "Branding"
+
+#: src/core/view_ticket/view_ticket.php:375
+msgid "COMMENTTICKETDETAILSHELP"
+msgstr ""
+"Hier können Sie Ihre obigen Änderungen kommentieren. Dies fügt einen "
+"normalen Kommentar zum Ticket hinzu, versendet jedoch nur eine gemeinsame "
+"Mail für alle Änderungen statt einer separaten Kommentar-Mail."
+
+#: src/core/class_wholepage.php:1071
+msgid "COOKIECONSENT"
+msgstr ""
+"Diese Webseite benutzt Cookies. Damit Sie alle Funktionen dieser Webseite "
+"nutzen können, brauchen wir Ihre Erlaubnis, in Ihrem Browser Cookies setzen "
+"zu dürfen."
+
+#: src/core/view_impersonate/view_impersonate.xml:22
+#: src/core/view_ticket/view_ticket.php:265
+#: src/core/view_ticket/view_ticket.php:497
+#: src/core/view_ticket/view_ticket.php:507
+#: src/core/view_ticket/view_ticket.php:863
+#: src/core/view_usersgroups/view_usersgroups.xml:100
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/core/class_htmlchunk.php:2352
+msgid "Cancel all"
+msgstr "Alle abbrechen"
+
+#: src/core/class_htmlchunk.php:2386
+msgid "Cancel this file"
+msgstr "Diese Datei abbrechen"
+
+#: src/core/class_user.php:1295
+msgid "Cannot delete group \"%GROUP%\" because it still has %C% members"
+msgstr ""
+"Gruppe \"%GROUP%\" kann nicht gelöscht werden, weil sie noch %C% Mitglieder "
+"hat"
+
+#: src/core/class_binary.php:193
+msgid "Cannot fetch data for binary ID %ID%"
+msgstr "Konnte Daten für Binärdatei mit %ID% nicht laden"
+
+#: src/core/view_ticket/view_ticket.php:604
+msgid "Change"
+msgstr "Änderung"
+
+#: src/core/view_ticket/view_ticket.php:781
+#: src/plugins/config_changelog/config_changelog.php:76
+msgid "Change log"
+msgstr "Protokoll"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:19
+msgid "Change password"
+msgstr "Kennwort ändern"
+
+#: src/core/view_usersgroups/view_usersgroups.php:98
+msgid "Change password for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Kennwort ändern für %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+
+#: src/core/view_ticket/view_ticket.php:266
+msgid "Change template"
+msgstr "Vorlage ändern"
+
+#: src/core/view_ticket/view_ticket.php:236
+msgid "Change the template for this ticket"
+msgstr "Vorlage dieses Tickets ändern"
+
+#: src/core/class_fieldhandlers2.php:912
+msgid "Changed"
+msgstr "geändert"
+
+#: src/core/class_wholepage.php:1249
+msgid "Clear selection"
+msgstr "Auswahl entfernen"
+
+#: src/core/view_ticketslist/view_ticketslist.php:292
+msgid "Click here to have the results sorted by this column."
+msgstr "Hier klicken, um Ergebnisse nach dieser Spalte zu sortieren."
+
+#: src/core/class_wholepage.php:493 src/core/class_wholepage.php:1250
+#: src/core/view_expiredsession/view_expiredsession.xml:9
+#: src/core/view_impersonate/view_impersonate.xml:9
+#: src/core/view_usersgroups/view_usersgroups.xml:45
+#: src/core/view_usersgroups/view_usersgroups.xml:57
+#: src/core/view_usersgroups/view_usersgroups.xml:73
+#: src/core/view_usersgroups/view_usersgroups.xml:85
+#: src/core/view_usersgroups/view_usersgroups.xml:112
+#: src/core/view_usersgroups/view_usersgroups.xml:131
+msgid "Close"
+msgstr "Schließen"
+
+#: src/core/class_fieldhandlers2.php:539
+msgid "Comment deleted"
+msgstr "Comment deleted"
+
+#: src/core/class_fieldhandlers2.php:522
+msgid "Comment updated to:"
+msgstr "Comment updated to:"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:27
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: src/core/class_htmlchunk.php:1997
+msgid "Confirm new password"
+msgstr "Neues Kennwort bestätigen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:347
+msgid "Connecting as user"
+msgstr "Verbinde als Benutzer"
+
+#: src/core/class_htmlchunk.php:1753
+msgid "Copy to clipboard"
+msgstr "Kopieren in Zwischenablage"
+
+#: src/core/class_ticket.php:2753
+msgid "Create %TEMPLATE%"
+msgstr "%TEMPLATE% erstellen"
+
+#: src/core/view_usersgroups/view_usersgroups.php:103
+msgid "Create a new group"
+msgstr "Neue Gruppe anlegen"
+
+#: src/core/view_usersgroups/view_usersgroups.php:102
+msgid "Create a new user account"
+msgstr "Neues Benutzerkonto anlegen"
+
+#: src/core/class_ticket.php:2735
+msgid "Create new %{%TEMPLATE%}% ticket"
+msgstr "Neues Ticket %{%TEMPLATE%}% anlegen"
+
+#: src/core/class_fieldhandler.php:222 src/core/class_fieldhandlers2.php:889
+msgid "Created"
+msgstr "Erstellt"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:14
+msgid "Current password"
+msgstr "Aktuelles Kennwort"
+
+#: src/core/view_globalsettings/view_globalsettings.php:346
+msgid "Database name"
+msgstr "Name der Datenbank"
+
+#: src/core/install/install5_update.php:28
+msgid "Database tables update required"
+msgstr "Aktualisierung der Datenbanktabellen erforderlich"
+
+#: src/core/view_ticket/view_ticket.php:600
+msgid "Date"
+msgstr "Datum"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:56
+msgid "Date formatting"
+msgstr "Datumsanzeige"
+
+#: src/core/view_ticket/view_ticket.php:562
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:199
+#: src/core/view_globalsettings/view_globalsettings.php:421
+msgid "Delete all tickets"
+msgstr "Alle Tickets löschen"
+
+#: src/core/class_fieldhandlers2.php:445
+#: src/core/view_ticket/view_ticket.php:879
+msgid "Delete comment #%ID%"
+msgstr "Kommentar #%ID% löschen"
+
+#: src/core/view_usersgroups/view_usersgroups.php:101
+msgid "Delete the group %{%GNAME%}%%HELLIP%"
+msgstr "Gruppe %{%GNAME%}% löschen%HELLIP%"
+
+#: src/core/view_ticket/view_ticket.php:208
+msgid "Delete this ticket"
+msgstr "Dieses Ticket löschen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:426
+msgid "Deleted %DELETED% tickets out of %TOTAL% %REMAIN%"
+msgstr "%DELETED% Tickets von %TOTAL% gelöscht %REMAIN%"
+
+#: src/core/view_globalsettings/view_globalsettings.php:402
+msgid "Deleting all tickets"
+msgstr "Lösche alle Tickets"
+
+#: src/core/class_fieldhandler.php:215
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/core/class_fieldhandlers2.php:361
+msgid "Description changed"
+msgstr "Beschreibung geändert"
+
+#: src/core/form_register.php:38
+msgid "Did you lose your password?"
+msgstr "Kennwort vergessen?"
+
+#: src/core/view_usersgroups/view_usersgroups.php:99
+msgid "Disable user account %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Benutzerkonto %{%LOGIN%}% (%{%LONGNAME%}%) stilllegen%HELLIP%"
+
+#: src/core/class_wholepage.php:497
+msgid "Done!"
+msgstr "Fertig!"
+
+#: src/core/class_email.php:504
+msgid "Doreen email daemon (started automatically on demand)"
+msgstr "Doreen-E-Mail-Dämon (wird bei Bedarf automatisch gestartet)"
+
+#: src/core/install/install2+3.php:28 src/core/install/install2+3.php:61
+msgid "Doreen installation step 2"
+msgstr "Doreen-Installation Schritt 2"
+
+#: src/core/class_fieldhandlers2.php:442
+#: src/core/view_ticket/view_ticket.php:878
+msgid "Edit comment #%ID%"
+msgstr "Kommentar #%ID% editieren"
+
+#: src/core/view_usersgroups/view_usersgroups.php:100
+msgid "Edit data for group %{%GNAME%}%%HELLIP%"
+msgstr "Daten der Gruppe %{%GNAME%}% bearbeiten%HELLIP%"
+
+#: src/core/class_ticket.php:2363
+msgid "Edit ticket #%ID%"
+msgstr "Ticket #%ID% bearbeiten"
+
+#: src/core/view_usersgroups/view_usersgroups.php:97
+msgid "Edit user data for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Benutzerdaten für %{%LOGIN%}% (%{%LONGNAME%}%) bearbeiten%HELLIP%"
+
+#: src/core/class_fieldhandler.php:221
+msgid "Effective"
+msgstr "Effektiv"
+
+#: src/core/globalfuncs.php:142
+msgid ""
+"Either #%TICKET% is not a valid ticket ID, or you do not have permission to "
+"view that ticket"
+msgstr ""
+"Entweder ist %TICKET% keine gültige Ticket-ID, oder Sie sind nicht "
+"ausreichend berechtigt, dieses Ticket zu sehen."
+
+#: src/core/form_register.php:106
+#: src/core/view_usersgroups/view_usersgroups.php:63
+msgid "Email"
+msgstr "E-Mail"
+
+#: src/core/form_register.php:105
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:43
+#: src/core/view_usersgroups/view_usersgroups.xml:28
+#: src/core/view_usersgroups/view_usersgroups.xml:29
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: src/plugins/config_changelog/changelog_view.php:132
+msgid "Email of user %LOGIN% changed from %OLDMAIL% (current: %NEWMAIL%)"
+msgstr ""
+"E-Mail-Adresse des Nutzers %LOGIN% geändert von %OLDMAIL% (aktuell: %NEWMAIL"
+"%)"
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:152
+msgid ""
+"Enable this to be able to search for more than one status value at once."
+msgstr ""
+"Aktivieren Sie dies, um mehr als einen Statuswert gleichzeitig auswählen zu "
+"können."
+
+#: src/core/view_globalsettings/view_globalsettings.php:152
+msgid "Enable ticket mail"
+msgstr "Ticket-Mail erlauben"
+
+#: src/core/class_wholepage.php:492 src/core/globalfuncs.php:489
+msgid "Error"
+msgstr "Fehler"
+
+#: src/core/class_fieldhandler.php:1099
+msgid "Error formatting changelog message: %MSG%"
+msgstr "Fehler beim Anzeigen der Protokollnachricht: %MSG%"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:34
+msgid "FTICKETMAILEDITUSER"
+msgstr ""
+"Schalten Sie diese Einstellung aus, wenn der Benutzer überhaupt keine "
+"Ticketmail mehr erhalten soll, selbst wenn dies für einen Tickettyp "
+"vorgesehen ist.\n"
+"Benutzer können diese Einstellung in ihren Profileinstellungen ändern."
+
+#: src/core/view_globalsettings/view_globalsettings.php:32
+msgid "Features"
+msgstr "Funktionalität"
+
+#: src/core/class_htmlchunk.php:1815
+msgid "Fetching more results"
+msgstr "Rufe weitere Ergebnisse ab"
+
+#: src/core/class_ticket.php:2032
+msgid "File %LINK% (type %TYPE%, %SIZE%)"
+msgstr "Datei %LINK% (Typ %TYPE%, %SIZE%)"
+
+#: src/core/class_fieldhandlers2.php:994
+msgid "File %LINK% hidden"
+msgstr "Datei %LINK% versteckt"
+
+#: src/core/view_ticket/view_ticket.php:485
+msgid "File name"
+msgstr "Dateiname"
+
+#: src/core/view_ticket/view_ticket.php:487
+msgid "File size"
+msgstr "Dateigröße"
+
+#: src/core/class_htmlchunk.php:2336
+msgid ""
+"File too big! Maximum allowed file size is %MAX% MB, but the file has %SIZE% "
+"MB."
+msgstr ""
+"Datei ist zu groß! Die maximal erlaubte Größe ist %MAX% MB, aber die Datei "
+"hat %SIZE% MB."
+
+#: src/core/view_ticket/view_ticket.php:491
+msgid "File type"
+msgstr "Dateityp"
+
+#: src/core/view_ticket/view_ticket.php:755
+msgid "Files"
+msgstr "Dateien"
+
+#: src/core/view_ticketslist/view_ticketslist.php:236
+msgid "Filter by %FILTER%:"
+msgstr "Nach %FILTER% filtern:"
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:94
+msgid "Filter by%HELLIP%"
+msgstr "Filtern nach%HELLIP%"
+
+#: src/plugins/config_changelog/changelog_view.php:21
+msgid "Global change log"
+msgstr "Globales Protokoll"
+
+#: src/core/class_fieldh_parents.php:442
+msgid "Go to details to view complete list"
+msgstr "Zur Detailanzeige gehen, um gesamte Liste zu sehen"
+
+#: src/core/class_wholepage.php:1248
+msgid "Go to today"
+msgstr "Heute"
+
+#: src/core/install/install4.php:53
+msgid ""
+"Great! Your administrator account has been created. Please log in with your "
+"login name and password, and you're set to go!"
+msgstr ""
+"Sehr gut! Ihr Administratorkonto wurde erstellt. Bitte melden Sie sich mit "
+"Ihrem Benutzernamen und Kennwort an, und es geht weiter!"
+
+#: src/plugins/config_changelog/changelog_view.php:184
+msgid "Group %GID% (%GNAME%) deleted"
+msgstr "Gruppe %GID% (%GNAME%) gelöscht"
+
+#: src/plugins/config_changelog/changelog_view.php:165
+msgid "Group %GID% created as %OLDGNAME%"
+msgstr "Gruppe %GID% erstellt als %OLDGNAME%"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:113
+msgid "Group %{%GNAME%}%"
+msgstr "Gruppe %{%GNAME%}%"
+
+#: src/core/view_usersgroups/view_usersgroups.php:81
+#: src/core/view_usersgroups/view_usersgroups.xml:120
+#: src/core/view_usersgroups/view_usersgroups.xml:121
+msgid "Group name"
+msgstr "Gruppenname"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:10
+#: src/core/view_usersgroups/view_usersgroups.php:47
+#: src/core/view_usersgroups/view_usersgroups.php:66
+#: src/core/view_usersgroups/view_usersgroups.xml:37
+msgid "Groups"
+msgstr "Gruppen"
+
+#: src/plugins/user_hardcoded/user_hardcoded.php:120
+msgid "Guest"
+msgstr "Gast"
+
+#: src/plugins/user_hardcoded/user_hardcoded.php:160
+msgid "Guests"
+msgstr "Gäste"
+
+#: src/core/api_help.php:84
+msgid "HELPAUTOSTART"
+msgstr ""
+"If a service provides a checkbox in this column, you can register it to be "
+"autostarted with the %DOREEN% autostarter,\n"
+"which is implemented via the %DOREEN% 'autostart-services' command-line "
+"option. When invoked, it will start all services \n"
+"marked as \"autostart\" in this form (if they are not yet running). \n"
+"Additionally, you can create a systemd unit file with the 'autostart-"
+"systemd' command-line option so that the autostarter \n"
+"can be run on system startup on your server."
+
+#: src/core/api_help.php:45
+msgid "HELPSEARCHBAR"
+msgstr ""
+"<p>%DOREEN% hat eine leistungsfähige Volltextsuche mit vielen der "
+"Funktionen, die Sie von den üblichen Internet-Suchmaschinen gewohnt sind.</"
+"p>\n"
+"\n"
+"<p>Wenn Sie normale Wörter eingaben, führt %DOREEN% eine Ähnlichkeitssuche "
+"aus. Exakte Treffer werden nach oben sortiert, aber lediglich ähnliche "
+"Ergebnisse werden ebenfalls gefunden (was bei Schreib- und Tippfehlern "
+"hilfreich ist). Wenn Sie <b>mehrere Wörter</b> eingeben, wird %DOREEN% "
+"sowohl nach Kombinationen aller Wörter als auch nach einzelnen Vorkommen der "
+"Wörter suchen.\n"
+"\n"
+"<p>Dieses Verhalten kann wiederum mit den folgenden <b>Sonderzeichen</b> "
+"beeinflusst werden:</b></p>\n"
+"\n"
+"<ul>\n"
+"<li>Ein Pluszeichen (<code>+</code>) vor einem Wort macht dies "
+"<b>obligatorisch,</b> d.h. das Wort <i>muss</i> in einem Suchergebnis "
+"vorkommen, damit dies als Treffer zählt.\n"
+"</li>\n"
+"\n"
+"<li>Umgekehrt führt ein Minuszeichen (<code>-</code>) vor einem Wort dazu, "
+"dass dieses <b>ausgeschlossen</b> wird; d.h. ein Suchergebniss gilt nur dann "
+"als Treffer, wenn es das Wort <i>nicht</i> enthält.</li>\n"
+"\n"
+"<li>Wenn Sie mehrere Wörter mit <b>Anführungszeichen</b> (<code>\"</code>"
+"%HELLIP%<code>\"</code>) einschließen, wird %DOREEN% nur Suchergebnisse "
+"liefern, die den gesamten Begriff exakt enthalten. (Mit anderen Worten, dies "
+"schaltet die Ähnlichkeitssuche ab, und auch Vorkommen einzelner von mehreren "
+"Wörtern werden nicht mehr gefunden.)</li>\n"
+"\n"
+"<li>Wenn Sie <code>#</code> (das <b>Doppelkreuz</b>) gefolgt von einer Zahl "
+"eingeben, zeigt dies unmittelbar das Ticket mit der genannten Nummer an (z."
+"B. springt <code>#123</code> direkt zu Ticket Nr. 123).</li>\n"
+"</ul>\n"
+"\n"
+"<p>%DOREEN% versieht bestimmte Datenfelder intern mit einem <b>Faktor</b> "
+"(%{boost}%). Beispielsweise werden Treffer in Titelzeilen höher gewertet als "
+"solche in anderen Datenfeldern oder Kommentaren.</p>\n"
+"\n"
+"<p>Beachten Sie außerdem, dass %DOREEN% auch <b>angehängte Dateien</b> (zum "
+"Beispiel PDF, ODT, DOC) durchsuchen kann, wenn deren Inhalt Text enthält "
+"(also beispielsweise nicht in PDFs mit Bitmap-Scans).</p>"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:3
+msgid "Here you can change the information %DOREEN% has stored about you."
+msgstr ""
+"Hier können Sie die Informationen ändern, die %DOREEN% über Sie gespeichert "
+"hat."
+
+#: src/core/class_fieldh_parents.php:62
+msgid ""
+"Here you can specify other tickets that depend on the completion of this "
+"ticket."
+msgstr ""
+"Hier können Sie andere Tickets angeben, die von der Fertigstellung dieses "
+"Tickets abhängen."
+
+#: src/core/class_fieldh_parents.php:475
+msgid ""
+"Here you can specify other tickets that must be completed before this ticket "
+"is done."
+msgstr ""
+"Hier können Sie andere Tickets angeben, die vor diesem Ticket fertiggestellt "
+"sein müssen."
+
+#: src/core/class_htmlchunk.php:1560
+msgid "Hide"
+msgstr "Verdecken"
+
+#: src/core/view_ticket/view_ticket.php:555
+msgid "Hide as an older version of another file"
+msgstr "Als ältere Version einer anderen Datei verstecken"
+
+#: src/core/class_searchorder.php:110
+#: src/core/view_usersgroups/view_usersgroups.php:60
+#: src/core/view_usersgroups/view_usersgroups.php:80
+msgid "ID"
+msgstr "ID"
+
+#: src/core/view_impersonate/view_impersonate.xml:13
+msgid "IMPERSONATEINTRO"
+msgstr ""
+"<p>Als Administrator können Sie vorübergehend einen anderen Benutzer "
+"imitieren. Dies kann hilfreich sein, um Zugriffsrechte zu testen.</p>\n"
+"<p>Während Sie einen anderen Benutzer imitieren, verhält sich %DOREEN% exakt "
+"so, als wären Sie als dieser Benutzer angemeldet.\n"
+"Die Verwaltungsfunktionen für Administratoren stehen Ihnen währenddessen "
+"nicht zur Verfügung, mit einer Ausnahme: im Benutzermenü\n"
+"oben rechts wird ein Menüpunkt %{Imitation beenden}% erscheinen, mit dem Sie "
+"wieder zu Ihrer Rolle als Administrator zurückkehren können.</p>\n"
+"<p>Bitte wählen Sie das Konto, dessen Benutzer Sie imitieren möchten:</p>"
+
+#: src/core/form_register.php:98
+msgid ""
+"If you have forgotten your password, you can enter the email address that "
+"you have previously used with your %DOREEN% account below."
+msgstr ""
+"Falls Sie Ihr Kennwort vergessen haben, können Sie unten die E-Mail-Adresse "
+"angeben, die Sie bei der Anmeldung bei %DOREEN% benutzt haben."
+
+#: src/core/view_ticket/view_ticket.php:489
+msgid "Image size"
+msgstr "Bildgröße"
+
+#: src/core/class_wholepage.php:846
+msgid "Impersonate"
+msgstr "Anderen Benutzer imitieren"
+
+#: src/core/view_impersonate/view_impersonate.xml:10
+msgid "Impersonate another user"
+msgstr "Anderen Benutzer imitieren"
+
+#: src/core/view_impersonate/view_impersonate.xml:23
+msgid "Impersonate!"
+msgstr "Imitation starten!"
+
+#: src/core/form_register.php:108
+msgid ""
+"Instructions for how to reset your password will be sent to this address."
+msgstr ""
+"Eine Anleitung, wie Sie Ihr Kennwort zurücksetzen können, wird dann an diese "
+"Adresse geschickt."
+
+#: src/core/view_usersgroups/view_usersgroups.xml:117
+msgid "Internal group ID (cannot be changed)"
+msgstr "Interne Gruppen-ID (unveränderlich)"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:17
+msgid "Internal user ID"
+msgstr "Interne Benutzer-ID"
+
+#: src/core/class_binary.php:138
+msgid "Invalid binary ID %ID%"
+msgstr "Ungültige Binärdatei-ID %ID%"
+
+#: src/core/class_fieldh_ticket.php:235
+msgid "Invalid data format in value %VAL% for %FIELDNAME%"
+msgstr "Ungültiges Datenformat in Wert %VAL% für %FIELDNAME%"
+
+#: src/core/class_htmlchunk.php:2335
+msgid "Invalid file type."
+msgstr "Ungültiger Dateityp."
+
+#: src/core/api_user.php:106 src/core/api_user.php:238
+msgid "Invalid group ID %GID%"
+msgstr "Ungültige Gruppen-ID %GID%"
+
+#: src/core/globalfuncs.php:73
+msgid "Invalid page %PAGE% requested"
+msgstr "Ungültige Seite %PAGE% angefordert."
+
+#: src/core/api_user.php:160
+msgid "Invalid password"
+msgstr "Ungültiges Kennwort"
+
+#: src/core/class_ticket.php:3925 src/core/view_ticket/view_ticket.php:73
+msgid "Invalid ticket template ID %ID%"
+msgstr "Ungültige Ticket-Vorlagen-ID %ID%"
+
+#: src/core/class_tickettype.php:448
+msgid "Invalid ticket type ID %ID%"
+msgstr "Ungültige Ticket-Typ-ID %ID%"
+
+#: src/core/api_user.php:86 src/core/api_user.php:151 src/core/api_user.php:210
+#: src/core/api_user.php:469
+msgid "Invalid user ID %UID%"
+msgstr "Ungültige Benutzer-ID %UID%"
+
+#: src/core/class_fieldhandler.php:219
+msgid "Invoice"
+msgstr "Rechnung"
+
+#: src/core/view_globalsettings/view_globalsettings.php:180
+msgid "Keep fixed at top of screen"
+msgstr "Immer am oberen Bildschirmrand halten"
+
+#: src/core/class_fieldh_keywords.php:45 src/core/class_fieldh_keywords.php:177
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: src/core/class_wholepage.php:786
+msgid "Language:"
+msgstr "Sprache:"
+
+#: src/core/class_longtask.php:1075
+msgid "Less than a minute remaining"
+msgstr "Weniger als eine Minute übrig"
+
+#: src/core/class_timestamp.php:308
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:75
+msgid "Less than two hours ago"
+msgstr "Vor weniger als zwei Stunden"
+
+#: src/core/class_longtask.php:1077
+msgid "Less than two minutes remaining"
+msgstr "Weniger als zwei Minuten übrig"
+
+#: src/core/form_register.php:141
+#: src/core/view_usersgroups/view_usersgroups.php:64
+msgid "Login"
+msgstr "Benutzername"
+
+#: src/core/class_wholepage.php:882
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:6
+#: src/core/view_usersgroups/view_usersgroups.php:61
+#: src/core/view_usersgroups/view_usersgroups.xml:13
+msgid "Login name"
+msgstr "Benutzername"
+
+#: src/plugins/config_changelog/changelog_view.php:139
+msgid "Login name of user %LOGIN% changed from %OLDLOGIN%"
+msgstr "Benutzername %LOGIN% geändert von %OLDNAME% (aktuell: %NEWNAME%)"
+
+#: src/core/class_user.php:800
+msgid "Login names must be at least %C% characters long, but %LOGIN% is not"
+msgstr "Benutzername %LOGIN% ist nicht mindestens %C% Zeichen lang"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:61
+msgid "Long format"
+msgstr "Lang"
+
+#: src/core/class_wholepage.php:903 src/core/class_wholepage.php:947
+msgid "Lost password?"
+msgstr "Kennwort vergessen?"
+
+#: src/core/class_wholepage.php:628
+msgid "Mail"
+msgstr "Mail"
+
+#: src/core/class_wholepage.php:854
+msgid "Manage my user account"
+msgstr "Mein Konto bearbeiten"
+
+#: src/core/view_usersgroups/view_usersgroups.php:26
+msgid "Manage users and groups"
+msgstr "Benutzer und Gruppen verwalten"
+
+#: src/core/view_myaccount/view_myaccount.php:30
+msgid "Manage your user account"
+msgstr "Ihr Benutzerkonto"
+
+#: src/core/view_usersgroups/view_usersgroups.php:82
+#: src/core/view_usersgroups/view_usersgroups.xml:123
+msgid "Members"
+msgstr "Mitglieder"
+
+#: src/core/class_access.php:580
+msgid "Members of %GROUP% can %VERBS%"
+msgstr "Mitglieder von %GROUP% dürfen %VERBS%"
+
+#: src/core/class_fieldh_parents.php:61
+msgid "Milestones (parents)"
+msgstr "Meilensteine (Eltern)"
+
+#: src/core/api_user.php:154
+msgid "Missing password"
+msgstr "Kennwort fehlt"
+
+#: src/core/class_ticket.php:1223
+msgid "Missing ticket data for field %FIELD%"
+msgstr "Ticketdaten fehlen für Feld %FIELD%"
+
+#: src/core/class_wholepage.php:1075
+msgid "More information..."
+msgstr "Weiter Informationen..."
+
+#: src/core/class_fieldhandler.php:896
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:151
+msgid "Multiple"
+msgstr "Mehrere"
+
+#: src/core/view_globalsettings/view_globalsettings.php:411
+msgid "NUKEALLHELP"
+msgstr ""
+"<p>Die Datenbank enthält zur Zeit %COUNT% Tickets. Wenn Sie den "
+"nachstehenden Knopf drücken, werden diese <b>sämtlich rückstandslos "
+"gelöscht</b>, einschließlich aller Protokolle und sonstigen dazugehörigen "
+"Daten. Benutzerkonten, Gruppen und Tickettypen bleiben jedoch unberührt.</p> "
+"<p>Da dies jedes Ticket einzeln löscht, um die Integrität der Datenbank zu "
+"bewahren, kann dies <b>sehr lange</b> -- bis zu einigen Stunden -- dauern.</"
+"p> <p>Sind Sie sicher, dass Sie diese Aktion ausführen möchten?</p>"
+
+#: src/core/view_globalsettings/view_globalsettings.php:30
+#: src/core/view_globalsettings/view_globalsettings.php:237
+msgid "Name"
+msgstr "Name"
+
+#: src/plugins/config_changelog/changelog_view.php:176
+msgid "Name of group %GID% changed from %OLDGNAME% (current name: %GNAME2%)"
+msgstr ""
+"Name der Gruppe %GID% geändert von %OLDGNAME% (aktueller Name: %GNAME2%)"
+
+#: src/core/view_globalsettings/view_globalsettings.php:334
+msgid "Navigation bar"
+msgstr "Navigationsleiste"
+
+#: src/core/class_fieldhandler.php:217
+msgid "Net amount"
+msgstr "Nettobetrag"
+
+#: src/core/class_wholepage.php:641
+msgid "New"
+msgstr "Neu"
+
+#: src/core/class_htmlchunk.php:1989
+#: src/core/view_usersgroups/view_usersgroups.xml:66
+msgid "New password"
+msgstr "Neues Kennwort"
+
+#: src/core/view_ticket/view_ticket.php:397
+msgid "Newest comment (%WHEN%)"
+msgstr "Neuester Kommentar (%WHEN%)"
+
+#: src/core/class_htmlchunk.php:2523
+msgid "Next"
+msgstr "Weiter"
+
+#: src/core/class_wholepage.php:1253
+msgid "Next month"
+msgstr "Nächsten Monat"
+
+#: src/core/class_wholepage.php:1256
+msgid "Next year"
+msgstr "Nächstes Jahr"
+
+#: src/core/view_globalsettings/view_globalsettings.php:509
+msgid "No data found in email queue"
+msgstr "Keine Daten in E-Mail-Warteschlange"
+
+#: src/core/class_user.php:1123
+msgid "No matching user found, or password reset request has expired."
+msgstr "Kein passender Nutzer gefunden, oder Kennwortanfrage ist verfallen."
+
+#: src/core/api_ticket.php:526 src/core/class_fieldh_assignee.php:90
+#: src/core/class_fieldh_assignee.php:124
+msgid "Nobody"
+msgstr "Niemand"
+
+#: src/core/api_user.php:214
+msgid "Not authorized to generate API tokens"
+msgstr "Sie sind nicht befugt, API-Tokens zu erzeugen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:257
+msgid "Not running"
+msgstr "Läuft nicht"
+
+#: src/core/class_wholepage.php:864
+msgid "Not signed in"
+msgstr "Nicht angemeldet"
+
+#: src/core/view_ticket/view_ticket.php:670
+msgid ""
+"Note for administrators: The maximum file size is determined by the PHP.INI "
+"settings on this server. The following values are currently active:"
+msgstr ""
+"Hinweis für Administratoren: Die maximale Dateigröße hängt von den PHP.INI-"
+"Einstellungen auf diesem Server ab. Die folgenden Werte sind zur Zeit "
+"wirksam:"
+
+#: src/core/class_wholepage.php:496
+msgid "Nothing found"
+msgstr "Nichts gefunden."
+
+#: src/core/api_ticket.php:95
+msgid "Nothing found, search took %SECONDS% seconds."
+msgstr "Nichts gefunden, Suche benötigte %SECONDS% Sekunden."
+
+#: src/core/class_ticket.php:2265
+msgid "Open editor for ticket #%TICKET%: %{%TITLE%}%"
+msgstr "Editor öffnen für Ticket #%TICKET%: %{%TITLE%}%"
+
+#: src/core/class_htmlchunk.php:2321
+msgid "Or simply drop files here."
+msgstr "Oder ziehen Sie eine Datei hierher."
+
+#: src/core/class_fieldhandlers2.php:702
+msgid "Original ID on source server"
+msgstr "Ursprüngliche ID auf dem Quellserver"
+
+#: src/core/view_globalsettings/view_globalsettings.php:339
+msgid "PHP version"
+msgstr "PHP-Version"
+
+#: src/core/class_htmlchunk.php:1985 src/core/class_wholepage.php:886
+#: src/core/install/install1.php:220
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:15
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:24
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:30
+#: src/core/view_usersgroups/view_usersgroups.xml:20
+#: src/core/view_usersgroups/view_usersgroups.xml:21
+#: src/core/view_usersgroups/view_usersgroups.xml:67
+msgid "Password"
+msgstr "Kennwort"
+
+#: src/plugins/config_changelog/changelog_view.php:120
+msgid "Password of user %LOGIN% changed"
+msgstr "Kennwort für Konto %LOGIN% geändert"
+
+#: src/core/api_user.php:166 src/core/class_user.php:1140
+msgid "Passwords do not match"
+msgstr "Kennwörter stimmen nicht überein"
+
+#: src/core/class_user.php:721
+msgid "Passwords must be at least %MIN% characters long"
+msgstr "Kennwörter müssen mindestens %MIN% Zeichen lang sein"
+
+#: src/core/view_globalsettings/view_globalsettings.php:31
+msgid "Path"
+msgstr "Pfad"
+
+#: src/core/class_fieldhandler.php:220
+msgid "Payment"
+msgstr "Zahlung"
+
+#: src/core/view_ticket/view_ticket.php:263
+msgid "Permissions: "
+msgstr "Berechtigungen: "
+
+#: src/core/class_htmlchunk.php:2317
+msgid "Pick files"
+msgstr "Dateien auswählen"
+
+#: src/core/class_htmlchunk.php:731
+msgid "Please contact an administrator."
+msgstr "Bitte nehmen Sie Kontakt mit einem Administrator auf."
+
+#: src/core/install/install5_update.php:39
+msgid ""
+"Please contact the administrator of this site to have the upgrade completed, "
+"or sign into an administrator account, if you have one."
+msgstr ""
+"Bitte nehmen Sie Kontakt mit einem Administrator dieser Seite auf, um die "
+"Aktualisierung fertigzustellen, oder melden Sie sich als Administrator an, "
+"wenn Sie einer sind."
+
+#: src/core/class_webapp.php:197
+msgid "Please enter at least %MIN% characters here"
+msgstr "Bitte geben Sie hier mindestens %MIN% Zeichen ein"
+
+#: src/core/class_ticket.php:2757
+msgid "Please fill in the fields below and press the %{Create}% button."
+msgstr ""
+"Bitte füllen Sie folgende Felder aus und drücken Sie unten auf %{Anlegen}%."
+
+#: src/core/class_fieldh_cat.php:339
+msgid "Please select the project that this bug reports relates to."
+msgstr "Bitte wählen Sie das Projekt, zu dem dieser Bug gehört."
+
+#: src/core/view_globalsettings/view_globalsettings.php:238
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: src/core/view_globalsettings/view_globalsettings.php:341
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#: src/core/install/install5_update.php:54
+msgid "Press %{Proceed}% to complete the database update."
+msgstr ""
+"Bitte drücken Sie %{Fortsetzen}%, um die Aktualisierung der Datenbank "
+"fertigzustellen."
+
+#: src/core/view_ticket/view_ticket.php:484
+msgid "Preview"
+msgstr "Vorschau"
+
+#: src/core/class_htmlchunk.php:2440
+msgid "Previous"
+msgstr "Zurück"
+
+#: src/core/class_wholepage.php:1252
+msgid "Previous month"
+msgstr "Voriger Monat"
+
+#: src/core/class_wholepage.php:1255
+msgid "Previous year"
+msgstr "Voriges Jahr"
+
+#: src/core/class_fieldh_prio.php:31
+msgid "Priority"
+msgstr "Priorität"
+
+#: src/core/class_install.php:573 src/core/install/install5_update.php:59
+msgid "Proceed"
+msgstr "Proceed"
+
+#: src/core/view_globalsettings/view_globalsettings.php:340
+msgid "Program version"
+msgstr "Programmversion"
+
+#: src/core/class_fieldh_cat.php:338
+msgid "Project"
+msgstr "Projekt"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:25
+msgid "REALNAMEHELP"
+msgstr ""
+"Der %{echte Name}% ist nur beschreibend und wird öffentlich zusammen mit "
+"Tätigkeiten dieses Nutzerkontos angezeigt, zum Beispiel in Protokollen. Er "
+"kann von Benutzern in den Profileinstellungen geändert werden."
+
+#: src/core/view_mainpage/view_mainpage.php:67
+msgid "REINDEXINGMESSAGE"
+msgstr ""
+"<b>Warnung:</b> Die Suchmaschine baut zur Zeit ihren Index neu auf, was "
+"einige Stunden dauern kann.\n"
+"Währenddessen wird diese Meldung angezeigt, und %DOREEN% wird unvollständige "
+"Sucherergebnisse liefern. Wenn Sie nicht finden können, was Sie suchen, "
+"versuchen Sie es später noch einmal. Wir bitten die Unannehmlichkeiten zu "
+"entschuldigen!"
+
+#: src/core/api_user.php:372
+msgid "RESETPASSWORD1"
+msgstr ""
+"Hallo!\n"
+"\n"
+"Bei %SERVER% ist eine Anfrage eingegangen, das Kennwort für den Benutzer "
+"zurückzusetzen, dem die E-Mail-Adresse %EMAIL% gehört.\n"
+"\n"
+"Wenn Sie diese Anfrage nicht selbst vorgenommen haben, ignorieren Sie bitte "
+"diese Nachricht.\n"
+"\n"
+"Ansonsten klicken Sie bitte auf den nachstehenden Link, der Sie zu einer "
+"Seite führen wird, auf der Sie das Kennwort Ihres Benutzerkontos "
+"zurücksetzen können:\n"
+"\n"
+"%LINK%\n"
+"\n"
+"Dieser Link ist zwei Stunden gültig. Nach deren Ablauf müssen Sie eine "
+"weitere E-Mail anfordern, um Ihr Kennwort zurückzusetzen."
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:38
+#: src/core/view_usersgroups/view_usersgroups.php:62
+#: src/core/view_usersgroups/view_usersgroups.xml:23
+#: src/core/view_usersgroups/view_usersgroups.xml:24
+msgid "Real name"
+msgstr "Echter Name"
+
+#: src/plugins/config_changelog/changelog_view.php:125
+msgid "Real name of user %LOGIN% changed from %OLDNAME% (current: %NEWNAME%)"
+msgstr ""
+"Echter name des Benutzers %LOGIN% geändert von %OLDNAME% (aktuell: %NEWNAME%)"
+
+#: src/core/view_globalsettings/view_globalsettings.php:407
+msgid "Really delete all tickets in database?"
+msgstr "Sollen wirklich alle Tickets aus der Datenbank gelöscht werden?"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:86
+msgid "Really disable user account %{%LOGIN%}%?"
+msgstr "Soll das Benutzerkonto %{%LOGIN%}% wirklich gesperrt werden?"
+
+#: src/core/view_globalsettings/view_globalsettings.php:480
+msgid "Recently sent mails"
+msgstr "Letzte versandte E-Mails"
+
+#: src/core/api_user.php:205
+msgid "Refusing to generate an API token over a non-HTTPS connection"
+msgstr ""
+"Erzeugung eines neuen API-Tokens über Nicht-HTTPS-Verbindung verweigert"
+
+#: src/core/class_wholepage.php:901
+msgid "Register"
+msgstr "Registrieren"
+
+#: src/core/form_register.php:20
+msgid "Register a new user account"
+msgstr "Neues Benutzerkonto anlegen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:533
+msgid "Reindexing"
+msgstr "Indiziere"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:74
+msgid "Relative"
+msgstr "Relativ"
+
+#: src/core/class_searchorder.php:106
+msgid "Relevance"
+msgstr "Relevanz"
+
+#: src/core/view_expiredsession/view_expiredsession.xml:17
+msgid "Reload page now"
+msgstr "Neu laden"
+
+#: src/core/class_wholepage.php:890
+msgid "Remember me"
+msgstr "Angemeldet bleiben"
+
+#: src/core/class_htmlchunk.php:2391
+msgid "Remove this file"
+msgstr "Diese Datei entfernen"
+
+#: src/core/view_ticket/view_ticket.php:506
+#: src/core/view_ticket/view_ticket.php:559
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: src/core/class_fieldhandlers2.php:958
+msgid "Renamed file %OLDNAME% to %LINK%"
+msgstr "Datei %OLDNAME% umbenannt in %LINK%"
+
+#: src/core/form_register.php:149
+msgid "Reset the password!"
+msgstr "Kennwort zurücksetzen!"
+
+#: src/core/api_user.php:369
+msgid "Reset your %DOREEN% password"
+msgstr "%DOREEN%-Kennwort zurücksetzen"
+
+#: src/core/view_expiredsession/view_expiredsession.xml:18
+msgid "Return to page"
+msgstr "Zurück zur Seite"
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:81
+msgid "Reverse sort order"
+msgstr "Sortierfolge umkehren"
+
+#: src/core/view_globalsettings/view_globalsettings.php:255
+msgid "Running"
+msgstr "Läuft"
+
+#: src/core/view_globalsettings/view_globalsettings.php:222
+msgid "SERVICESINTRO"
+msgstr ""
+"%DOREEN%-Dienste sind Prozesse, die auf dem Server im Hingrund unabhängig "
+"davon laufen, ob %DOREEN% gerade HTTP-Anfragen beantwortet.\n"
+"Einige Dienste können automatisch beim Systemstart gestartet werden. Welche "
+"Dienste verfügbar sind, hängt auch davon ab, welche Plug-ins\n"
+"Sie aktiviert haben."
+
+#: src/core/view_globalsettings/view_globalsettings.php:344
+msgid "SQL database"
+msgstr "SQL-Datenbank"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:96
+msgid "Save"
+msgstr "Speichern"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:46
+#: src/core/view_usersgroups/view_usersgroups.xml:74
+#: src/core/view_usersgroups/view_usersgroups.xml:132
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: src/core/class_wholepage.php:700
+msgid "Search"
+msgstr "Suchen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:527
+msgid ""
+"Search index is outdated. Please trigger a re-index via the button below or "
+"use <code>cli.php reindex-all</code>."
+msgstr ""
+"Der Suchindex ist veraltet. Bitte lösen Sie mit den untenstehenden Knopf "
+"eine Neuindizierung aus, oder nutzen Sie <code>cli.php reindex-all</code>."
+
+#: src/core/class_access.php:372
+msgid "Search queries must be at least three characters long"
+msgstr "Suchanfragen müssen mindestens drei Zeichen lang sein"
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:44
+#: src/core/view_ticketslist/view_ticketslist.php:209
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: src/core/class_htmlchunk.php:1814
+msgid "Searching"
+msgstr "Suche"
+
+#: src/core/class_htmlchunk.php:1796
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#: src/core/class_wholepage.php:1251
+msgid "Select month"
+msgstr "Monat auswählen"
+
+#: src/core/class_wholepage.php:1254
+msgid "Select year"
+msgstr "Jahr auswählen"
+
+#: src/core/form_register.php:112
+msgid "Send email"
+msgstr "E-Mail schicken"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:49
+msgid "Send me ticket mail"
+msgstr "Ich möchte Ticket-Mail erhalten"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:33
+msgid "Send ticket mail to this user"
+msgstr "Ticket-Mail an diesen Benutzer schicken"
+
+#: src/core/class_email.php:231
+msgid ""
+"Sending mail has been disabled for this installation by the administrator"
+msgstr "Das Verschicken von E-Mails wurde vom Administrator abgeschaltet"
+
+#: src/core/view_globalsettings/view_globalsettings.php:345
+msgid "Server"
+msgstr "Server"
+
+#: src/core/view_expiredsession/view_expiredsession.xml:10
+msgid "Session expired"
+msgstr "Sitzung abgelaufen"
+
+#: src/core/class_fieldh_prio.php:131
+msgid "Set priority"
+msgstr "Vorrang"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:67
+msgid "Short format"
+msgstr "Kurz"
+
+#: src/core/class_htmlchunk.php:1558
+msgid "Show"
+msgstr "Anzeigen"
+
+#: src/core/class_wholepage.php:347
+msgid "Show all details"
+msgstr "Alle Details anzeigen"
+
+#: src/core/view_ticket/view_ticket.php:191
+msgid "Show debugging details"
+msgstr "Debug-Details anzeigen"
+
+#: src/core/view_globalsettings/view_globalsettings.php:145
+msgid "Show details"
+msgstr "Details anzeigen"
+
+#: src/core/view_ticket/view_ticket.php:593
+msgid "Show full comments changelog"
+msgstr "Komplettes Kommentarprotokoll"
+
+#: src/core/class_fieldhandlers2.php:339
+msgid "Show more"
+msgstr "Mehr zeigen"
+
+#: src/core/class_email.php:510
+msgid "Show recently sent mail"
+msgstr "Letzte versandte E-Mails anzeigen"
+
+#: src/core/api_ticket.php:258
+#: src/core/view_ticketslist/view_ticketslist.php:214
+msgid "Show results as grid"
+msgstr "Ergebnisse als Raster anzeigen"
+
+#: src/core/api_ticket.php:257
+#: src/core/view_ticketslist/view_ticketslist.php:213
+msgid "Show results as list"
+msgstr "Ergebnisse als Liste anzeigen"
+
+#: src/core/class_wholepage.php:895 src/core/class_wholepage.php:940
+#: src/core/class_wholepage.php:943
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: src/core/class_wholepage.php:855
+msgid "Sign out"
+msgstr "Abmelden"
+
+#: src/core/class_htmlchunk.php:1818
+msgid "Sorry, nothing found."
+msgstr "Nichts gefunden."
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:75
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: src/core/class_longtask.php:775
+msgid "Spawned task with process ID %PID% seems to have died without notice"
+msgstr ""
+"Auftrag mit der Prozess-ID %PID% hat sich ohne Benachrichtigung beendet"
+
+#: src/core/class_htmlchunk.php:2329
+msgid "Start uploading all files"
+msgstr "Alle Dateien hochladen"
+
+#: src/core/class_htmlchunk.php:2381
+msgid "Start uploading this file only"
+msgstr "Nur diese Datei hochladen"
+
+#: src/core/class_fieldh_status.php:43 src/core/class_workflowhandler.php:22
+#: src/core/view_globalsettings/view_globalsettings.php:239
+msgid "Status"
+msgstr "Status"
+
+#: src/core/class_wholepage.php:922
+msgid "Stop impersonating %USER%"
+msgstr "Imitation von %USER% beenden"
+
+#: src/core/class_wholepage.php:836
+msgid "Stop impersonating, return to %USER%"
+msgstr "Imitation beenden, zu %USER% zurückkehren"
+
+#: src/core/class_fieldhandler.php:218
+msgid "Sum"
+msgstr "Summe"
+
+#: src/core/class_ticket.php:2512
+msgid "Summary"
+msgstr "Überblick"
+
+#: src/core/view_globalsettings/view_globalsettings.php:338
+msgid "System"
+msgstr "System"
+
+#: src/core/class_wholepage.php:735
+#: src/core/view_globalsettings/view_globalsettings.php:109
+msgid "System settings"
+msgstr "Systemeinstellungen"
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:50
+msgid "TICKETMAILMYACCOUNT"
+msgstr ""
+"Zu jedem Ticket gehört eine CC-Liste mit Benutzern, die bei Änderungen "
+"benachrichtigt werden sollen. \n"
+"Ihr Konto gehört dazu, wenn Sie das Ticket angelegt haben oder wenn Sie von "
+"einem Administrator zu der Liste hinzugefügt wurden.\n"
+"Deaktivieren Sie diese Einstellung, wenn Sie überhaupt keine Ticket-Mail an "
+"die oben genannte E-Mail-Adresse erhalten wollen, selbst wenn dies für ein "
+"Ticket sonst der Fall wäre.\n"
+"Die Adresse wird gleichwohl benötigt, falls Sie einmal Ihr Kennwort "
+"zurücksetzen müssen."
+
+#: src/core/class_fieldhandler.php:216
+msgid "Taxes"
+msgstr "Steuern"
+
+#: src/core/class_searchorder.php:108
+msgid "Template"
+msgstr "Vorlage"
+
+#: src/core/class_wholepage.php:369
+msgid "Text to be translated"
+msgstr "Text to be translated"
+
+#: src/core/class_fieldhandlers2.php:703
+msgid "The ID of the data where this record was imported from."
+msgstr ""
+"Die ID, unter der diese Daten bei einer Importquelle gespeichert waren."
+
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:40
+msgid ""
+"Your real name may be displayed to other users together with your activities, for example in ticket changelogs."
+msgstr ""
+"Ihr \"echter Name\" beschreibt Sie im Zusammenhang mit Ihren Ticket-"
+"Aktivitäten, zum Beispiel in Ticket-Protokollen."
+
+#: src/core/class_ticketfield.php:634
+msgid "The field %FIELD% cannot be left empty"
+msgstr "Das Feld %FIELD% muss ausgefüllt werden"
+
+#: src/core/view_ticket/view_ticket.php:256
+msgid "The following templates are available for tickets of this type:"
+msgstr "Die folgenden Vorlagen sind für Tickets dieses Typs verfügbar:"
+
+#: src/core/class_user.php:804
+msgid "The login name %LOGIN% contains invalid characters"
+msgstr "Der Benutzername %LOGIN% enthält ungültige Zeichen"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:15
+msgid ""
+"The login name is set when the account is created and cannot be changed "
+"later."
+msgstr ""
+"Der Benutzername wird beim Erstellen des Benutzerkontos festgelegt und kann "
+"anschießend nicht geändert werden."
+
+#: src/core/view_ticket/view_ticket.php:97
+msgid "The new %{%TEMPLATE%}% will have the following access permissions:"
+msgstr "Das neue %{%TEMPLATE%}% wird folgende Zugriffsrechte erhalten:"
+
+#: src/core/class_user.php:727
+msgid "The real name must not be empty"
+msgstr "Der echte Name darf nicht leer sein"
+
+#: src/core/view_ticket/view_ticket.php:247
+msgid ""
+"The ticket #%ID% (%TITLE%) was created from the template %TEMPLATE% (or "
+"maybe its template was later changed to that)."
+msgstr ""
+"Das Ticket #%ID% (%TITLE%) wurde aus der Vorlage %TEMPLATE% angelegt (oder "
+"die Vorlage wurde später auf diese geändert)."
+
+#: src/core/class_ticket.php:2744
+msgid ""
+"The ticket description is a potentially longer text that can use formatting."
+msgstr ""
+"Die Ticket-Beschreibung ist ein längerer Text, der auch Formatierungen "
+"enthalten kann."
+
+#: src/core/class_ticket.php:2732
+msgid ""
+"The title is displayed as the tickets's heading and also describes the "
+"ticket in search results."
+msgstr ""
+"Der Titel wird als Überschrift angezeigt und beschreibt das Ticket außerdem "
+"in Suchergebnissen."
+
+#: src/core/view_ticket/view_ticket.php:253
+msgid "The type of this template is %TYPE%."
+msgstr "Der Typ dieser Vorlage ist %TYPE%."
+
+#: src/core/class_fieldh_assignee.php:32
+msgid "The user who is reponsible for this ticket."
+msgstr "Der Benutzer, der für dieses Ticket verantwortlich ist."
+
+#: src/core/class_fieldh_select.php:147
+msgid "The value %VALUE% is invalid for field %FIELDNAME%"
+msgstr "Der Wert %VALUE% ist für das Feld %FIELDNAME% nicht zulässig"
+
+#: src/core/view_globalsettings/view_globalsettings.php:333
+msgid "Theme"
+msgstr "Motiv"
+
+#: src/core/class_user.php:1085
+msgid ""
+"There have been too many password requests lately, please try again in a few "
+"minutes"
+msgstr ""
+"Es wurden in letzter Zeit zu viele Kennwortänderungen angefordert. Bitte "
+"versuchen Sie es in ein paar Minuten noch einmal"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:30
+msgid ""
+"This address is used for ticket mail and also when the user needs to reset "
+"his or her password. This can be changed by the user in the user account "
+"settings."
+msgstr ""
+"Diese Adresse wird für Ticket-Mail und für das Zurücksetzen des Kennworts "
+"benötigt. Sie kann vom Benutzer in den Profileinstellungen geändert werden."
+
+#: src/core/view_myaccount/view_myaccount.php:48
+msgid ""
+"This address will be used by %DOREEN% for sending ticket mail. It also "
+"allows you to reset your password in case you have lost it. The address is "
+"never displayed publicly."
+msgstr ""
+"%DOREEN% benutzt diese Adresse, um Ticket-Mail zu verschicken. Sie ist "
+"außerdem nötig, damit Sie Ihr Kennwort zurücksetzen können, falls Sie es "
+"verloren haben. Die Adresse wird niemals öffentlich gezeigt."
+
+#: src/core/view_myaccount/view_myaccount.php:28
+msgid "This can only be changed by an administrator."
+msgstr "Dies kann nur vom Administrator geändert werden."
+
+#: src/core/view_myaccount/view_myaccount.php:25
+msgid ""
+"This cannot be changed here; please use <a href=\"%LINK%\">the administrator "
+"form</a> to change group memberships."
+msgstr ""
+"Dies kann hier nicht geändert werden; bitte benutzen Sie <a href=\"%LINK%"
+"\">die Administrator-Einstellungen,</a> um Gruppenmitgliedschaften zu ändern."
+
+#: src/core/class_webapp.php:195
+msgid "This field cannot be left empty."
+msgstr "Dieses Feld muss ausgefüllt werden"
+
+#: src/core/class_fieldh_status.php:44
+msgid "This indicates what work still needs to be done for this task."
+msgstr "Dies zeigt an, was für dieses Ticket noch zu erledigen ist."
+
+#: src/core/class_ticket.php:2743
+msgid "This text is displayed on the %DOREEN% title page for every user."
+msgstr ""
+"Dieser Text wird auf der %DOREEN%-Titelseite für alle Nutzer angezeigt."
+
+#: src/core/class_ticket.php:2731
+msgid ""
+"This title is displayed as the heading of the %DOREEN% title page for every "
+"user."
+msgstr ""
+"Der Titel wird als Überschrift auf der %DOREEN%-Titelseite für alle Nutzer "
+"angezeigt."
+
+#: src/core/class_fieldhandlers2.php:430 src/core/class_fieldhandlers2.php:525
+msgid "This version of the comment has been retracted"
+msgstr "This version of the comment has been retracted"
+
+#: src/core/class_ticket.php:1310
+msgid "Ticket %ID% is a template"
+msgstr "Ticket %ID% ist eine Vorlage"
+
+#: src/core/class_ticket.php:1640
+msgid "Ticket %ID% is not a template"
+msgstr "Ticket %ID% ist keine Vorlage"
+
+#: src/core/api_help.php:110
+#: src/core/view_globalsettings/view_globalsettings.php:342
+#: src/core/view_myaccount/view_myaccount_dlg1.xml:48
+#: src/core/view_usersgroups/view_usersgroups.php:65
+#: src/core/view_usersgroups/view_usersgroups.xml:32
+msgid "Ticket mail"
+msgstr "Ticket-Mail"
+
+#: src/core/api_help.php:111
+msgid ""
+"Ticket mail is the mail that %DOREEN% sends out whenever tickets are created "
+"or modified. Disable this checkbox to suppress ticket mail completely."
+msgstr ""
+"Ticket mail is the mail that %DOREEN% sends out whenever tickets are created "
+"or modified. Disable this checkbox to suppress ticket mail completely."
+
+#: src/core/class_fieldh_prio.php:32
+msgid ""
+"Ticket priorities make it easier to keep track of which tasks should be "
+"handled first."
+msgstr ""
+"Mit Prioritäten können Sie Tickets nach Bearbeitungsreihenfolge sortieren."
+
+#: src/plugins/config_changelog/changelog_view.php:197
+msgid "Ticket template %NAME% (with type %TYPE%) deleted"
+msgstr "Ticketschablone %NAME% (mit Typ %TYPE%) gelöscht"
+
+#: src/plugins/config_changelog/changelog_view.php:191
+msgid "Ticket template %NAME% created"
+msgstr "Ticketschablone %NAME% angelegt"
+
+#: src/core/class_ticket.php:1147
+msgid "Ticket template has no data for project field"
+msgstr "Ticketschablone hat keine Daten für das Projektfeld"
+
+#: src/core/class_ticket.php:1637 src/core/class_ticket.php:2821
+msgid "Ticket template names must not be empty"
+msgstr "Ticketschablonen müssen einen Namen haben"
+
+#: src/core/class_fieldhandlers2.php:771
+msgid "Ticket type"
+msgstr "Tickettyp"
+
+#: src/core/class_tickettype.php:322 src/core/class_tickettype.php:610
+msgid "Ticket type names cannot be empty"
+msgstr "Tickettypen müssen haben einen Namen haben"
+
+#: src/core/view_globalsettings/view_globalsettings.php:349
+msgid "Tickets in database"
+msgstr "Tickets in der Datenbank"
+
+#: src/core/class_fieldhandler.php:214
+msgid "Title"
+msgstr "Titel"
+
+#: src/core/class_fieldhandlers2.php:169
+msgid "Title changed"
+msgstr "Titel geändert"
+
+#: src/core/api_help.php:96
+#: src/core/view_globalsettings/view_globalsettings.php:335
+msgid "Title page items"
+msgstr "Elemente auf Titelseite"
+
+#: src/core/api_help.php:103
+#: src/core/view_globalsettings/view_globalsettings.php:336
+msgid "Title page wiki #"
+msgstr "Wiki-Ticket-# für Titelseite"
+
+#: src/core/form_register.php:143
+msgid ""
+"To make sure you are not accidentally resetting someone else's password, "
+"please enter your login name as well."
+msgstr ""
+"Damit Sie nicht versehentlich das Kennwort eines anderen Nutzers "
+"zurücksetzen, geben Sie bitte auch Ihren Benutzernamen ein."
+
+#: src/core/class_timestamp.php:292
+msgid "Today"
+msgstr "Heute"
+
+#: src/core/view_ticketsgrid/view_ticketsgrid.php:82
+#: src/core/view_ticketslist/view_ticketslist.php:221
+msgid "Toggle filters"
+msgstr "Filter umschalten"
+
+#: src/core/class_htmlchunk.php:2340
+msgid "Too many files!"
+msgstr "Zu viele Dateien!"
+
+#: src/core/view_ticketslist/view_ticketslist.php:569
+msgid "Too many nodes for graph, %SKIPPED% tickets were skipped."
+msgstr "Zu viele Knoten im Graphen, %SKIPPED% Tickets wurden ausgelassen."
+
+#: src/core/class_fieldh_amount.php:28
+msgid "Total amount paid or received"
+msgstr "Gesamtbetrag (bezahlt oder erhalten)"
+
+#: src/core/class_htmlchunk.php:1817
+msgid "Type at least %MIN% characters to begin searching"
+msgstr "Geben Sie mindestens %MIN% Zeichen ein, um die Suche zu starten"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:93
+msgid "USERSGROUPS2"
+msgstr ""
+"Die bisherige Aktivität des Benutzers verbleibt in der Datenbank, aber das "
+"Benutzerkonto wird deaktiviert.\n"
+"Danach kann sich der Nutzer nicht mehr anmelden, und das Konto wird aus "
+"allen Benutzergruppen entfernt."
+
+#: src/core/view_ticket/view_ticket.php:871
+msgid "Update comment"
+msgstr "Kommentar ändern"
+
+#: src/core/view_ticket/view_ticket.php:145
+msgid "Update ticket"
+msgstr "Änderungen speichern"
+
+#: src/core/view_usersgroups/view_usersgroups.php:83
+msgid "Usage"
+msgstr "Nutzung"
+
+#: src/core/class_fieldh_keywords.php:46
+msgid ""
+"Use keywords to tag tickets to be able to find similar tickets quickly. Use "
+"spaces with or without commas to separate multiple keywords."
+msgstr ""
+"Sie können Schlüsselwörter an Tickets hängen, um ähnliche Tickets schneller "
+"finden zu können. Trennen Sie mehrere Schlüsselwörter mit Leerzeichen oder "
+"Komma."
+
+#: src/core/view_ticket/view_ticket.php:602
+msgid "User"
+msgstr "Benutzer"
+
+#: src/plugins/config_changelog/changelog_view.php:147
+msgid "User %LOGIN% added to group %GID% (%GROUP%)"
+msgstr "Benutzer %LOGIN% wurde zu Gruppe %GID% (%GROUP%) hinzugefügt"
+
+#: src/plugins/config_changelog/changelog_view.php:156
+msgid "User %LOGIN% removed from group %GID% (%GROUP%)"
+msgstr "Benutzer %LOGIN% wurde aus Gruppe %GID% (%GROUP%) entfernt"
+
+#: src/core/class_user.php:524
+msgid "User account cannot be disabled"
+msgstr "Benutzerkonto kann nicht gesperrt werden"
+
+#: src/core/class_user.php:199 src/core/class_user.php:357
+msgid "User account cannot be modified"
+msgstr "Benutzerkonto kann nicht geändert werden"
+
+#: src/plugins/config_changelog/changelog_view.php:113
+msgid ""
+"User account created: login %LOGIN% (current realname %LONGNAME%, current "
+"email %EMAIL%)"
+msgstr ""
+"Benutzerkonto wurde angelegt; Benutzername %LOGIN% (aktueller echter Name "
+"%LONGNAME%, aktuelle E-Mail %EMAIL%)"
+
+#: src/core/view_usersgroups/view_usersgroups.php:46
+msgid "Users"
+msgstr "Benutzer"
+
+#: src/core/class_wholepage.php:737
+msgid "Users and groups"
+msgstr "Benutzer und Gruppen"
+
+#: src/core/class_ticket.php:2266
+msgid "View details for #%TICKET%: %{%TITLE%}%"
+msgstr "Details von Ticket #%TICKET% anzeigen: %{%TITLE%}%"
+
+#: src/core/class_htmlchunk.php:727
+#: src/core/view_usersgroups/view_usersgroups.xml:91
+msgid "Warning"
+msgstr "Warnung"
+
+#: src/core/form_register.php:128
+msgid ""
+"Welcome back! You have been confirmed as the owner of the email address "
+"%{%EMAIL%}%. Below you can reset your password."
+msgstr ""
+"Willkommen daheim! Sie wurden als der Inhaber der E-Mail-Adresse %{%EMAIL%}% "
+"bestätigt. Unten können Sie Ihr Kennwort zurücksetzen."
+
+#: src/core/view_mainpage/view_mainpage.php:105
+msgid "Welcome to %DOREEN%!"
+msgstr "Willkommen bei %DOREEN%!"
+
+#: src/core/class_htmlchunk.php:2333
+msgid ""
+"When you are done adding files, press this button to start uploading all "
+"files at once."
+msgstr ""
+"Wenn Sie Ihre Dateien hinzugefügt haben, drücken Sie diesen Knopf, um alle "
+"Dateien auf einmal hochzuladen."
+
+#: src/core/form_register.php:18
+msgid "Why would you want to register when you're already logged in?"
+msgstr ""
+"Warum möchten Sie sich registrieren, wo Sie doch schon eingeloggt sind?"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:101
+msgid "Yes, disable this account!"
+msgstr "Ja, Benutzerkonto sperren!"
+
+#: src/core/view_usersgroups/view_usersgroups.xml:92
+msgid ""
+"You are about to disable the user account %{%LOGIN%}%\" for %{%LONGNAME%}%."
+msgstr ""
+"Sie sind im Begriff, das Benutzerkonto %{%LOGIN%}%\" für %{%LONGNAME%}% zu "
+"sperren."
+
+#: src/core/view_globalsettings/view_globalsettings.php:105
+#: src/core/view_globalsettings/view_globalsettings.php:476
+#: src/plugins/config_changelog/config_changelog.php:88
+msgid "You are not authorized to be here"
+msgstr "Sie sind nicht befugt, diese Funktion zu benutzen"
+
+#: src/core/globalfuncs.php:120
+msgid "You are not authorized to make this request"
+msgstr "Sie sind nicht befugt, diese Funktion zu benutzen"
+
+#: src/core/api_user.php:70
+msgid ""
+"You are not authorized to modify the group %GROUP% since you are not a "
+"member yourself"
+msgstr ""
+"Sie dürfen die Gruppe %GROUP% nicht ändern, da Sie selbst kein Mitglied sind"
+
+#: src/core/api_user.php:66
+msgid "You are not authorized to modify the special group %GROUP%"
+msgstr "Sie sind nicht befugt, die besondere Gruppe %GROUP% zu ändern"
+
+#: src/core/view_myaccount/view_myaccount.php:15
+msgid "You are not logged in"
+msgstr "Sie sind nicht angemeldet"
+
+#: src/core/class_user.php:527
+msgid "You cannot disable your own user account"
+msgstr "Sie können Ihr eigenes Benutzerkonto nicht sperren"
+
+#: src/core/api_user.php:146 src/core/api_user.php:202
+msgid "You cannot manage an account without being logged in"
+msgstr "Sie können kein Benutzerkonto ändern, ohne angemeldet zu sein"
+
+#: src/core/api_user.php:36
+msgid "You cannot remove yourself from the %GROUP% group."
+msgstr "Sie können sich selbst nicht aus der Gruppe %GROUP% entfernen."
+
+#: src/core/globalfuncs.php:131
+msgid "You do not have permission to create this kind of ticket"
+msgstr "Sie sind nicht befugt, diese Art von Tickets zu erstellen"
+
+#: src/core/view_myaccount/view_myaccount.php:46
+msgid ""
+"You only need to fill in these fields if you want to change your current "
+"password. Otherwise leave them blank."
+msgstr ""
+"Sie müssen diese Felder nur ausfüllen, wenn Sie Ihr Kennwort ändern wollen. "
+"Ansonsten lassen Sie sie frei."
+
+#: src/core/class_htmlchunk.php:2334
+msgid "Your browser does not support drag-and-drop file uploads."
+msgstr ""
+"Ihr Browser unterstützt das Hochladen von Dateien durch Ziehen und Ablegen "
+"nicht."
+
+#: src/core/form_register.php:140
+msgid "Your login name"
+msgstr "Ihr Benutzername"
+
+#: src/core/form_register.php:154
+msgid ""
+"Your password has been reset. You can now use the above login and your new "
+"password to log into %DOREEN%."
+msgstr ""
+"Ihr Kennwort wurde zurückgesetzt. Sie können jetzt den oben stehenden "
+"Benutzernamen und Ihr neues Kennwort verwenden, um sich bei %DOREEN% "
+"anzumelden."
+
+#: src/core/view_expiredsession/view_expiredsession.xml:13
+msgid ""
+"Your session has expired. This means you can no longer save changes you have "
+"made to the page. Please back up your changes and reload the page to restart "
+"the session. You may have to sign in again."
+msgstr ""
+"Ihre Session ist abgelaufen. Das beudtet, dass Änderungen nicht mehr "
+"gespeichert werden können. Bitte sichern Sie Ihre Änderungen und laden Sie "
+"die Seite neu. Möglicherweise müssen Sie sich wieder anmelden."
+
+#: src/core/class_fieldhandler.php:679
+msgid "[NO DATA]"
+msgstr "[KEINE DATEN]"
+
+#: src/core/class_fieldh_assignee.php:130
+msgid "[Unknown user ID %ID%]"
+msgstr "[Unbekannte Nutzer-ID %ID%]"
+
+#: src/core/class_fieldh_keywords.php:185
+msgid "added %KEY%"
+msgstr "%KEY% hinzugefügt"
+
+#: src/core/class_fieldh_parents.php:254
+msgid "added %TITLE%"
+msgstr "%TITLE% hinzugefügt"
+
+#: src/core/class_fieldh_parents.php:430
+msgid "and %COUNT% more"
+msgstr "und %COUNT% weitere"
+
+#: src/core/class_ticketfield.php:565
+msgid "assignee"
+msgstr "Inhaber"
+
+#: src/core/class_fieldh_parents.php:64
+msgid "blocks"
+msgstr "blockiert"
+
+#: src/core/class_format.php:597
+msgid "bytes"
+msgstr "Bytes"
+
+#: src/core/class_access.php:775
+msgid "create"
+msgstr "anlegen"
+
+#: src/core/class_access.php:778
+msgid "delete"
+msgstr "löschen"
+
+#: src/core/api_ticket.php:487 src/core/class_timestamp.php:300
+#: src/core/view_ticket/view_ticket.php:837
+msgid "just now"
+msgstr "gerade eben"
+
+#: src/core/class_ticketfield.php:566
+msgid "project"
+msgstr "Projekt"
+
+#: src/core/class_access.php:776
+msgid "read"
+msgstr "lesen"
+
+#: src/core/class_access.php:779
+#, fuzzy
+msgid "receive ticket mail"
+msgstr "Ticket-Mail erhalten"
+
+#: src/core/class_fieldh_keywords.php:196
+msgid "removed %KEY%"
+msgstr "%KEY% entfernt"
+
+#: src/core/class_fieldh_parents.php:256
+msgid "removed %TITLE%"
+msgstr "%TITLE% entfernt"
+
+#: src/core/class_ticketfield.php:564
+msgid "status"
+msgstr "Status"
+
+#: src/core/class_ticketfield.php:615
+msgid "type"
+msgstr "Typ"
+
+#: src/core/class_fieldh_ticket.php:151 src/core/class_ticketworkflow.php:313
+msgid "unknown"
+msgstr "unbekannt"
+
+#: src/core/class_access.php:777
+msgid "update"
+msgstr "aktualisieren"
+
+#: src/core/class_ticket.php:2367
+msgid "used for the %DOREEN% title page"
+msgstr "auf Titelseite von %DOREEN% angezeigt"
+
+#: src/core/globalfuncs.php:626
+msgid "One item found"
+msgid_plural "%COUNT% items found"
+msgstr[0] "Ein Eintrag gefunden"
+msgstr[1] "%COUNT% Einträge gefunden"
+
+#: src/core/api_ticket.php:91
+msgid "One result, search took %SECONDS% seconds."
+msgid_plural "%COUNT% results, search took %SECONDS% seconds."
+msgstr[0] "Ein Ergebnis, Suche benötigte %SECONDS% Sekunden."
+msgstr[1] "%COUNT% Ergebnisse, Suche benötigte %SECONDS% Sekunden."
+
+#: src/core/class_ticket.php:2389
+msgid "This will send notification mail to one user."
+msgid_plural "This will send notification mails to %COUNT% users."
+msgstr[0] "Dies wird eine Benachrichtungsmail an einen Nutzer schicken."
+msgstr[1] "Dies wird Benachrichtungsmails an %COUNT% Nutzer schicken."
+
+#: src/core/class_htmlchunk.php:1748
+msgid "— Please select —"
+msgstr "— Bitte auswählen —"
+
+#~ msgid "ticket mail"
+#~ msgstr "Ticket-Mail"

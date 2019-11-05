@@ -1,0 +1,21 @@
+table {
+    border-spacing: 0.3em;
+        /* spacing in between the table cells (in global background color */
+    margin: 0px;
+}
+
+th {
+    /* padding specifies the inner spacing in the table cell's background color */
+    padding: 5px;
+    background-color: #c0c0c0;
+    /* font-size: 85%; */
+}
+
+td {
+    /* padding specifies the inner spacing in the table cell's background color */
+    padding: 5px;
+    background-color: #e0e0e0;
+    /* font-size: 85%; */
+    vertical-align: top;
+}
+

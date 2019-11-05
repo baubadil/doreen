@@ -1,0 +1,30 @@
+#
+# Included from main Doreen Makefile.
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+MAKEFILETHISPATH := $(lastword $(MAKEFILE_LIST))
+include $(FULLPATH_HEADER_IN)
+
+MODULETHIS 		:= themes
+
+REALDIRTHIS = $(realpath $(DIRTHIS))
+
+THEME_SOURCES 	:= $(shell find $(REALDIRTHIS) -type f -name 'theme-*.less')
+THEMES 			:= $(foreach THEME,$(THEME_SOURCES),$(patsubst theme-%.less,%,$(notdir $(THEME))))
+
+$(call myinfo,THEME_SOURCES is $(THEME_SOURCES))
+
+$(foreach THEME, $(THEMES), \
+	$(eval GLOBAL_CSS_TARGETS += $(PATH_OUT_BUILD_CSS)/theme-$(THEME).css))
+
+GLOBAL_BUNDLE_CSS_FILES += $(DIRTHIS)/doreen-main.css
+
+$(PATH_OUT_BUILD_CSS)/%.css:  $(DIRTHIS)/%.less $(GLOBALS_TRIGGERING_REBUILD) $(DIRTHIS)/doreen-bootstrap-extras.less $(MAKEFILETHISPATH)
+	$(LESSC) --include-path=$(BOOTSTRAP_ROOT)/less $< $@
+# Arg order with lessc is INPUT OUTPUT
+
+SKIP_WEBPACK_themes = 1
+
+include $(FULLPATH_FOOTER_IN)

@@ -1,0 +1,2592 @@
+# Doreen .
+# Copyright (C) Baubadil GmbH. All rights reserved
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: moeller@baubadil.de\n"
+"Last-Translator: Ulrich Möller <moeller@baubadil.de>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:104
+msgid  "%COUNT% items found."
+msgstr "%COUNT% items found."
+
+#: htdocs/include/form_results.inc.php:143
+msgid  "%COUNT% tickets found, query took %SECONDS% seconds."
+msgstr "%COUNT% tickets found, query took %SECONDS% seconds."
+
+#: htdocs/include/class_format.inc.php:283
+msgid  "%DAYS% days ago"
+msgstr "%DAYS% days ago"
+
+#: htdocs/include/form_settings.inc.php:66
+msgid  "%DBNAME% running on %DBSERVER% on host %DBHOST% (database user %DBUSER%)"
+msgstr "%DBNAME% running on %DBSERVER% on host %DBHOST% (database user %DBUSER%)"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1620
+msgid  "%DOREEN% could not connect to its local search engine. Please contact the site administrator. The error message reported by the backend was: %MSG%"
+msgstr "%DOREEN% could not connect to its local search engine. Please contact the site administrator. The error message reported by the backend was: %MSG%"
+
+#: htdocs/include/form_settings.inc.php:127
+msgid  "%DOREEN% database tables version"
+msgstr "%DOREEN% database tables version"
+
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:18
+msgid  "%DOREEN% only uses this password temporarily to read the xTracker database; the password is not stored."
+msgstr "%DOREEN% only uses this password temporarily to read the xTracker database; the password is not stored."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:16
+msgid  "%DOREEN% user"
+msgstr "%DOREEN% user"
+
+#: htdocs/include/class_workflowhandler.inc.php:155
+#: htdocs/include/class_fieldhandler.inc.php:900
+#: htdocs/include/class_fieldhandlers3.inc.php:108
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:494
+msgid  "%FIELD% changed from %OLD% to %NEW%"
+msgstr "%FIELD% changed from %OLD% to %NEW%"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:635
+msgid  "%FIELD% changed: %LIST%"
+msgstr "%FIELD% changed: %LIST%"
+
+#: htdocs/include/class_format.inc.php:280
+msgid  "%HOURS% hours ago"
+msgstr "%HOURS% hours ago"
+
+#: htdocs/include/class_ticket.inc.php:20
+msgid  "%ID% is not a valid numeric ticket ID"
+msgstr "%ID% is not a valid numeric ticket ID"
+
+#: htdocs/include/class_keyword.inc.php:133
+msgid  "%KEY% is not a valid keyword; it must start with an alphanumeric character followed by digits or more alphanumeric characters"
+msgstr "%KEY% is not a valid keyword; it must start with an alphanumeric character followed by digits or more alphanumeric characters"
+
+#: htdocs/include/class_longtask.inc.php:606
+msgid  "%MINS% minutes remaining"
+msgstr "%MINS% minutes remaining"
+
+#: htdocs/include/class_format.inc.php:286
+msgid  "%MONTHS% months ago"
+msgstr "%MONTHS% months ago"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:422
+msgid  "%STAT% (duplicate of %TICKET%)"
+msgstr "%STAT% (duplicate of %TICKET%)"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:212
+msgid  "%TICKET% has been marked as a duplicate of this ticket"
+msgstr "%TICKET% has been marked as a duplicate of this ticket"
+
+#: htdocs/include/class_ticket.inc.php:860
+msgid  "%USER% has added the following comment to %TICKET%:"
+msgstr "%USER% has added the following comment to %TICKET%:"
+
+#: htdocs/include/class_ticket.inc.php:1065
+msgid  "%USER% has attached a file to %TICKET%:"
+msgstr "%USER% has attached a file to %TICKET%:"
+
+#: htdocs/include/class_ticket.inc.php:667
+msgid  "%USER% has changed the following in ticket %TICKET%:"
+msgstr "%USER% has changed the following in ticket %TICKET%:"
+
+#: htdocs/include/class_ticket.inc.php:464
+msgid  "%USER% has created %TICKET%."
+msgstr "%USER% has created %TICKET%."
+
+#: htdocs/include/class_format.inc.php:288
+msgid  "%YEARS% years ago"
+msgstr "%YEARS% years ago"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:223
+msgid  "(current name: %GNAME2%)"
+msgstr "(current name: %GNAME2%)"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:585
+msgid  "(none)"
+msgstr "(none)"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:165
+msgid  "1 &mdash; lowest"
+msgstr "1 &mdash; lowest"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:166
+msgid  "2 &mdash; low"
+msgstr "2 &mdash; low"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:167
+msgid  "3 &mdash; medium"
+msgstr "3 &mdash; medium"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:168
+msgid  "4 &mdash; high"
+msgstr "4 &mdash; high"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:169
+msgid  "5 &mdash; highest"
+msgstr "5 &mdash; highest"
+
+#: htdocs/include/form_myaccount_dlg1.xml:16
+msgid  "<b>You must always provide your current password</b> to change any of user account data."
+msgstr "<b>You must always provide your current password</b> to change any of user account data."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:35
+msgid  "ACCESS_CREATE"
+msgstr "<b>%{Create}% access</b> allows users to see this template in their %{New}% menu and create tickets from this template."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:38
+msgid  "ACCESS_DELETE"
+msgstr ""
+"<b>%{Delete}% access</b> allows users to even delete such tickets entirely from the database, including all changelog entries. This\n"
+"                    will leave absolutely no trace of the ticket and should therefore only be allowed to administrators."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:33
+msgid  "ACCESS_MAIN"
+msgstr "This table determines access rights to tickets created from this template. For any group of users, you can set:"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:36
+msgid  "ACCESS_READ"
+msgstr "A user can see a ticket only if he or she is a member of at least one group which has been granted <b>%{Read}% access.</b>"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:37
+msgid  "ACCESS_UPDATE"
+msgstr "<b>%{Update}% access</b> grants permission to modify tickets, i.e. change all data fields."
+
+#: htdocs/include/form_users+groups_dlg1.xml:3
+msgid  "ADMINUSERGROUPINTRO"
+msgstr ""
+"Here you can change users, groups and their memberships.\n"
+"    A <b>user account</b> with a password is required to log into %DOREEN%.\n"
+"    A <b>group</b> is a group of users, and all access control in %DOREEN% is based on group memberships.\n"
+"    In particular, the members of the %{Administrators}% group are %{superusers}% that are allowed all administrative tasks.\n"
+"    You can add a user to a group (or revoke memberships) either from the user's settings or from a group's settings."
+
+#: htdocs/include/class_ticket.inc.php:1090
+msgid  "ATTACHMENT #%ID% %TITLE%"
+msgstr "ATTACHMENT #%ID% %TITLE%"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:21
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:31
+msgid  "Access"
+msgstr "Access"
+
+#: htdocs/include/form_ticket-details.inc.php:165
+msgid  "Access permissions"
+msgstr "Access permissions"
+
+#: htdocs/include/form_users+groups_dlg1.xml:27
+#: htdocs/include/form_users+groups_dlg1.xml:42
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:33
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:20
+msgid  "Actions"
+msgstr "Actions"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:9
+msgid  "Add IMAP account"
+msgstr "Add IMAP account"
+
+#: htdocs/include/form_ticket-details.inc.php:592
+msgid  "Add a comment"
+msgstr "Add a comment"
+
+#: htdocs/include/form_ticket-details.inc.php:657
+msgid  "Add a new comment"
+msgstr "Add a new comment"
+
+#: htdocs/include/class_htmlchunk.inc.php:1137
+msgid  "Add an attachment (max. %MB%)"
+msgstr "Add an attachment (max. %MB%)"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:27
+msgid  "Add another access control list entry"
+msgstr "Add another access control list entry"
+
+#: htdocs/include/form_users+groups_dlg1.xml:14
+msgid  "Add group"
+msgstr "Add group"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:9
+msgid  "Add template"
+msgstr "Add template"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:10
+msgid  "Add type"
+msgstr "Add type"
+
+#: htdocs/include/form_users+groups_dlg1.xml:13
+msgid  "Add user"
+msgstr "Add user"
+
+#: htdocs/include/class_wholepage.inc.php:231
+msgid  "Administration"
+msgstr "Administration"
+
+#: htdocs/include/api_helpers.inc.php:21
+msgid  "All users must always be members of the group %ALLUSERS%"
+msgstr "All users must always be members of the group %ALLUSERS%"
+
+#: htdocs/include/form_settings.inc.php:129
+msgid  "Allocated database size"
+msgstr "Allocated database size"
+
+#: htdocs/include/form_register.inc.php:116
+msgid  "An email has been sent to the above address. Please follow the instructions in that email to have your password reset."
+msgstr "An email has been sent to the above address. Please follow the instructions in that email to have your password reset."
+
+#: htdocs/include/install5_update.inc.php:25
+msgid  "An update has been installed on this server, but the %DOREEN% database has not been updated yet."
+msgstr "An update has been installed on this server, but the %DOREEN% database has not been updated yet."
+
+#: htdocs/include/form_users+groups_dlg2.xml:95
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:69
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:128
+msgid  "Are you sure you want to do this?"
+msgstr "Are you sure you want to do this?"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:114
+msgid  "Article numbers"
+msgstr "Article numbers"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:256
+msgid  "Assignee"
+msgstr "Assignee"
+
+#: htdocs/include/form_ticket-details.inc.php:589
+msgid  "Attach a file"
+msgstr "Attach a file"
+
+#: htdocs/include/form_ticket-details.inc.php:391
+msgid  "Attached"
+msgstr "Attached"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:377
+msgid  "Attached file %LINK% (type %TYPE%, %SIZE%)"
+msgstr "Attached file %LINK% (type %TYPE%, %SIZE%)"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:769
+msgid  "Blockers (children)"
+msgstr "Blockers (children)"
+
+#: htdocs/plugins/type_bug/type_bug_install.inc.php:196
+#: htdocs/plugins/type_bug/type_bug_install.inc.php:206
+msgid  "Bug report"
+msgstr "Bug report"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:235
+msgid  "Bug status"
+msgstr "Bug status"
+
+#: htdocs/include/class_ticket.inc.php:869
+msgid  "COMMENT #%ID% %TITLE%"
+msgstr "COMMENT #%ID% %TITLE%"
+
+#: htdocs/include/class_ticket.inc.php:470
+msgid  "CREATED #%ID% %TITLE%"
+msgstr "CREATED #%ID% %TITLE%"
+
+#: htdocs/include/form_users+groups_dlg2.xml:100
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:74
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:133
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:99
+#: htdocs/include/form_ticket-details.inc.php:395
+msgid  "Cancel"
+msgstr "Cancel"
+
+#: htdocs/include/class_htmlchunk.inc.php:1216
+msgid  "Cancel all"
+msgstr "Cancel all"
+
+#: htdocs/include/class_htmlchunk.inc.php:1251
+msgid  "Cancel this file"
+msgstr "Cancel this file"
+
+#: htdocs/include/class_user.inc.php:858
+msgid  "Cannot delete group \"%GROUP%\" because it still has %C% members"
+msgstr "Cannot delete group \"%GROUP%\" because it still has %C% members"
+
+#: htdocs/include/class_user.inc.php:361
+msgid  "Cannot disable user who is currently logged in"
+msgstr "Cannot disable user who is currently logged in"
+
+#: htdocs/include/class_ticket.inc.php:2600
+msgid  "Cannot fetch data for binary ID %ID%"
+msgstr "Cannot fetch data for binary ID %ID%"
+
+#: htdocs/include/form_results.inc.php:20
+msgid  "Cards"
+msgstr "Cards"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:111
+msgid  "Category"
+msgstr "Category"
+
+#: htdocs/include/form_ticket-details.inc.php:496
+msgid  "Change"
+msgstr "Change"
+
+#: htdocs/include/form_ticket-details.inc.php:601
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:65
+msgid  "Change log"
+msgstr "Change log"
+
+#: htdocs/include/form_myaccount_dlg1.xml:19
+msgid  "Change password"
+msgstr "Change password"
+
+#: htdocs/include/form_users+groups.inc.php:41
+msgid  "Change password for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Change password for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:968
+msgid  "Changed"
+msgstr "Changed"
+
+#: htdocs/include/form_results.inc.php:379
+msgid  "Click here to have the results sorted by this column."
+msgstr "Click here to have the results sorted by this column."
+
+#: htdocs/include/class_ticket.inc.php:1299
+msgid  "Click to open ticket #%TICKET%: %{%TITLE%}%"
+msgstr "Click to open ticket #%TICKET%: %{%TITLE%}%"
+
+#: htdocs/include/form_users+groups_dlg2.xml:45
+#: htdocs/include/form_users+groups_dlg2.xml:57
+#: htdocs/include/form_users+groups_dlg2.xml:73
+#: htdocs/include/form_users+groups_dlg2.xml:85
+#: htdocs/include/form_users+groups_dlg2.xml:112
+#: htdocs/include/form_users+groups_dlg2.xml:131
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:47
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:59
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:107
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:119
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:68
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:80
+msgid  "Close"
+msgstr "Close"
+
+#: htdocs/include/form_register.inc.php:157
+msgid  "Confirm new password"
+msgstr "Confirm new password"
+
+#: htdocs/include/form_myaccount_dlg1.xml:24
+#: htdocs/include/install4_dlg1.xml:20
+msgid  "Confirm password"
+msgstr "Confirm password"
+
+#: htdocs/plugins/imap_mail/imap_mail_accounts.inc.php:95
+msgid  "Connection succeeded!"
+msgstr "Connection succeeded!"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:250
+msgid  "Contained in"
+msgstr "Contained in"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:282
+msgid  "Contains"
+msgstr "Contains"
+
+#: htdocs/include/form_users+groups.inc.php:46
+msgid  "Create a new group"
+msgstr "Create a new group"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:192
+msgid  "Create a new ticket template"
+msgstr "Create a new ticket template"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:195
+msgid  "Create a new ticket type"
+msgstr "Create a new ticket type"
+
+#: htdocs/include/form_users+groups.inc.php:43
+msgid  "Create a new user account"
+msgstr "Create a new user account"
+
+#: htdocs/include/install4_dlg1.xml:35
+msgid  "Create administrator account"
+msgstr "Create administrator account"
+
+#: htdocs/include/form_ticket-details.inc.php:89
+msgid  "Create new %{%TEMPLATE%}% ticket"
+msgstr "Create new %{%TEMPLATE%}% ticket"
+
+#: htdocs/include/form_ticket-details.inc.php:109
+msgid  "Create ticket"
+msgstr "Create ticket"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:945
+msgid  "Created"
+msgstr "Created"
+
+#: htdocs/include/form_myaccount_dlg1.xml:14
+msgid  "Current password"
+msgstr "Current password"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:66
+msgid  "DELETETYPEHELP"
+msgstr ""
+"The underlying ticket types, user and group definitions will not be affected.\n"
+"              No other tickets depend on this template, so it should be safe to delete, and you can re-create an identical template later.\n"
+"              I should still ask%HELLIP%"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:126
+msgid  "DELETETYPEHELP2"
+msgstr ""
+"No other tickets depend on this type, so it should be safe to delete, and you can re-create an identical type later.\n"
+"              I should still ask%HELLIP%"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:21
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:11
+#: htdocs/include/install1.inc.php:203
+#: htdocs/include/form_settings.inc.php:126
+msgid  "Database"
+msgstr "Database"
+
+#: htdocs/include/install1.inc.php:216
+msgid  "Database administrator password"
+msgstr "Database administrator password"
+
+#: htdocs/include/install1.inc.php:209
+msgid  "Database host"
+msgstr "Database host"
+
+#: htdocs/include/install5_update.inc.php:20
+msgid  "Database tables update required"
+msgstr "Database tables update required"
+
+#: htdocs/include/form_ticket-details.inc.php:492
+msgid  "Date"
+msgstr "Date"
+
+#: htdocs/plugins/imap_mail/imap_mail_gui.inc.php:257
+msgid  "Daten unvollständig"
+msgstr "Daten unvollständig"
+
+#: htdocs/include/form_settings.inc.php:182
+msgid  "Delete all tickets!"
+msgstr "Delete all tickets!"
+
+#: htdocs/include/form_users+groups.inc.php:45
+msgid  "Delete the group %{%GNAME%}%%HELLIP%"
+msgstr "Delete the group %{%GNAME%}%%HELLIP%"
+
+#: htdocs/include/form_ticket-details.inc.php:180
+msgid  "Delete this ticket"
+msgstr "Delete this ticket"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:194
+msgid  "Delete ticket template %{%NAME%}%%HELLIP%"
+msgstr "Delete ticket template %{%NAME%}%%HELLIP%"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:197
+msgid  "Delete ticket type %{%NAME%}%%HELLIP%"
+msgstr "Delete ticket type %{%NAME%}%%HELLIP%"
+
+#: htdocs/include/form_settings.inc.php:187
+msgid  "Deleted %DELETED% tickets out of %TOTAL% %REMAIN%"
+msgstr "Deleted %DELETED% tickets out of %TOTAL% %REMAIN%"
+
+#: htdocs/include/form_settings.inc.php:163
+msgid  "Deleting all tickets"
+msgstr "Deleting all tickets"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:136
+msgid  "Description"
+msgstr "Description"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:223
+msgid  "Description changed"
+msgstr "Description changed"
+
+#: htdocs/include/form_register.inc.php:37
+msgid  "Did you lose your password?"
+msgstr "Did you lose your password?"
+
+#: htdocs/include/form_users+groups.inc.php:42
+msgid  "Disable user account %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Disable user account %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+
+#: htdocs/include/install1.inc.php:224
+msgid  "Doreen database name"
+msgstr "Doreen database name"
+
+#: htdocs/include/install1.inc.php:233
+msgid  "Doreen database user account"
+msgstr "Doreen database user account"
+
+#: htdocs/include/install2+3.inc.php:28
+#: htdocs/include/install2+3.inc.php:62
+msgid  "Doreen installation step 2"
+msgstr "Doreen installation step 2"
+
+#: htdocs/plugins/imap_mail/templates/imap_userinfo.xml:20
+msgid  "E-Mail"
+msgstr "E-Mail"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:138
+msgid  "ELASTICSTATS"
+msgstr ""
+"<b>Running</b>\n"
+"<br>Version: %VERSION%\n"
+"<br>Cluster name: %{%CLUSTERNAME%}%, %NODES% node(s), status: %STATUS%\n"
+"<br>%DOCS% documents in index %{%INDEX%}% consuming %SIZE%\n"
+"<br>%DOCSALL% documents in all indices of cluster consuming %SIZEALL%"
+
+#: htdocs/include/install1.inc.php:249
+msgid  "ENTERDBUSERPASS"
+msgstr ""
+"This password will be set for the new Doreen database user account. An automatic password has been generated for you, but you can specify a different one.\n"
+"              It will be stored in cleartext in the %INSTALLVARS% file, and Doreen will use it with the account specified above to connect to the database\n"
+"              in the future for added security. You will probably never need to enter it manually."
+
+#: htdocs/include/install1.inc.php:219
+msgid  "ENTERPASSWORDINSTALL"
+msgstr ""
+"Please enter the password for the database's administrator account here (e.g. for the MySQL %{root}% user, or the PostgreSQL %{postgres}% user).\n"
+"            Doreen will use this password only during installation; the password will not be stored."
+
+#: htdocs/include/install1.inc.php:237
+msgid  "ENTERUSERNAMEINSTALL2"
+msgstr ""
+"Please enter a name for the user account under which Doreen will contact the database.\n"
+"              This is a <i>database</i> user account, not a system account. The account will be created in the database, using the administrator password given above.\n"
+"              Doreen will only ever use this account to connect to the database in the future for added security. You will not need to use this user account yourself.\n"
+"              You can use the default value, unless you want to run multiple instances of Doreen on the same machine with different databases."
+
+#: htdocs/include/form_users+groups.inc.php:44
+msgid  "Edit data for group %{%GNAME%}%%HELLIP%"
+msgstr "Edit data for group %{%GNAME%}%%HELLIP%"
+
+#: htdocs/include/form_ticket-details.inc.php:121
+msgid  "Edit ticket #%ID%"
+msgstr "Edit ticket #%ID%"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:193
+msgid  "Edit ticket template %{%NAME%}%%HELLIP%"
+msgstr "Edit ticket template %{%NAME%}%%HELLIP%"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:196
+msgid  "Edit ticket type %{%NAME%}%%HELLIP%"
+msgstr "Edit ticket type %{%NAME%}%%HELLIP%"
+
+#: htdocs/include/form_users+groups.inc.php:40
+msgid  "Edit user data for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+msgstr "Edit user data for %{%LOGIN%}% (%{%LONGNAME%}%)%HELLIP%"
+
+#: htdocs/include/class_ticket.inc.php:2161
+msgid  "Either %TICKET% is not a valid ticket ID, or you do not have permission to view that ticket"
+msgstr "Either %TICKET% is not a valid ticket ID, or you do not have permission to view that ticket"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:340
+msgid  "Elasticsearch handler failed to fetch blob data for binary ID %ID%"
+msgstr "Elasticsearch handler failed to fetch blob data for binary ID %ID%"
+
+#: htdocs/include/form_users+groups_dlg1.xml:24
+#: htdocs/include/form_register.inc.php:105
+msgid  "Email"
+msgstr "Email"
+
+#: htdocs/include/form_myaccount_dlg1.xml:34
+#: htdocs/include/install4_dlg1.xml:29
+#: htdocs/include/install4_dlg1.xml:30
+#: htdocs/include/form_users+groups_dlg2.xml:28
+#: htdocs/include/form_users+groups_dlg2.xml:29
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:17
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:44
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:45
+#: htdocs/include/form_register.inc.php:104
+msgid  "Email address"
+msgstr "Email address"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:191
+msgid  "Email of user %LOGIN% changed from %OLDMAIL% (current: %NEWMAIL%)"
+msgstr "Email of user %LOGIN% changed from %OLDMAIL% (current: %NEWMAIL%)"
+
+#: htdocs/include/globalfuncs.inc.php:280
+msgid  "Error"
+msgstr "Error"
+
+#: htdocs/include/class_fieldhandler.inc.php:502
+msgid  "Error formatting changelog message: %MSG%"
+msgstr "Error formatting changelog message: %MSG%"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:3
+msgid  "FTDBIMPORTINTRO"
+msgstr ""
+"This page allows you to import an entire Fischertechnik Community database (FTDB).\n"
+"    In step 1, we merely analyze the data to be imported.\n"
+"    Only step 2 after that will actually modify data in your %DOREEN% database."
+
+#: htdocs/include/form_users+groups_dlg2.xml:34
+msgid  "FTICKETMAILEDITUSER"
+msgstr ""
+"Disable this if the user should not want to receive ticket mail at all, regardless of what is configured in ticket templates.\n"
+"              This can be changed by the user in his or her account settings."
+
+#: htdocs/include/class_ticket.inc.php:1074
+msgid  "File %LINK% (type %TYPE%, %SIZE%)"
+msgstr "File %LINK% (type %TYPE%, %SIZE%)"
+
+#: htdocs/include/class_htmlchunk.inc.php:1317
+msgid  "File too big! Maximum allowed file size is %MAX% MB, but the file has %SIZE% MB."
+msgstr "File too big! Maximum allowed file size is %MAX% MB, but the file has %SIZE% MB."
+
+#: htdocs/include/form_ticket-details.inc.php:389
+msgid  "File type"
+msgstr "File type"
+
+#: htdocs/include/form_ticket-details.inc.php:383
+msgid  "Filename"
+msgstr "Filename"
+
+#: htdocs/include/form_ticket-details.inc.php:583
+msgid  "Files"
+msgstr "Files"
+
+#: htdocs/include/form_ticket-details.inc.php:385
+msgid  "Filesize"
+msgstr "Filesize"
+
+#: htdocs/include/form_results.inc.php:285
+msgid  "Filters"
+msgstr "Filters"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:81
+msgid  "Global change log"
+msgstr "Global change log"
+
+#: htdocs/include/class_wholepage.inc.php:185
+#: htdocs/include/form_settings.inc.php:52
+msgid  "Global settings"
+msgstr "Global settings"
+
+#: htdocs/include/class_wholepage.inc.php:219
+msgid  "Go!"
+msgstr "Go!"
+
+#: htdocs/include/form_results.inc.php:21
+msgid  "Graph"
+msgstr "Graph"
+
+#: htdocs/include/install1.inc.php:170
+msgid  "Great! It looks like we can write to %DATADIR%."
+msgstr "Great! It looks like we can write to %DATADIR%."
+
+#: htdocs/include/install1.inc.php:138
+msgid  "Great! It looks like we can write to %INSTALLVARS%."
+msgstr "Great! It looks like we can write to %INSTALLVARS%."
+
+#: htdocs/include/install4.inc.php:66
+msgid  "Great! Your administrator account has been created. Please log in with your login name and password, and you're set to go!"
+msgstr "Great! Your administrator account has been created. Please log in with your login name and password, and you're set to go!"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:25
+msgid  "Group"
+msgstr "Group"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:237
+msgid  "Group %GID% (%GNAME%) deleted"
+msgstr "Group %GID% (%GNAME%) deleted"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:218
+msgid  "Group %GID% created as %OLDGNAME%"
+msgstr "Group %GID% created as %OLDGNAME%"
+
+#: htdocs/include/form_users+groups_dlg2.xml:113
+msgid  "Group %{%GNAME%}%"
+msgstr "Group %{%GNAME%}%"
+
+#: htdocs/include/form_users+groups_dlg1.xml:39
+#: htdocs/include/form_users+groups_dlg2.xml:120
+#: htdocs/include/form_users+groups_dlg2.xml:121
+msgid  "Group name"
+msgstr "Group name"
+
+#: htdocs/include/form_users+groups_dlg1.xml:11
+#: htdocs/include/form_users+groups_dlg1.xml:26
+#: htdocs/include/form_myaccount_dlg1.xml:10
+#: htdocs/include/form_users+groups_dlg2.xml:37
+msgid  "Groups"
+msgstr "Groups"
+
+#: htdocs/plugins/user_hardcoded/user_hardcoded.inc.php:121
+msgid  "Guest"
+msgstr "Guest"
+
+#: htdocs/plugins/user_hardcoded/user_hardcoded.inc.php:159
+msgid  "Guests"
+msgstr "Guests"
+
+#: htdocs/include/form_myaccount_dlg1.xml:3
+msgid  "Here you can change the information %DOREEN% has stored about you."
+msgstr "Here you can change the information %DOREEN% has stored about you."
+
+#: htdocs/include/form_ticket-details.inc.php:96
+msgid  "Here you can create a new %{%TEMPLATE%}% ticket. Please fill in the fields below and press the %{Create}% button."
+msgstr "Here you can create a new %{%TEMPLATE%}% ticket. Please fill in the fields below and press the %{Create}% button."
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:29
+msgid  "Here you can indicate how critical fixing this bug is."
+msgstr "Here you can indicate how critical fixing this bug is."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:26
+msgid  "Here you can select one of the attachments as this article variant\'s icon."
+msgstr "Here you can select one of the attachments as this article variant\'s icon."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:210
+msgid  "Here you can specify a unique identifier (in UUID format) for the fischertechnik part."
+msgstr "Here you can specify a unique identifier (in UUID format) for the fischertechnik part."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:495
+msgid  "Here you can specify other tickets that depend on the completion of this ticket."
+msgstr "Here you can specify other tickets that depend on the completion of this ticket."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:770
+msgid  "Here you can specify other tickets that must be completed before this ticket is done."
+msgstr "Here you can specify other tickets that must be completed before this ticket is done."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:115
+msgid  "Here you can specify the official fischertechnik article numbers for this article variant."
+msgstr "Here you can specify the official fischertechnik article numbers for this article variant."
+
+#: htdocs/include/form_ticket-details.inc.php:444
+msgid  "Hide as an older version of another file"
+msgstr "Hide as an older version of another file"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:497
+msgid  "Hierarchy"
+msgstr "Hierarchy"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:16
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:6
+msgid  "Host"
+msgstr "Host"
+
+#: htdocs/include/form_users+groups_dlg1.xml:21
+#: htdocs/include/form_users+groups_dlg1.xml:38
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:47
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:15
+msgid  "ID"
+msgstr "ID"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:8
+msgid  "IMAP accounts"
+msgstr "IMAP accounts"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:19
+msgid  "IMAP login name"
+msgstr "IMAP login name"
+
+#: htdocs/plugins/imap_mail/imap_mail_accounts.inc.php:65
+#: htdocs/plugins/imap_mail/imap_mail.inc.php:101
+msgid  "IMAP mail accounts"
+msgstr "IMAP mail accounts"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:51
+msgid  "IMAPACCOUNTSERVER"
+msgstr ""
+"The IMAP server, without http:// or similar prefixes.\n"
+"                                %DOREEN% will always use SSL encryption when connecting to that server."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:3
+msgid  "IMAPADMINACCOUNTSINTRO"
+msgstr ""
+"Here you can add, modify and delete IMAP email accounts.\n"
+"        Every mail account is associated with a user account in %DOREEN%; when logged in, that user can then access his or her mail from the %{Mail}% menu."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:88
+msgid  "IMAPDELETEACCOUNTWARNING"
+msgstr ""
+"<p>You have selected to remove the IMAP account for the address <b>%EMAIL%</b>.</p>\n"
+"                        <p>This will remove the account information as well as all fetched mails and caches locally,\n"
+"                        but leave data on the IMAP server intact. You can add the account again later.</p>\n"
+"                        <p>Still, are you sure you want to do this?</p>"
+
+#: htdocs/include/globalfuncs.inc.php:427
+msgid  "INSTALL1"
+msgstr "Welcome to Doreen, the software that can track almost anything."
+
+#: htdocs/include/install1.inc.php:90
+msgid  "INSTALL1HELP"
+msgstr ""
+"The file %INSTALLVARS% does not exist. This probably means that Doreen has not yet been installed on this machine.</p>\n"
+"      <p>Installation of Doreen involves the following steps:</p>\n"
+"      <ol>\n"
+"        <li>Setting up a <b>database</b> for Doreen on this machine (including a database user). Doreen supports both MySQL and PostgreSQL, as indicated below.\n"
+"            We will then create the file %INSTALLVARS% with the database connection information listed below.\n"
+"            <br>We will also set up a <b>data directory</b> at %DATADIR% for attachments and other files.</li>\n"
+"        <li>Installing the <b>default tables</b> and values into that database, after which Doreen becomes operational.</li>\n"
+"        <li>Creating an <b>administrator account</b> for you, which allows you to add additional users later.</li>\n"
+"        <li>Setting up Doreen <b>plug-ins</b>.</li>\n"
+"      </ol>"
+
+#: htdocs/include/install2+3.inc.php:35
+msgid  "INSTALL23HELP"
+msgstr ""
+"<p><b>That worked well.</b> The \"%DATABASE%\" database has been created (although it is still empty at this time), and the file <code>%INSTALLVARS%</code> has been written to disk with the configuration data you have provided.</p>\n"
+"<p>It would probably be a good idea to make this file and its directory read-only now. On a Linux server, use the following commands:</p>\n"
+"<pre>\n"
+"chmod 440 %INSTALLVARS%\n"
+"chmod 750 %DIROFINSTALLVARS%\n"
+"</pre>\n"
+"<p>It is now time to fill the database with the tables that Doreen needs for its operation.</p>\n"
+"<p>Please press \"Proceed\" to continue.</p>\n"
+
+#: htdocs/include/install1.inc.php:118
+msgid  "INSTALL2HELP"
+msgstr ""
+"Doreen needs to be able to write to the file <code>%INSTALLVARS%</code> on the server, but the directory\n"
+"<code>$dirOfInstallVars</code> is not currently writable by the webserver.\n"
+"If your server is a Linux machine, to temporarily make that directory writable, please run the following commands as root:</p><br>\n"
+"\n"
+"<pre>\n"
+"chown %USERGROUP% %DIROFINSTALLVARS%\n"
+"chmod 775 %DIROFINSTALLVARS%\n"
+"</pre>\n"
+"\n"
+"<p>This only needs to be done temporarily during installation, and we will undo that change afterwards.</p>"
+
+#: htdocs/include/install4_dlg1.xml:3
+msgid  "INSTALL4_1"
+msgstr ""
+"<p>Finally, %DOREEN% needs to create a user account for you, the administrator. This will be the first user account in this installation, and it\n"
+"will have administrator privileges. You can create additional accounts later.</p>\n"
+"\n"
+"<p><b>You will not be able to do anything useful with %DOREEN% unless you create at least this one account,</b> so please don't skip this step.</p>\n"
+"\n"
+"<p>Please provide the following information:</p>"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:25
+msgid  "Icon"
+msgstr "Icon"
+
+#: htdocs/include/form_register.inc.php:97
+msgid  "If you have forgotten your password, you can enter the email address that you have previously used with your %DOREEN% account below."
+msgstr "If you have forgotten your password, you can enter the email address that you have previously used with your %DOREEN% account below."
+
+#: htdocs/include/form_ticket-details.inc.php:387
+msgid  "Image size"
+msgstr "Image size"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_import.inc.php:287
+#: htdocs/plugins/type_ftdb/type_ftdb_import.inc.php:309
+msgid  "Import from FTDB"
+msgstr "Import from FTDB"
+
+#: htdocs/plugins/type_ftdb/type_ftdb.inc.php:199
+msgid  "Import from ftdb"
+msgstr "Import from ftdb"
+
+#: htdocs/plugins/config_xt/config_xt.inc.php:72
+msgid  "Import from xTracker"
+msgstr "Import from xTracker"
+
+#: htdocs/plugins/config_xt/config_xt_impl.inc.php:921
+msgid  "Import from xTracker, step 1"
+msgstr "Import from xTracker, step 1"
+
+#: htdocs/plugins/config_xt/config_xt.inc.php:97
+msgid  "Importing from xTracker, step 2"
+msgstr "Importing from xTracker, step 2"
+
+#: htdocs/include/install1.inc.php:200
+msgid  "In order to complete step 1, please provide the following information:"
+msgstr "In order to complete step 1, please provide the following information:"
+
+#: htdocs/include/install4.inc.php:26
+msgid  "Installation step 3: create administrator account"
+msgstr "Installation step 3: create administrator account"
+
+#: htdocs/include/install5_update.inc.php:60
+msgid  "Installing database tables update"
+msgstr "Installing database tables update"
+
+#: htdocs/include/form_register.inc.php:107
+msgid  "Instructions for how to reset your password will be sent to this address."
+msgstr "Instructions for how to reset your password will be sent to this address."
+
+#: htdocs/include/form_users+groups_dlg2.xml:117
+msgid  "Internal group ID (cannot be changed)"
+msgstr "Internal group ID (cannot be changed)"
+
+#: htdocs/include/form_users+groups_dlg2.xml:17
+msgid  "Internal user ID"
+msgstr "Internal user ID"
+
+#: htdocs/include/class_ticket.inc.php:2567
+msgid  "Invalid binary ID %ID"
+msgstr "Invalid binary ID %ID"
+
+#: htdocs/include/class_htmlchunk.inc.php:1316
+msgid  "Invalid file type."
+msgstr "Invalid file type."
+
+#: htdocs/include/api_users+groups.inc.php:47
+#: htdocs/include/api_users+groups.inc.php:115
+msgid  "Invalid group ID %GID%"
+msgstr "Invalid group ID %GID%"
+
+#: htdocs/include/form_results.inc.php:82
+#: htdocs/include/form_results.inc.php:98
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:100
+msgid  "Invalid page \"%PAGE%\" requested."
+msgstr "Invalid page \"%PAGE%\" requested."
+
+#: htdocs/include/api_users+groups.inc.php:82
+msgid  "Invalid password"
+msgstr "Invalid password"
+
+#: htdocs/include/class_tickettype.inc.php:760
+msgid  "Invalid ticket field ID %PROPID% in list fields"
+msgstr "Invalid ticket field ID %PROPID% in list fields"
+
+#: htdocs/include/class_tickettype.inc.php:752
+msgid  "Invalid ticket field ID %PROPID% in type details fields"
+msgstr "Invalid ticket field ID %PROPID% in type details fields"
+
+#: htdocs/include/form_ticket-details.inc.php:57
+#: htdocs/include/class_ticket.inc.php:2195
+msgid  "Invalid ticket template ID %ID%"
+msgstr "Invalid ticket template ID %ID%"
+
+#: htdocs/include/class_tickettype.inc.php:397
+msgid  "Invalid ticket type ID %ID%"
+msgstr "Invalid ticket type ID %ID%"
+
+#: htdocs/include/api_users+groups.inc.php:31
+#: htdocs/include/api_users+groups.inc.php:73
+#: htdocs/include/api_users+groups.inc.php:355
+msgid  "Invalid user ID %UID%"
+msgstr "Invalid user ID %UID%"
+
+#: htdocs/include/class_format.inc.php:274
+#: htdocs/include/api_ticket.inc.php:166
+#: htdocs/include/form_ticket-details.inc.php:675
+msgid  "Just now"
+msgstr "Just now"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:760
+#: htdocs/include/class_fieldhandlers3.inc.php:862
+msgid  "Keywords"
+msgstr "Keywords"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:253
+msgid  "Kits"
+msgstr "Kits"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:67
+msgid  "Last %LINES% lines from the server log: %LOG%"
+msgstr "Last %LINES% lines from the server log: %LOG%"
+
+#: htdocs/include/class_longtask.inc.php:602
+msgid  "Less than a minute remaining"
+msgstr "Less than a minute remaining"
+
+#: htdocs/include/class_format.inc.php:277
+msgid  "Less than two hours ago"
+msgstr "Less than two hours ago"
+
+#: htdocs/include/class_longtask.inc.php:604
+msgid  "Less than two minutes remaining"
+msgstr "Less than two minutes remaining"
+
+#: htdocs/include/form_users+groups_dlg1.xml:22
+#: htdocs/include/form_register.inc.php:142
+msgid  "Login"
+msgstr "Login"
+
+#: htdocs/include/form_myaccount_dlg1.xml:6
+#: htdocs/include/install4_dlg1.xml:11
+#: htdocs/include/form_users+groups_dlg2.xml:13
+#: htdocs/include/class_wholepage.inc.php:303
+msgid  "Login name"
+msgstr "Login name"
+
+#: htdocs/include/class_user.inc.php:514
+msgid  "Login names must be at least %C% characters long, but \"%LOGIN%\" is not"
+msgstr "Login names must be at least %C% characters long, but \"%LOGIN%\" is not"
+
+#: htdocs/include/class_wholepage.inc.php:319
+msgid  "Lost password?"
+msgstr "Lost password?"
+
+#: htdocs/include/class_wholepage.inc.php:238
+msgid  "Mail"
+msgstr "Mail"
+
+#: htdocs/index.php:292
+msgid  "Main page"
+msgstr "Main page"
+
+#: htdocs/include/class_wholepage.inc.php:285
+msgid  "Manage my user account"
+msgstr "Manage my user account"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:148
+msgid  "Manage ticket templates and types"
+msgstr "Manage ticket templates and types"
+
+#: htdocs/include/form_users+groups.inc.php:14
+msgid  "Manage users and groups"
+msgstr "Manage users and groups"
+
+#: htdocs/include/form_myaccount.inc.php:25
+msgid  "Manage your user account"
+msgstr "Manage your user account"
+
+#: htdocs/include/form_users+groups_dlg1.xml:40
+#: htdocs/include/form_users+groups_dlg2.xml:123
+msgid  "Members"
+msgstr "Members"
+
+#: htdocs/include/class_access.inc.php:508
+msgid  "Members of %GROUP% can %VERBS%"
+msgstr "Members of %GROUP% can %VERBS%"
+
+#: htdocs/include/form_users+groups_dlg1.xml:12
+msgid  "Memberships"
+msgstr "Memberships"
+
+#: htdocs/plugins/type_bug/type_bug_install.inc.php:183
+msgid  "Milestone"
+msgstr "Milestone"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:494
+msgid  "Milestones (parents)"
+msgstr "Milestones (parents)"
+
+#: htdocs/include/class_ticket.inc.php:610
+msgid  "Missing data in ticket update for field \"%FIELD%\""
+msgstr "Missing data in ticket update for field \"%FIELD%\""
+
+#: htdocs/include/class_fieldhandler.inc.php:1078
+msgid  "Missing field handler for field ID %FIELDID%"
+msgstr "Missing field handler for field ID %FIELDID%"
+
+#: htdocs/include/api_users+groups.inc.php:76
+msgid  "Missing password"
+msgstr "Missing password"
+
+#: htdocs/include/class_ticket.inc.php:437
+msgid  "Missing ticket data for field \"%FIELD%\""
+msgstr "Missing ticket data for field \"%FIELD%\""
+
+#: htdocs/include/class_workflowhandler.inc.php:245
+msgid  "Missing workflow handler for workflow ID %ID%"
+msgstr "Missing workflow handler for workflow ID %ID%"
+
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:16
+msgid  "MySQL root password"
+msgstr "MySQL root password"
+
+#: htdocs/include/form_settings.inc.php:172
+msgid  "NUKEALLHELP"
+msgstr ""
+"<p>There are currently %COUNT% tickets in the database. If you press the button below, they will <b>all be deleted</b> without a trace, including\n"
+"    all changelogs and other associated data. User accounts, groups and ticket types will be preserved, however.</p>\n"
+"    <p>Since this deletes every ticket individually, preserving database integrity along the way, this can take a <b>very long time,</b> possibly hours.</p>\n"
+"    <p>Are you sure you want to do this?"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:229
+msgid  "Name of group %GID% changed from %OLDGNAME% (current name: %GNAME2%"
+msgstr "Name of group %GID% changed from %OLDGNAME% (current name: %GNAME2%"
+
+#: htdocs/include/class_wholepage.inc.php:249
+msgid  "New"
+msgstr "New"
+
+#: htdocs/include/form_users+groups_dlg2.xml:66
+#: htdocs/include/form_register.inc.php:149
+msgid  "New password"
+msgstr "New password"
+
+#: htdocs/include/form_ticket-details.inc.php:289
+msgid  "Newest comment (%WHEN%)"
+msgstr "Newest comment (%WHEN%)"
+
+#: htdocs/include/class_htmlchunk.inc.php:1563
+msgid  "Next"
+msgstr "Next"
+
+#: htdocs/include/form_settings.inc.php:118
+msgid  "No data found in email queue"
+msgstr "No data found in email queue"
+
+#: htdocs/include/api_users+groups.inc.php:313
+msgid  "No matching user found, or password reset request has expired."
+msgstr "No matching user found, or password reset request has expired."
+
+#: htdocs/include/api_ticket.inc.php:201
+#: htdocs/include/class_fieldhandlers3.inc.php:316
+#: htdocs/include/class_fieldhandlers3.inc.php:344
+msgid  "Nobody"
+msgstr "Nobody"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:20
+msgid  "Not running"
+msgstr "Not running"
+
+#: htdocs/include/class_htmlchunk.inc.php:1141
+msgid  "Note for administrators: The maximum file size is determined by the PHP.INI settings on this server. The following values are currently active:"
+msgstr "Note for administrators: The maximum file size is determined by the PHP.INI settings on this server. The following values are currently active:"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:7
+msgid  "Note: To create the database before import, the following commands are recommended:"
+msgstr "Note: To create the database before import, the following commands are recommended:"
+
+#: htdocs/include/install1.inc.php:108
+msgid  "OK, I have fixed the problem"
+msgstr "OK, I have fixed the problem"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:18
+msgid  "On which computer the FTDB is located. %{localhost}% specifies the same server on which %DOREEN% is running."
+msgstr "On which computer the FTDB is located. %{localhost}% specifies the same server on which %DOREEN% is running."
+
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:8
+msgid  "On which computer the xTracker database is located. %{localhost}% specifies the same server on which %DOREEN% is running."
+msgstr "On which computer the xTracker database is located. %{localhost}% specifies the same server on which %DOREEN% is running."
+
+#: htdocs/include/form_ticket-details.inc.php:174
+msgid  "Open the editor for this ticket"
+msgstr "Open the editor for this ticket"
+
+#: htdocs/include/class_htmlchunk.inc.php:1191
+msgid  "Or simply drop files here."
+msgstr "Or simply drop files here."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:809
+msgid  "Original ID on source server"
+msgstr "Original ID on source server"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:5
+msgid  "Overview"
+msgstr "Overview"
+
+#: htdocs/include/form_settings.inc.php:125
+msgid  "PHP version"
+msgstr "PHP version"
+
+#: htdocs/include/form_myaccount_dlg1.xml:15
+#: htdocs/include/form_myaccount_dlg1.xml:20
+#: htdocs/include/form_myaccount_dlg1.xml:25
+#: htdocs/include/install4_dlg1.xml:16
+#: htdocs/include/install4_dlg1.xml:17
+#: htdocs/include/install4_dlg1.xml:21
+#: htdocs/include/form_users+groups_dlg2.xml:20
+#: htdocs/include/form_users+groups_dlg2.xml:21
+#: htdocs/include/form_users+groups_dlg2.xml:67
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:17
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:60
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:61
+#: htdocs/include/class_wholepage.inc.php:306
+#: htdocs/include/form_register.inc.php:137
+#: htdocs/include/install1.inc.php:218
+msgid  "Password"
+msgstr "Password"
+
+#: htdocs/include/class_user.inc.php:441
+msgid  "Password contains invalid characters"
+msgstr "Password contains invalid characters"
+
+#: htdocs/include/install1.inc.php:245
+msgid  "Password for the above account"
+msgstr "Password for the above account"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:179
+msgid  "Password of user %LOGIN% changed"
+msgstr "Password of user %LOGIN% changed"
+
+#: htdocs/include/api_users+groups.inc.php:88
+#: htdocs/include/api_users+groups.inc.php:322
+msgid  "Passwords do not match"
+msgstr "Passwords do not match"
+
+#: htdocs/include/class_user.inc.php:439
+msgid  "Passwords must be at least 8 characters long"
+msgstr "Passwords must be at least 8 characters long"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:26
+msgid  "Permissions"
+msgstr "Permissions"
+
+#: htdocs/include/class_htmlchunk.inc.php:1187
+msgid  "Pick files"
+msgstr "Pick files"
+
+#: htdocs/include/class_htmlchunk.inc.php:408
+msgid  "Please contact an administrator."
+msgstr "Please contact an administrator."
+
+#: htdocs/include/install5_update.inc.php:31
+msgid  "Please contact the administrator of this site to have the upgrade completed, or sign into an administrator account, if you have one."
+msgstr "Please contact the administrator of this site to have the upgrade completed, or sign into an administrator account, if you have one."
+
+#: htdocs/include/install1.inc.php:228
+msgid  "Please enter a name for the database that Doreen will use. This database will be created anew. You can use the default unless you want to run multiple instances of Doreen on the same machine."
+msgstr "Please enter a name for the database that Doreen will use. This database will be created anew. You can use the default unless you want to run multiple instances of Doreen on the same machine."
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:112
+msgid  "Please select the category that most closely describes your ticket."
+msgstr "Please select the category that most closely describes your ticket."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:415
+#: htdocs/include/class_fieldhandlers3.inc.php:709
+msgid  "Please select the project that this bug reports relates to."
+msgstr "Please select the project that this bug reports relates to."
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:148
+msgid  "Please select the version of the program this bug report applies to."
+msgstr "Please select the version of the program this bug report applies to."
+
+#: htdocs/include/install1.inc.php:258
+msgid  "Please select which plug-ins should be installed for additional functionality."
+msgstr "Please select which plug-ins should be installed for additional functionality."
+
+#: htdocs/plugins/type_bug/type_bug_install.inc.php:39
+#: htdocs/plugins/type_ftdb/type_ftdb_install.inc.php:11
+#: htdocs/plugins/imap_mail/imap_mail_install.inc.php:17
+msgid  "Plug-in %PLUGIN%"
+msgstr "Plug-in %PLUGIN%"
+
+#: htdocs/include/form_settings.inc.php:124
+msgid  "Plug-ins"
+msgstr "Plug-ins"
+
+#: htdocs/include/install1.inc.php:256
+msgid  "Plug-ins to activate"
+msgstr "Plug-ins to activate"
+
+#: htdocs/include/install5_update.inc.php:46
+msgid  "Press %{Proceed}% to complete the database update."
+msgstr "Press %{Proceed}% to complete the database update."
+
+#: htdocs/include/form_ticket-details.inc.php:382
+msgid  "Preview"
+msgstr "Preview"
+
+#: htdocs/include/class_htmlchunk.inc.php:1559
+msgid  "Previous"
+msgstr "Previous"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:162
+msgid  "Priority"
+msgstr "Priority"
+
+#: htdocs/include/install2+3.inc.php:47
+#: htdocs/include/install9_exec.inc.php:89
+#: htdocs/include/install5_update.inc.php:51
+msgid  "Proceed"
+msgstr "Proceed"
+
+#: htdocs/include/form_settings.inc.php:122
+msgid  "Program name"
+msgstr "Program name"
+
+#: htdocs/include/form_settings.inc.php:123
+msgid  "Program version"
+msgstr "Program version"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:414
+#: htdocs/include/class_fieldhandlers3.inc.php:708
+msgid  "Project"
+msgstr "Project"
+
+#: htdocs/include/form_users+groups_dlg2.xml:25
+msgid  "REALNAMEHELP"
+msgstr ""
+"The \"real name\" is merely descriptive and is publicly displayed with the user's activity, for example in ticket changelogs.\n"
+"                This can be changed by the user in the user account settings."
+
+#: htdocs/include/api_users+groups.inc.php:264
+msgid  "RESETPASSWORD1"
+msgstr ""
+"Hello!\n"
+"\n"
+"A request has been made at %SERVER% to reset the password for the user account associated with the email address %EMAIL%.\n"
+"\n"
+"If you have not issued that request yourself, please ignore this email.\n"
+"\n"
+"Otherwise, please click on the following link, which brings you to a page allowing you to reset the password for your user account:\n"
+"\n"
+"%LINK%\n"
+"\n"
+"This link is valid for two hours. After that, you will have to request another email to reset your password."
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:76
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:124
+msgid  "Re-index all tickets"
+msgstr "Re-index all tickets"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:27
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:22
+msgid  "Read data"
+msgstr "Read data"
+
+#: htdocs/include/form_users+groups_dlg1.xml:23
+#: htdocs/include/form_myaccount_dlg1.xml:29
+#: htdocs/include/install4_dlg1.xml:24
+#: htdocs/include/install4_dlg1.xml:25
+#: htdocs/include/form_users+groups_dlg2.xml:23
+#: htdocs/include/form_users+groups_dlg2.xml:24
+msgid  "Real name"
+msgstr "Real name"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:184
+msgid  "Real name of user %LOGIN% changed from %OLDNAME% (current: %NEWNAME%)"
+msgstr "Real name of user %LOGIN% changed from %OLDNAME% (current: %NEWNAME%)"
+
+#: htdocs/include/form_settings.inc.php:168
+msgid  "Really delete all tickets in database?"
+msgstr "Really delete all tickets in database?"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:60
+msgid  "Really delete template %{%TEMPLATE%}%?"
+msgstr "Really delete template %{%TEMPLATE%}%?"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:120
+msgid  "Really delete the ticket type %{%TYPE%}%?"
+msgstr "Really delete the ticket type %{%TYPE%}%?"
+
+#: htdocs/include/form_users+groups_dlg2.xml:86
+msgid  "Really disable user account %{%LOGIN%}%?"
+msgstr "Really disable user account %{%LOGIN%}%?"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:82
+msgid  "Really remove the account %{%EMAIL%}%?"
+msgstr "Really remove the account %{%EMAIL%}%?"
+
+#: htdocs/include/form_settings.inc.php:133
+msgid  "Recent mail queue"
+msgstr "Recent mail queue"
+
+#: htdocs/include/class_wholepage.inc.php:318
+msgid  "Register"
+msgstr "Register"
+
+#: htdocs/include/form_register.inc.php:19
+msgid  "Register a new user account"
+msgstr "Register a new user account"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:91
+msgid  "Reindexing"
+msgstr "Reindexing"
+
+#: htdocs/include/class_wholepage.inc.php:309
+msgid  "Remember me"
+msgstr "Remember me"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:198
+msgid  "Remove this access control list entry"
+msgstr "Remove this access control list entry"
+
+#: htdocs/include/class_htmlchunk.inc.php:1256
+msgid  "Remove this file"
+msgstr "Remove this file"
+
+#: htdocs/include/form_register.inc.php:164
+msgid  "Reset the password!"
+msgstr "Reset the password!"
+
+#: htdocs/include/api_users+groups.inc.php:261
+msgid  "Reset your %DOREEN% password"
+msgstr "Reset your %DOREEN% password"
+
+#: htdocs/include/form_myaccount_dlg1.xml:49
+msgid  "Save"
+msgstr "Save"
+
+#: htdocs/include/form_users+groups_dlg2.xml:46
+#: htdocs/include/form_users+groups_dlg2.xml:74
+#: htdocs/include/form_users+groups_dlg2.xml:132
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:48
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:108
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:69
+msgid  "Save changes"
+msgstr "Save changes"
+
+#: htdocs/include/class_wholepage.inc.php:217
+msgid  "Search"
+msgstr "Search"
+
+#: htdocs/include/class_access.inc.php:302
+msgid  "Search queries must be at least three characters long"
+msgstr "Search queries must be at least three characters long"
+
+#: htdocs/include/form_results.inc.php:105
+msgid  "Search results"
+msgstr "Search results"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:161
+msgid  "Search server"
+msgstr "Search server"
+
+#: htdocs/include/form_register.inc.php:111
+msgid  "Send email"
+msgstr "Send email"
+
+#: htdocs/include/form_myaccount_dlg1.xml:40
+msgid  "Send me ticket mail"
+msgstr "Send me ticket mail"
+
+#: htdocs/include/form_users+groups_dlg2.xml:33
+msgid  "Send ticket mail to this user"
+msgstr "Send ticket mail to this user"
+
+#: htdocs/include/class_email.inc.php:213
+msgid  "Sending mail has been disabled for this installation by the administrator"
+msgstr "Sending mail has been disabled for this installation by the administrator"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:18
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:49
+msgid  "Server"
+msgstr "Server"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:28
+msgid  "Severity"
+msgstr "Severity"
+
+#: htdocs/include/form_ticket-details.inc.php:166
+msgid  "Show access permissions"
+msgstr "Show access permissions"
+
+#: htdocs/include/class_wholepage.inc.php:313
+msgid  "Sign in"
+msgstr "Sign in"
+
+#: htdocs/include/class_wholepage.inc.php:287
+msgid  "Sign out"
+msgstr "Sign out"
+
+#: htdocs/include/class_longtask.inc.php:542
+msgid  "Spawned task with process ID %PID% seems to have died without notice"
+msgstr "Spawned task with process ID %PID% seems to have died without notice"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:56
+msgid  "Stalled (server seems to be running but does not respond; maybe it is still starting up)"
+msgstr "Stalled (server seems to be running but does not respond; maybe it is still starting up)"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:34
+msgid  "Start elasticsearch server"
+msgstr "Start elasticsearch server"
+
+#: htdocs/include/class_htmlchunk.inc.php:1199
+msgid  "Start uploading the queue"
+msgstr "Start uploading the queue"
+
+#: htdocs/include/class_htmlchunk.inc.php:1246
+msgid  "Start uploading this file"
+msgstr "Start uploading this file"
+
+#: htdocs/include/class_workflowhandler.inc.php:31
+#: htdocs/include/class_fieldhandlers3.inc.php:478
+msgid  "Status"
+msgstr "Status"
+
+#: htdocs/plugins/search_elastic/search_elastic_settings.inc.php:80
+msgid  "Stop elasticsearch server"
+msgstr "Stop elasticsearch server"
+
+#: htdocs/include/install1.inc.php:264
+msgid  "Submit"
+msgstr "Submit"
+
+#: htdocs/include/form_ticket-details.inc.php:667
+msgid  "Submit comment"
+msgstr "Submit comment"
+
+#: htdocs/include/class_ticket.inc.php:1429
+msgid  "Summary"
+msgstr "Summary"
+
+#: htdocs/include/form_myaccount_dlg1.xml:41
+msgid  "TICKETMAILMYACCOUNT"
+msgstr ""
+"Every ticket has a CC list of users that should be notified when it changes.\n"
+"          Your account may be on that CC list if you have created a ticket or have been added to the list by an administrator.\n"
+"          Uncheck this box if you do not want to receive ticket mail at the above address at all, regardless what has been configured for certain tickets.\n"
+"          The above email address will still be used for resetting your password, if necessary."
+
+#: htdocs/include/form_results.inc.php:19
+msgid  "Table"
+msgstr "Table"
+
+#: htdocs/plugins/imap_mail/templates/imap_userinfo.xml:25
+msgid  "Telefon"
+msgstr "Telefon"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:29
+msgid  "Template"
+msgstr "Template"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:13
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:14
+msgid  "Template name"
+msgstr "Template name"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:67
+msgid  "Test connection"
+msgstr "Test connection"
+
+#: htdocs/plugins/imap_mail/imap_mail_accounts.inc.php:94
+msgid  "Testing"
+msgstr "Testing"
+
+#: htdocs/include/install4_dlg1.xml:26
+msgid  "The \"real name\" is merely descriptive and is publicly displayed with the user's activity, for example in ticket changelogs."
+msgstr "The \"real name\" is merely descriptive and is publicly displayed with the user's activity, for example in ticket changelogs."
+
+#: htdocs/include/form_myaccount_dlg1.xml:31
+msgid  "The \"real name\" is merely descriptive and is publicly displayed with your activity, for example in ticket changelogs."
+msgstr "The \"real name\" is merely descriptive and is publicly displayed with your activity, for example in ticket changelogs."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:40
+msgid  "The %DOREEN% user account this mail account should be associated with."
+msgstr "The %DOREEN% user account this mail account should be associated with."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:810
+msgid  "The ID of the data where this record was imported from."
+msgstr "The ID of the data where this record was imported from."
+
+#: htdocs/include/install1.inc.php:147
+msgid  "The doreen data directory %DATADIR% does not exist, and Doreen does not have sufficient permissions to create it. Please create it yourself by running the following command as root:"
+msgstr "The doreen data directory %DATADIR% does not exist, and Doreen does not have sufficient permissions to create it. Please create it yourself by running the following command as root:"
+
+#: htdocs/include/install1.inc.php:158
+msgid  "The doreen data directory %DATADIR% exists, but is not writable by Doreen. Please change the permissions by running the following command as root::"
+msgstr "The doreen data directory %DATADIR% exists, but is not writable by Doreen. Please change the permissions by running the following command as root::"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1487
+msgid  "The elasticsearch %DESCR% %DIR% does not exist; it must be created writable by the Apache process."
+msgstr "The elasticsearch %DESCR% %DIR% does not exist; it must be created writable by the Apache process."
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1494
+msgid  "The elasticsearch %DESCR% %DIR% exists but is not writable by the Apache process."
+msgstr "The elasticsearch %DESCR% %DIR% exists but is not writable by the Apache process."
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1503
+msgid  "The elasticsearch executable %EXEC% does not exist or is not executable by the Apache process."
+msgstr "The elasticsearch executable %EXEC% does not exist or is not executable by the Apache process."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:46
+msgid  "The email address."
+msgstr "The email address."
+
+#: htdocs/include/class_user.inc.php:518
+msgid  "The login name \\"$login\\" contains invalid characters"
+msgstr "The login name \\"$login\\" contains invalid characters"
+
+#: htdocs/include/form_users+groups_dlg2.xml:15
+msgid  "The login name is set when the account is created and <i>cannot</i> be changed later. It must be unique on this server."
+msgstr "The login name is set when the account is created and <i>cannot</i> be changed later. It must be unique on this server."
+
+#: htdocs/include/install4_dlg1.xml:13
+msgid  "The login name is set when the account is created and cannot be changed later. It must be unique."
+msgstr "The login name is set when the account is created and cannot be changed later. It must be unique."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_dlg1.xml:23
+msgid  "The name of the PostgreSQL database where the FTDB resides. %DOREEN% will connect to this database as the 'ftdbread' PostgreSQL user with a 'ftdbread' password."
+msgstr "The name of the PostgreSQL database where the FTDB resides. %DOREEN% will connect to this database as the 'ftdbread' PostgreSQL user with a 'ftdbread' password."
+
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:13
+msgid  "The name of the xTracker database to import within MySQL. xTracker's default for database names is %{bugs}% but this could have been changed."
+msgstr "The name of the xTracker database to import within MySQL. xTracker's default for database names is %{bugs}% but this could have been changed."
+
+#: htdocs/include/form_ticket-details.inc.php:103
+msgid  "The new ticket will have the following access permissions:"
+msgstr "The new ticket will have the following access permissions:"
+
+#: htdocs/include/class_user.inc.php:447
+msgid  "The real name must not be empty"
+msgstr "The real name must not be empty"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:137
+msgid  "The ticket description is a long text that can use Wiki formatting."
+msgstr "The ticket description is a long text that can use Wiki formatting."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:19
+msgid  "The ticket type determines what data fields will be visible for tickets created from this template. You can create and modify ticket types in the main window as well."
+msgstr "The ticket type determines what data fields will be visible for tickets created from this template. You can create and modify ticket types in the main window as well."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:93
+msgid  "The ticket type name is merely descriptive and should describe what the ticket type is good for. It is only seen by administrators and gurus."
+msgstr "The ticket type name is merely descriptive and should describe what the ticket type is good for. It is only seen by administrators and gurus."
+
+#: htdocs/include/class_fieldhandlers2.inc.php:26
+msgid  "The title is also displayed in search results."
+msgstr "The title is also displayed in search results."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:57
+msgid  "The user name of the new account. Typically this is the same as the email address."
+msgstr "The user name of the new account. Typically this is the same as the email address."
+
+#: htdocs/include/class_fieldhandlers3.inc.php:257
+msgid  "The user who is reponsible for this ticket."
+msgstr "The user who is reponsible for this ticket."
+
+#: htdocs/include/class_fieldhandlers3.inc.php:131
+msgid  "The value \"%VALUE%\" is invalid for field \"%FIELDNAME%\""
+msgstr "The value \"%VALUE%\" is invalid for field \"%FIELDNAME%\""
+
+#: htdocs/include/api_users+groups.inc.php:239
+msgid  "There have been too many password requests lately, please try again in a few minutes"
+msgstr "There have been too many password requests lately, please try again in a few minutes"
+
+#: htdocs/include/form_ticket-details.inc.php:127
+msgid  "These are the details for ticket %TICKET%."
+msgstr "These are the details for ticket %TICKET%."
+
+#: htdocs/include/form_users+groups_dlg2.xml:30
+msgid  "This address is used for ticket mail and also when the user needs to reset his or her password. This can be changed by the user in the user account settings."
+msgstr "This address is used for ticket mail and also when the user needs to reset his or her password. This can be changed by the user in the user account settings."
+
+#: htdocs/include/form_myaccount_dlg1.xml:36
+msgid  "This address will be used by %DOREEN% for sending ticket mail. It also allows you to reset your password in case you lose it. The address is never displayed publicly."
+msgstr "This address will be used by %DOREEN% for sending ticket mail. It also allows you to reset your password in case you lose it. The address is never displayed publicly."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:251
+msgid  "This allows for specifying which fischertechnik kits this part is contained in."
+msgstr "This allows for specifying which fischertechnik kits this part is contained in."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:283
+msgid  "This allows for specifying which fischertechnik parts this kit contains."
+msgstr "This allows for specifying which fischertechnik parts this kit contains."
+
+#: htdocs/include/form_myaccount.inc.php:23
+msgid  "This can only be changed by an administrator."
+msgstr "This can only be changed by an administrator."
+
+#: htdocs/include/form_myaccount.inc.php:20
+msgid  "This cannot be changed here; please use <a href=\"%LINK%\">the administrator form</a> to change group memberships."
+msgstr "This cannot be changed here; please use <a href=\"%LINK%\">the administrator form</a> to change group memberships."
+
+#: htdocs/include/class_user.inc.php:461
+msgid  "This does not look like a valid email address."
+msgstr "This does not look like a valid email address."
+
+#: htdocs/include/class_fieldhandlers3.inc.php:479
+msgid  "This indicates what work still needs to be done for this task."
+msgstr "This indicates what work still needs to be done for this task."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:15
+msgid  "This name should describe the template and is shown in a user's %{New}% menu."
+msgstr "This name should describe the template and is shown in a user's %{New}% menu."
+
+#: htdocs/plugins/config_xt/config_xt_dlg1.xml:3
+msgid  "This page allows you to import an entire xTracker database. Step 1 involves reading all necessary data from the xTracker MySQL database. Only step 2 after that will actually modify data in your %DOREEN% database."
+msgstr "This page allows you to import an entire xTracker database. Step 1 involves reading all necessary data from the xTracker MySQL database. Only step 2 after that will actually modify data in your %DOREEN% database."
+
+#: htdocs/include/class_ticket.inc.php:526
+msgid  "Ticket %ID% is a template"
+msgstr "Ticket %ID% is a template"
+
+#: htdocs/include/class_ticket.inc.php:787
+msgid  "Ticket %ID% is not a template"
+msgstr "Ticket %ID% is not a template"
+
+#: htdocs/include/class_tickettype.inc.php:764
+msgid  "Ticket field \"%PROP%\" must also be in ticket type details to be visible in ticket list views"
+msgstr "Ticket field \"%PROP%\" must also be in ticket type details to be visible in ticket list views"
+
+#: htdocs/include/form_users+groups_dlg1.xml:25
+#: htdocs/include/form_myaccount_dlg1.xml:39
+#: htdocs/include/form_users+groups_dlg2.xml:32
+msgid  "Ticket mail"
+msgstr "Ticket mail"
+
+#: htdocs/include/install4_dlg1.xml:31
+msgid  "Ticket mail is sent to this address, which is not shown publicly."
+msgstr "Ticket mail is sent to this address, which is not shown publicly."
+
+#: htdocs/include/class_fieldhandlers3.inc.php:163
+msgid  "Ticket priorities allow you to sort many tickets efficiently."
+msgstr "Ticket priorities allow you to sort many tickets efficiently."
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:250
+msgid  "Ticket template %NAME% (with type %TYPE%) deleted"
+msgstr "Ticket template %NAME% (with type %TYPE%) deleted"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:244
+msgid  "Ticket template %NAME% created"
+msgstr "Ticket template %NAME% created"
+
+#: htdocs/include/class_ticket.inc.php:382
+msgid  "Ticket template has no data for project field"
+msgstr "Ticket template has no data for project field"
+
+#: htdocs/include/class_ticket.inc.php:784
+#: htdocs/include/class_ticket.inc.php:1511
+msgid  "Ticket template names must not be empty"
+msgstr "Ticket template names must not be empty"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:6
+msgid  "Ticket templates"
+msgstr "Ticket templates"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:84
+msgid  "Ticket templates and types"
+msgstr "Ticket templates and types"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:17
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:30
+#: htdocs/include/class_fieldhandlers2.inc.php:861
+msgid  "Ticket type"
+msgstr "Ticket type"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:91
+msgid  "Ticket type name"
+msgstr "Ticket type name"
+
+#: htdocs/include/class_tickettype.inc.php:272
+#: htdocs/include/class_tickettype.inc.php:555
+msgid  "Ticket type names cannot be empty"
+msgstr "Ticket type names cannot be empty"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:7
+msgid  "Ticket types"
+msgstr "Ticket types"
+
+#: htdocs/include/form_settings.inc.php:128
+msgid  "Tickets in database"
+msgstr "Tickets in database"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:25
+msgid  "Title"
+msgstr "Title"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:98
+msgid  "Title changed"
+msgstr "Title changed"
+
+#: htdocs/include/form_register.inc.php:144
+msgid  "To make sure you are not accidentally resetting someone else's password, please enter your login name as well."
+msgstr "To make sure you are not accidentally resetting someone else's password, please enter your login name as well."
+
+#: htdocs/include/class_htmlchunk.inc.php:1320
+msgid  "Too many files!"
+msgstr "Too many files!"
+
+#: htdocs/include/form_results.inc.php:782
+msgid  "Too many nodes for graph, %SKIPPED% tickets were skipped."
+msgstr "Too many nodes for graph, %SKIPPED% tickets were skipped."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:48
+msgid  "Type"
+msgstr "Type"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:92
+msgid  "Type name"
+msgstr "Type name"
+
+#: htdocs/include/class_ticket.inc.php:681
+msgid  "UPDATED #%ID% %TITLE%"
+msgstr "UPDATED #%ID% %TITLE%"
+
+#: htdocs/include/form_users+groups_dlg2.xml:93
+msgid  "USERSGROUPS2"
+msgstr ""
+"The user's past activity will remain in the database, but the account will be disabled.\n"
+"            After this, the user can no longer sign in, and the user ID will be removed from all groups."
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:209
+msgid  "Unique identifier"
+msgstr "Unique identifier"
+
+#: htdocs/include/form_ticket-details.inc.php:132
+msgid  "Update ticket"
+msgstr "Update ticket"
+
+#: htdocs/include/form_users+groups_dlg1.xml:41
+msgid  "Usage"
+msgstr "Usage"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:32
+msgid  "Use"
+msgstr "Use"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:761
+msgid  "Use keywords to tag tickets to be able to find similar tickets quickly. Use spaces with or without commas to separate multiple keywords."
+msgstr "Use keywords to tag tickets to be able to find similar tickets quickly. Use spaces with or without commas to separate multiple keywords."
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:37
+#: htdocs/include/form_ticket-details.inc.php:494
+msgid  "User"
+msgstr "User"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:200
+msgid  "User %LOGIN% added to group %GID% (%GROUP%)"
+msgstr "User %LOGIN% added to group %GID% (%GROUP%)"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:209
+msgid  "User %LOGIN% removed from group %GID% (%GROUP%)"
+msgstr "User %LOGIN% removed from group %GID% (%GROUP%)"
+
+#: htdocs/include/class_user.inc.php:358
+msgid  "User account cannot be disabled"
+msgstr "User account cannot be disabled"
+
+#: htdocs/include/class_user.inc.php:153
+msgid  "User account cannot be modified"
+msgstr "User account cannot be modified"
+
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:172
+msgid  "User account created: login %LOGIN% (current realname %LONGNAME%, current email %EMAIL%)"
+msgstr "User account created: login %LOGIN% (current realname %LONGNAME%, current email %EMAIL%)"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:55
+msgid  "User name"
+msgstr "User name"
+
+#: htdocs/include/form_users+groups_dlg1.xml:10
+msgid  "Users"
+msgstr "Users"
+
+#: htdocs/include/class_wholepage.inc.php:187
+msgid  "Users and groups"
+msgstr "Users and groups"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:147
+msgid  "Version"
+msgstr "Version"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:97
+msgid  "Visible ticket data fields"
+msgstr "Visible ticket data fields"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:331
+msgid  "WARNING: Elasticsearch handler failed to fetch data for binary ID %ID% (local file %FILE%)"
+msgstr "WARNING: Elasticsearch handler failed to fetch data for binary ID %ID% (local file %FILE%)"
+
+#: htdocs/include/form_users+groups_dlg2.xml:91
+#: htdocs/include/class_htmlchunk.inc.php:404
+msgid  "Warning"
+msgstr "Warning"
+
+#: htdocs/include/form_register.inc.php:127
+msgid  "Welcome back! You have been confirmed as the owner of the email address %{%EMAIL%}%. Below you can reset your password."
+msgstr "Welcome back! You have been confirmed as the owner of the email address %{%EMAIL%}%. Below you can reset your password."
+
+#: htdocs/include/install1.inc.php:50
+msgid  "Welcome to Doreen!"
+msgstr "Welcome to Doreen!"
+
+#: htdocs/include/class_htmlchunk.inc.php:1202
+msgid  "When you are done adding files, press this button to start uploading all files at once."
+msgstr "When you are done adding files, press this button to start uploading all files at once."
+
+#: htdocs/include/install1.inc.php:212
+msgid  "Where the database server is located. Use %{localhost}% unless you want the database server to be different from the Doreen web server."
+msgstr "Where the database server is located. Use %{localhost}% unless you want the database server to be different from the Doreen web server."
+
+#: htdocs/include/form_register.inc.php:17
+msgid  "Why would you want to register when you're alreay logged in?"
+msgstr "Why would you want to register when you're alreay logged in?"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg1.xml:8
+msgid  "Workflows"
+msgstr "Workflows"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:101
+msgid  "Yes, delete this account!"
+msgstr "Yes, delete this account!"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:75
+msgid  "Yes, delete this template!"
+msgstr "Yes, delete this template!"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:134
+msgid  "Yes, delete this ticket type!"
+msgstr "Yes, delete this ticket type!"
+
+#: htdocs/include/form_users+groups_dlg2.xml:101
+msgid  "Yes, disable this account!"
+msgstr "Yes, disable this account!"
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:65
+msgid  "You are about to delete the ticket template %{%TEMPLATE%}% (ticket ID %ID%)."
+msgstr "You are about to delete the ticket template %{%TEMPLATE%}% (ticket ID %ID%)."
+
+#: htdocs/plugins/config_tickettypes/config_tickettypes_dlg2.xml:125
+msgid  "You are about to delete the ticket type %{%TYPE%}%."
+msgstr "You are about to delete the ticket type %{%TYPE%}%."
+
+#: htdocs/include/form_users+groups_dlg2.xml:92
+msgid  "You are about to disable the user account %{%LOGIN%}%\" for %{%LONGNAME%}%."
+msgstr "You are about to disable the user account %{%LOGIN%}%\" for %{%LONGNAME%}%."
+
+#: htdocs/include/form_users+groups.inc.php:10
+#: htdocs/include/form_settings.inc.php:48
+#: htdocs/plugins/config_tickettypes/config_tickettypes.inc.php:95
+#: htdocs/plugins/config_changelog/config_changelog.inc.php:76
+msgid  "You are not authorized to be here"
+msgstr "You are not authorized to be here"
+
+#: htdocs/include/globalfuncs.inc.php:85
+msgid  "You are not authorized to make this request"
+msgstr "You are not authorized to make this request"
+
+#: htdocs/include/api_helpers.inc.php:51
+msgid  "You are not authorized to modify the group %GROUP% since you are not a member yourself"
+msgstr "You are not authorized to modify the group %GROUP% since you are not a member yourself"
+
+#: htdocs/include/api_helpers.inc.php:47
+msgid  "You are not authorized to modify the special group %GROUP%"
+msgstr "You are not authorized to modify the special group %GROUP%"
+
+#: htdocs/include/form_myaccount.inc.php:10
+msgid  "You are not logged in"
+msgstr "You are not logged in"
+
+#: htdocs/include/api_users+groups.inc.php:68
+msgid  "You cannot manage an account without being logged in"
+msgstr "You cannot manage an account without being logged in"
+
+#: htdocs/include/api_helpers.inc.php:30
+msgid  "You cannot remove yourself from the %GROUP% group."
+msgstr "You cannot remove yourself from the %GROUP% group."
+
+#: htdocs/include/api_ticket.inc.php:37
+#: htdocs/include/form_ticket-details.inc.php:60
+msgid  "You do not have permission to create this kind of ticket."
+msgstr "You do not have permission to create this kind of ticket."
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:546
+msgid  "You must specify a resolution with the \"%STAT%\" status"
+msgstr "You must specify a resolution with the \"%STAT%\" status"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:555
+msgid  "You must specify a ticket ID with the \"%STAT%\" status"
+msgstr "You must specify a ticket ID with the \"%STAT%\" status"
+
+#: htdocs/include/form_myaccount_dlg1.xml:21
+#: htdocs/include/form_myaccount_dlg1.xml:26
+msgid  "You only need to fill in this field if you want to change your current password. Otherwise leave it blank."
+msgstr "You only need to fill in this field if you want to change your current password. Otherwise leave it blank."
+
+#: htdocs/include/class_htmlchunk.inc.php:1315
+msgid  "Your browser does not support drag-and-drop file uploads."
+msgstr "Your browser does not support drag-and-drop file uploads."
+
+#: htdocs/include/install4_dlg1.xml:12
+#: htdocs/include/form_register.inc.php:141
+msgid  "Your login name"
+msgstr "Your login name"
+
+#: htdocs/include/form_register.inc.php:169
+msgid  "Your password has been reset. You can now use the above login and your new password to log into %DOREEN%."
+msgstr "Your password has been reset. You can now use the above login and your new password to log into %DOREEN%."
+
+#: htdocs/include/class_fieldhandlers3.inc.php:350
+msgid  "[Unknown user ID %ID%]"
+msgstr "[Unknown user ID %ID%]"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:870
+msgid  "added %KEY%"
+msgstr "added %KEY%"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:630
+msgid  "added %TITLE%"
+msgstr "added %TITLE%"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1478
+msgid  "base directory"
+msgstr "base directory"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:498
+msgid  "blocks"
+msgstr "blocks"
+
+#: htdocs/include/class_format.inc.php:305
+msgid  "bytes"
+msgstr "bytes"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_fieldhandlers.inc.php:254
+msgid  "contained in"
+msgstr "contained in"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:31
+msgid  "cosmetic"
+msgstr "cosmetic"
+
+#: htdocs/include/class_access.inc.php:700
+msgid  "create"
+msgstr "create"
+
+#: htdocs/plugins/imap_mail/imap_mail_gui.inc.php:209
+msgid  "create Contact"
+msgstr "create Contact"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:35
+msgid  "critical"
+msgstr "critical"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1479
+msgid  "data directory"
+msgstr "data directory"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:241
+msgid  "deferred"
+msgstr "deferred"
+
+#: htdocs/include/class_access.inc.php:703
+msgid  "delete"
+msgstr "delete"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:243
+msgid  "duplicate"
+msgstr "duplicate"
+
+#: htdocs/plugins/type_ftdb/type_ftdb_install.inc.php:57
+#: htdocs/plugins/type_ftdb/type_ftdb_install.inc.php:76
+msgid  "fischertechnik part"
+msgstr "fischertechnik part"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:238
+msgid  "fixed"
+msgstr "fixed"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:34
+msgid  "high"
+msgstr "high"
+
+#: htdocs/plugins/search_elastic/search_elastic.inc.php:1480
+msgid  "logs directory"
+msgstr "logs directory"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:32
+msgid  "low"
+msgstr "low"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:33
+msgid  "medium"
+msgstr "medium"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:239
+msgid  "not a bug"
+msgstr "not a bug"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:244
+msgid  "obsolete"
+msgstr "obsolete"
+
+#: htdocs/include/class_access.inc.php:701
+msgid  "read"
+msgstr "read"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:242
+msgid  "reminder"
+msgstr "reminder"
+
+#: htdocs/include/class_fieldhandlers3.inc.php:881
+msgid  "removed %KEY%"
+msgstr "removed %KEY%"
+
+#: htdocs/include/class_fieldhandlers2.inc.php:632
+msgid  "removed %TITLE%"
+msgstr "removed %TITLE%"
+
+#: htdocs/include/class_ticketworkflow.inc.php:283
+msgid  "unknown"
+msgstr "unknown"
+
+#: htdocs/include/class_access.inc.php:702
+msgid  "update"
+msgstr "update"
+
+#: htdocs/plugins/imap_mail/templates/imap_mail_accounts.xml:56
+msgid  "user name"
+msgstr "user name"
+
+#: htdocs/plugins/type_bug/type_bug_fieldhandlers.inc.php:240
+msgid  "won't fix"
+msgstr "won't fix"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:49
+msgid  "{{{type_ev}}}%DOREEN% user"
+msgstr "%DOREEN% user"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:1139
+msgid  "{{{type_ev}}}%TYPE% for %OFC%"
+msgstr "%TYPE% for %OFC%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:714
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:849
+msgid  "{{{type_ev}}}&mdash; Please select &mdash;"
+msgstr "&mdash; Please select &mdash;"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:553
+msgid  "{{{type_ev}}}<b>Warning:</b> Your %DOREEN% user account has no associated E&V login data. Submitting your ticket data to the E&V server will fail."
+msgstr "<b>Warning:</b> Your %DOREEN% user account has no associated E&V login data. Submitting your ticket data to the E&V server will fail."
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:29
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:51
+msgid  "{{{type_ev}}}Actions"
+msgstr "Actions"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:737
+msgid  "{{{type_ev}}}Active"
+msgstr "Active"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:27
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2614
+msgid  "{{{type_ev}}}Activities"
+msgstr "Activities"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:117
+msgid  "{{{type_ev}}}Add E&V office!"
+msgstr "Add E&V office!"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:12
+msgid  "{{{type_ev}}}Add office"
+msgstr "Add office"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:37
+msgid  "{{{type_ev}}}Add or update E&V office"
+msgstr "Add or update E&V office"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:357
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:703
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:720
+msgid  "{{{type_ev}}}Agent"
+msgstr "Agent"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:724
+msgid  "{{{type_ev}}}Agent light"
+msgstr "Agent light"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:10
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:23
+msgid  "{{{type_ev}}}Agents"
+msgstr "Agents"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:870
+msgid  "{{{type_ev}}}Agents at %OFC%"
+msgstr "Agents at %OFC%"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:85
+msgid  "{{{type_ev}}}Already imported (last sync: %DATE%"
+msgstr "Already imported (last sync: %DATE%"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:733
+msgid  "{{{type_ev}}}Applied for"
+msgstr "Applied for"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:3139
+msgid  "{{{type_ev}}}Appointment details"
+msgstr "Appointment details"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:44
+msgid  "{{{type_ev}}}Asking price"
+msgstr "Asking price"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:707
+msgid  "{{{type_ev}}}Assistant"
+msgstr "Assistant"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:859
+msgid  "{{{type_ev}}}Assistants at %OFC%"
+msgstr "Assistants at %OFC%"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:753
+msgid  "{{{type_ev}}}Blocked"
+msgstr "Blocked"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:43
+msgid  "{{{type_ev}}}CONFIRMSYNC"
+msgstr ""
+"You have selected to synchronize the office %{%OFFICE%}% with this %DOREEN% installation.\n"
+"            Depending on the number of resources on the E&amp;V server, this can take anywhere from a few minutes to hours. Are you sure you want to do this?"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_send-expose.xml:20
+msgid  "{{{type_ev}}}Cancel"
+msgstr "Cancel"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:151
+msgid  "{{{type_ev}}}Cannot find office for ID %ID%"
+msgstr "Cannot find office for ID %ID%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2090
+msgid  "{{{type_ev}}}Cannot resolve reference to E&V ID %EVID% (import ID %IMPORTID% -- title %TITLE%)"
+msgstr "Cannot resolve reference to E&V ID %EVID% (import ID %IMPORTID% -- title %TITLE%)"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_send-expose.xml:10
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:25
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:48
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:61
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:80
+msgid  "{{{type_ev}}}Close"
+msgstr "Close"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2637
+msgid  "{{{type_ev}}}Contact details"
+msgstr "Contact details"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:25
+msgid  "{{{type_ev}}}Contacts"
+msgstr "Contacts"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:36
+msgid  "{{{type_ev}}}Create a new E&V office"
+msgstr "Create a new E&V office"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:277
+msgid  "{{{type_ev}}}Create more search criteria for this contact"
+msgstr "Create more search criteria for this contact"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:359
+msgid  "{{{type_ev}}}Created"
+msgstr "Created"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2858
+msgid  "{{{type_ev}}}Customer's search criteria"
+msgstr "Customer's search criteria"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:3259
+msgid  "{{{type_ev}}}Document details"
+msgstr "Document details"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:25
+msgid  "{{{type_ev}}}E&V ID"
+msgstr "E&V ID"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:85
+msgid  "{{{type_ev}}}E&V appointment"
+msgstr "E&V appointment"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:49
+msgid  "{{{type_ev}}}E&V contact"
+msgstr "E&V contact"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:103
+msgid  "{{{type_ev}}}E&V document"
+msgstr "E&V document"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:112
+msgid  "{{{type_ev}}}E&V email"
+msgstr "E&V email"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:92
+msgid  "{{{type_ev}}}E&V office"
+msgstr "E&V office"
+
+#: htdocs/plugins/type_ev/type_ev.inc.php:239
+msgid  "{{{type_ev}}}E&V offices"
+msgstr "E&V offices"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:67
+msgid  "{{{type_ev}}}E&V property"
+msgstr "E&V property"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:71
+msgid  "{{{type_ev}}}E&V role"
+msgstr "E&V role"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:58
+msgid  "{{{type_ev}}}E&V search criteria"
+msgstr "E&V search criteria"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:94
+msgid  "{{{type_ev}}}E&V task"
+msgstr "E&V task"
+
+#: htdocs/plugins/type_ev/type_ev_local.inc.php:76
+msgid  "{{{type_ev}}}E&V viewing"
+msgstr "E&V viewing"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:45
+msgid  "{{{type_ev}}}E&amp;V ID"
+msgstr "E&amp;V ID"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:48
+msgid  "{{{type_ev}}}E&amp;V status"
+msgstr "E&amp;V status"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:113
+msgid  "{{{type_ev}}}EVEXPOSECONTACTINTRO"
+msgstr ""
+"<p>Below you can find all properties which are currently active in %{%OFFICE%}%.</p><p>Please select\n"
+"                             the ones for which you would like to send exposés to %CUSTOMER% and then click %{Send exposés}%.</p>"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:77
+msgid  "{{{type_ev}}}EVEXPOSESEARCHCRITINTRO"
+msgstr ""
+"<p>Below you can find all properties which match the above search criteria.</p><p>You can select\n"
+"                             the ones for which you would like to send exposés to %CUSTOMER% and then click %{Send exposés}%.</p>"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:52
+msgid  "{{{type_ev}}}EVIMPORTSELECTOFFICE"
+msgstr ""
+"Below you can find the offices which your E&V user account can access. \n"
+"Please select the office you would like to add to %DOREEN%.\n"
+"Data synchronization, which can take a long time, will be done in a second step."
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:4
+msgid  "{{{type_ev}}}EVOFFICESADMININTRO"
+msgstr ""
+"<p>Here you can manage the E&amp;V offices which have already been imported into %DOREEN%.\n"
+"    To import another office, please select the %{Add office}% link; for this, you will need the E&amp;V user name\n"
+"    and password of an administrator of that office.</p>"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:3312
+msgid  "{{{type_ev}}}Email details"
+msgstr "Email details"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:50
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:745
+msgid  "{{{type_ev}}}Enabled"
+msgstr "Enabled"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:360
+msgid  "{{{type_ev}}}Expires"
+msgstr "Expires"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:21
+msgid  "{{{type_ev}}}FK"
+msgstr "FK"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:17
+msgid  "{{{type_ev}}}GO! login"
+msgstr "GO! login"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:20
+msgid  "{{{type_ev}}}GO! password"
+msgstr "GO! password"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:44
+msgid  "{{{type_ev}}}ID"
+msgstr "ID"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:15
+msgid  "{{{type_ev}}}IMPORTOFFICEINTRO"
+msgstr ""
+"To begin the process of importing an E&amp;V office into %DOREEN% and keeping it up to sync, please enter the GO! user name and password of the office's administrator.\n"
+"            We will use these to log into the E&amp;V server and can retrieve data for the offices for which you have been registeered as a manager."
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:749
+msgid  "{{{type_ev}}}Inactive"
+msgstr "Inactive"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:38
+msgid  "{{{type_ev}}}Just now"
+msgstr "Just now"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:28
+msgid  "{{{type_ev}}}Last sync"
+msgstr "Last sync"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:26
+msgid  "{{{type_ev}}}Log into E&amp;V server"
+msgstr "Log into E&amp;V server"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:45
+msgid  "{{{type_ev}}}Manage E&V offices"
+msgstr "Manage E&V offices"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:699
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:716
+msgid  "{{{type_ev}}}Manager"
+msgstr "Manager"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:848
+msgid  "{{{type_ev}}}Managers for %OFC%"
+msgstr "Managers for %OFC%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2865
+msgid  "{{{type_ev}}}Matching properties"
+msgstr "Matching properties"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:46
+msgid  "{{{type_ev}}}Name"
+msgstr "Name"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:37
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:1562
+msgid  "{{{type_ev}}}Never"
+msgstr "Never"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:73
+msgid  "{{{type_ev}}}New password"
+msgstr "New password"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:424
+msgid  "{{{type_ev}}}None defined"
+msgstr "None defined"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:315
+msgid  "{{{type_ev}}}None defined yet"
+msgstr "None defined yet"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:97
+msgid  "{{{type_ev}}}Not yet imported"
+msgstr "Not yet imported"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:22
+msgid  "{{{type_ev}}}Office name"
+msgstr "Office name"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:9
+msgid  "{{{type_ev}}}Offices"
+msgstr "Offices"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:741
+msgid  "{{{type_ev}}}Open"
+msgstr "Open"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:215
+msgid  "{{{type_ev}}}Parent contact"
+msgstr "Parent contact"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:18
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:21
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:74
+msgid  "{{{type_ev}}}Password"
+msgstr "Password"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:47
+msgid  "{{{type_ev}}}Permissions"
+msgstr "Permissions"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:103
+msgid  "{{{type_ev}}}Pick exposés to send to %{%CUSTOMER%}%"
+msgstr "Pick exposés to send to %{%CUSTOMER%}%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:326
+msgid  "{{{type_ev}}}Pick from active properties and send exposé"
+msgstr "Pick from active properties and send exposé"
+
+#: htdocs/plugins/type_ev/type_ev_install.inc.php:22
+msgid  "{{{type_ev}}}Plug-in %PLUGIN%"
+msgstr "Plug-in %PLUGIN%"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:91
+msgid  "{{{type_ev}}}Previous import not completed successfully"
+msgstr "Previous import not completed successfully"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:26
+msgid  "{{{type_ev}}}Properties"
+msgstr "Properties"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:41
+msgid  "{{{type_ev}}}Property"
+msgstr "Property"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2983
+msgid  "{{{type_ev}}}Property details"
+msgstr "Property details"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:40
+msgid  "{{{type_ev}}}Remember the E&V password for %{%LOGIN%}%%HELLIP%"
+msgstr "Remember the E&V password for %{%LOGIN%}%%HELLIP%"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:81
+msgid  "{{{type_ev}}}Save password"
+msgstr "Save password"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2506
+msgid  "{{{type_ev}}}Saved document"
+msgstr "Saved document"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:248
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:358
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2781
+msgid  "{{{type_ev}}}Search criteria"
+msgstr "Search criteria"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_send-expose.xml:21
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:36
+msgid  "{{{type_ev}}}Send exposés"
+msgstr "Send exposés"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2498
+msgid  "{{{type_ev}}}Show exposé"
+msgstr "Show exposé"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2465
+msgid  "{{{type_ev}}}Show exposé preview"
+msgstr "Show exposé preview"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2243
+msgid  "{{{type_ev}}}Show source XML in new window"
+msgstr "Show source XML in new window"
+
+#: htdocs/plugins/type_ev/view_import/ev_import.inc.php:30
+msgid  "{{{type_ev}}}Skipped"
+msgstr "Skipped"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:361
+msgid  "{{{type_ev}}}Status"
+msgstr "Status"
+
+#: htdocs/plugins/type_ev/type_ev.inc.php:241
+msgid  "{{{type_ev}}}Sync E&V office"
+msgstr "Sync E&V office"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg1.xml:24
+msgid  "{{{type_ev}}}Sync user account"
+msgstr "Sync user account"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices.inc.php:39
+msgid  "{{{type_ev}}}Synchronize %{%OFFICE%}% with E&V server%HELLIP%"
+msgstr "Synchronize %{%OFFICE%}% with E&V server%HELLIP%"
+
+#: htdocs/plugins/type_ev/type_ev_office.inc.php:163
+msgid  "{{{type_ev}}}Synchronizing"
+msgstr "Synchronizing"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:3200
+msgid  "{{{type_ev}}}Task details"
+msgstr "Task details"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:26
+msgid  "{{{type_ev}}}The E&V ID of this record."
+msgstr "The E&V ID of this record."
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:93
+msgid  "{{{type_ev}}}The E&V office this data set belongs to."
+msgstr "The E&V office this data set belongs to."
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2638
+msgid  "{{{type_ev}}}The detailed fields of this contact."
+msgstr "The detailed fields of this contact."
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2984
+msgid  "{{{type_ev}}}The detailed fields of this property."
+msgstr "The detailed fields of this property."
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:42
+msgid  "{{{type_ev}}}Type"
+msgstr "Type"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2304
+msgid  "{{{type_ev}}}Unknown language code %LANG%"
+msgstr "Unknown language code %LANG%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2476
+msgid  "{{{type_ev}}}Unknown title"
+msgstr "Unknown title"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2306
+msgid  "{{{type_ev}}}Unknown title code %TITLE%"
+msgstr "Unknown title code %TITLE%"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:3094
+msgid  "{{{type_ev}}}Viewing details"
+msgstr "Viewing details"
+
+#: htdocs/plugins/type_ev/type_ev_fieldhandlers.inc.php:2782
+msgid  "{{{type_ev}}}What kind of properties a customer is looking for."
+msgstr "What kind of properties a customer is looking for."
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_view_pickexpose.inc.php:43
+msgid  "{{{type_ev}}}Year of construction"
+msgstr "Year of construction"
+
+#: htdocs/plugins/type_ev/view_offices/ev_view_offices_dlg2.xml:49
+msgid  "{{{type_ev}}}Yes, synchronize!"
+msgstr "Yes, synchronize!"
+
+#: htdocs/plugins/type_ev/view_pickexpose/ev_send-expose.xml:14
+msgid  "{{{type_ev}}}You have chosen to send to %CONTACT% (<b>%CONTACTMAIL%</b>) the exposés for the following properties:"
+msgstr "You have chosen to send to %CONTACT% (<b>%CONTACTMAIL%</b>) the exposés for the following properties:"
+

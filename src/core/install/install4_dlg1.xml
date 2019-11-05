@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DLG>
+<p>Finally, %DOREEN% needs to create a user account for you, the administrator. This will be the first user account in this installation, and it
+will have administrator privileges. You can create additional accounts later.</p>
+
+<p><b>You will not be able to do anything useful with %DOREEN% unless you create at least this one account,</b> so please don't skip this step.</p>
+
+<p>Please provide the following information:</p>
+
+<form class="form-horizontal" method="post">
+    <ROW label="Login name" nameId="account-login"><FIELD>
+        <INPUT type="text" placeholder="Your login name" value="%LOGIN%" required="yes" />
+        <p class="help-block">The login name is set when the account is created and cannot be changed later.</p>
+    </FIELD></ROW>
+
+    <ROW label="Password" nameId="account-password"><FIELD>
+        <INPUT type="password" placeholder="Password" value="%PASSWORD%" required="yes" icon="password" />
+    </FIELD></ROW>
+
+    <ROW label="Confirm password" nameId="account-password-confirm"><FIELD>
+        <INPUT type="password" placeholder="Password" value="%PASSWORD%" required="yes" icon="password" />
+    </FIELD></ROW>
+
+    <ROW label="Real name" nameId="account-longname"><FIELD>
+        <INPUT type="text" placeholder="Real name" value="%LOGIN%" required="yes" icon="realname" />
+        <p class="help-block">The "real name" is merely descriptive and is publicly displayed with the user's activity, for example in ticket changelogs.</p>
+    </FIELD></ROW>
+
+    <ROW label="Email address" nameId="account-email"><FIELD>
+        <INPUT type="text" placeholder="Email address" value="%EMAIL%" required="yes" icon="mail" />
+        <p class="help-block">Ticket mail is sent to this address, which is not shown publicly.</p>
+    </FIELD></ROW>
+
+    <ROW nameId="submit"><FIELD>
+        <button type="submit" class="btn btn-primary">Create administrator account</button>
+    </FIELD></ROW>
+
+</form>
+</DLG>

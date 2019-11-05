@@ -1,0 +1,19 @@
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+ifndef MAKEFILETHISPATH
+$(error MAKEFILETHISPATH must be defined before including header.in)
+endif
+
+# yields "/tools/subdir/Makefile"
+MAKEFILETHISONLY        := $(notdir $(MAKEFILETHISPATH))
+# should yield "Makefile"
+DIRTHIS             	:= $(strip $(subst /$(MAKEFILETHISONLY),,$(MAKEFILETHISPATH)))
+REALDIRTHIS             := $(realpath $(DIRTHIS))
+
+# yields "/tools/subdir"; we could use the dir function but that includes the trailing slash
+DIRTHISONLY             := $(notdir $(DIRTHIS))
+# should yield "subdir"
+
+$(call myinfo,+++++ Entering $(DIRTHIS) ($(MAKEFILETHISPATH)))

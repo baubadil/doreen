@@ -1,0 +1,67 @@
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+JSFILES_$(MODULETHIS) :=
+JSFILES_TS_$(MODULETHIS) :=
+
+ifndef SKIP_WEBPACK_$(MODULETHIS)
+ALL_TS_SOURCES += $(realpath $(shell find -L src/plugins/$(MODULETHIS) -name *.ts))
+WEBPACK_ENTRY_$(MODULETHIS) := $(realpath $(shell find -L src/plugins/$(MODULETHIS) -name $(MODULETHIS).ts))
+WEBPACK_ENTRY_POINTS += $(if $(WEBPACK_ENTRY_$(MODULETHIS)),$(MODULETHIS),)
+$(call myinfo,WEBPACK_ENTRY_$(MODULETHIS) is $(WEBPACK_ENTRY_$(MODULETHIS)))
+$(call myinfo,WEBPACK_ENTRY_POINTS is $(WEBPACK_ENTRY_POINTS))
+endif
+
+#
+# If UGLIFY_SRCFILES_$(MODULETHIS) is set, add uglify rules.
+#
+
+ifdef UGLIFY_SRCFILES_$(MODULETHIS)
+$(call myinfo,UGLIFY_SRCFILES_$(MODULETHIS) is $(UGLIFY_SRCFILES_$(MODULETHIS)))
+
+$(foreach SRCFILE, $(UGLIFY_SRCFILES_$(MODULETHIS)), \
+	 $(eval $(call make_js_copy_rule,$(MODULETHIS),$(SRCFILE))) \
+)
+
+$(call myinfo,JSFILES_$(MODULETHIS) is $(JSFILES_$(MODULETHIS)))
+
+$(eval $(call add_global_js_target,$(MODULETHIS),$(JSFILES_$(MODULETHIS))))
+endif
+
+#
+# If TYPESCRIPT_SRCFILES_$(MODULETHIS) is set, add typescript rules.
+#
+
+ifdef TYPESCRIPT_SRCFILES_$(MODULETHIS)
+$(call myinfo,TYPESCRIPT_SRCFILES_$(MODULETHIS) is $(TYPESCRIPT_SRCFILES_$(MODULETHIS)))
+
+# $(foreach SRCFILE, $(TYPESCRIPT_SRCFILES_$(MODULETHIS)), \
+     $(eval $(call make_ts_rule,$(MODULETHIS),$(SRCFILE))) \
+)
+
+$(eval $(call make_ts_rule,$(MODULETHIS),$(TYPESCRIPT_SRCFILES_$(MODULETHIS))))
+
+# $(call myinfo,JSFILES_TS_$(MODULETHIS) is $(JSFILES_TS_$(MODULETHIS)))
+
+$(eval $(call add_global_js_ts_target,$(MODULETHIS),$(JSFILES_TS_$(MODULETHIS))))
+endif
+
+#
+# If COPY_IMGFILES_$(MODULETHIS) is set, add uglify rules.
+#
+
+ifdef COPY_IMGFILES_$(MODULETHIS)
+$(call myinfo,COPY_IMGFILES_$(MODULETHIS) is $(COPY_IMGFILES_$(MODULETHIS)))
+
+$(foreach IMGFILE, $(COPY_IMGFILES_$(MODULETHIS)), \
+	 $(eval $(call make_img_copy_rule,$(MODULETHIS),$(IMGFILE))) \
+)
+
+endif
+
+#
+# Done
+#
+$(call myinfo,----- Leaving $(DIRTHIS))
+DIRTHIS :=

@@ -1,0 +1,215 @@
+# Doreen .
+# Copyright (C) Baubadil GmbH. All rights reserved
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: bugs@baubadil.de\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: src/plugins/type_school/school_fieldh_parents.php:313
+msgid "Add another parent"
+msgstr "Weitere Eltern hinzufügen"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:48
+msgid "CREATEANDSENDNEWSLETTER"
+msgstr ""
+"Bitte geben Sie Titel und Text für den Newsletter ein und drücken Sie auf "
+"%{Erstellen}%. Der Newsletter wird sofort an alle Eltern dieser Klasse "
+"verschickt. Alle Newsletter werden hier gespeichert und können später "
+"von den Eltern dieser Klasse eingesehen werden, wenn diese sich einloggen."
+
+#: src/plugins/type_school/school_fieldh_class.php:19
+msgid "Class"
+msgstr "Klasse"
+
+#: src/plugins/type_school/school_blurb.php:164
+msgid "Class name"
+msgstr "Klassenname"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:43
+msgid "Create and send newsletter for %CLS%"
+msgstr "Newsletter für %CLS% erstellen und senden"
+
+#: src/plugins/type_school/school_blurb.php:152
+msgid "Create new class"
+msgstr "Neue Klasse anlegen"
+
+#: src/plugins/type_school/school_blurb.php:119
+msgid "Create new student"
+msgstr "Neuen Schüler anlegen"
+
+#: src/plugins/type_school/school_ticket_student.php:43
+msgid "Create new student in %CLS%"
+msgstr "Neuen Schüler in %CLS% anlegen"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:81
+msgid "Edit newsletter %TITLE%"
+msgstr "Newsletter %TITLE% bearbeiten"
+
+#: src/plugins/type_school/school_ticket_student.php:59
+msgid "Edit student %S%"
+msgstr "Schüler %S% bearbeiten"
+
+#: src/plugins/type_school/school_fieldh_parents.php:399
+msgid "Full name"
+msgstr "Vor- und Zuname"
+
+#: src/plugins/type_school/school_fieldh_student.php:28
+msgid "Home address"
+msgstr "Adresse zuhause"
+
+#: src/plugins/type_school/school_fieldh_student.php:29
+msgid "Home phone"
+msgstr "Telefon zuhause"
+
+#: src/plugins/type_school/school_blurb.php:179
+msgid ""
+"If no user account exists yet for the given email, this will create a new "
+"one and send an invitation to the given e-mail address so that the new user "
+"can log in."
+msgstr ""
+"Wenn für diese E-Mail-Adresse noch kein Benutzerkonto existiert, wird ein "
+"neues angelegt, und eine Einladungsmail wird an die Adresse geschickt, so "
+"dass sich der Nutzer einloggen kann."
+
+#: src/plugins/type_school/school_ticket_newsletter.php:63
+msgid "Message"
+msgstr "Nachricht"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:139
+msgid "NEWSLETTER"
+msgstr "NEWSLETTER"
+
+#: src/plugins/type_school/school_blurb.php:171
+msgid "Parent representative"
+msgstr "Elternvertreter"
+
+#: src/plugins/type_school/school_fieldh_parents.php:38
+msgid "Parents"
+msgstr "Eltern"
+
+#: src/plugins/type_school/school_fieldh_parents.php:402
+msgid "Phone (optional)"
+msgstr "Telefon (optional)"
+
+#: src/plugins/type_school/school_blurb.php:63
+msgid ""
+"Please go to the menu at the top right of the screen and log in with your "
+"user name and password."
+msgstr ""
+"Bitte gehen Sie ins Menü oben rechts und melden Sich mit Ihrem Benutzernamen "
+"und Kennwort an."
+
+#: src/plugins/type_school/school_fieldh_parents.php:351
+msgid "Remove this parent"
+msgstr "Diesen Eltern-Eintrag entfernen"
+
+#: src/plugins/type_school/school_fieldh_parents.php:378
+msgid "SCHOOLNEWPARENT"
+msgstr ""
+"Hier können Sie die Namen, E-Mails und Mobilnumern für die Eltern des "
+"Schülers eingeben.\n"
+"Sie können Zeilen leer lassen oder hinzufügen oder entfernen, indem Sie die "
+"Knöpfe links und rechts drücken.\n"
+"<br><b>Achtung:</b> An jede E-Mail-Adresse, die Sie hier eingeben, wird eine "
+"Einladungsmail versandt, wenn Sie die Schülerdaten abschicken, so dass sich "
+"die Eltern bei %DOREEN% anmelden können."
+
+#: src/plugins/type_school/school_class.php:196
+msgid "SCHOOLWELCOME"
+msgstr ""
+"Willkommen bei %DOREEN%!\n"
+"\n"
+"Wir haben für Sie auf %SERVER% ein neues Benutzerkonto angelegt. Damit "
+"können Sie Schüler und Newsletter für die Klasse Ihres Kindes einsehen und "
+"auch die Daten Ihres Kindes ändern.\n"
+"\n"
+"Bitte klicken Sie auf den folgenden Link, wodurch Sie auf eine Seite "
+"gelangen, auf der Sie für Ihr neues Konto ein Kennwort festlegen können: \n"
+"\n"
+"%LINK%\n"
+"\n"
+"Der Link ist zwei Tage gültig. Danach können Sie selbst ein neues Kennwort "
+"unter %SERVER% anfordern."
+
+#: src/plugins/type_school/view_welcome/school_welcome.php:36
+msgid "SCHOOLWELCOME2"
+msgstr ""
+"<p>Willkommen bei %DOREEN%. Auf diesem System können Sie Schüler und "
+"Newsletter für die Klasse Ihres Kindes einsehen und auch die Daten Ihres "
+"Kindes ändern.</p>\n"
+"\n"
+"<p>Ihr Elternvertreter hat für Sie und Ihre E-Mail-Adresse %EMAIL% ein Konto "
+"angelegt.\n"
+"Jetzt müssen Sie für Sich nur noch ein Kennwort festlegen und es unten "
+"zweimal eingeben. Danach können Sie sich beim System anmelden und die Daten "
+"Ihres Kindes und der anderen Kinder in der Klasse einsehen.</p>"
+
+#: src/plugins/type_school/view_welcome/school_welcome.php:59
+msgid "Set my password!"
+msgstr "Kennwort festlegen!"
+
+#: src/plugins/type_school/school_blurb.php:110
+msgid "Show students"
+msgstr "Schüler anzeigen"
+
+#: src/plugins/type_school/school_fieldh_student.php:26
+msgid "Student first name"
+msgstr "Vorname Schüler"
+
+#: src/plugins/type_school/school_fieldh_student.php:27
+msgid "Student last name"
+msgstr "Familienname Schüler"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:67
+msgid ""
+"The above will be the contents of the newsletter email. You can use "
+"formatting as in a word processor by using the buttons above."
+msgstr ""
+"Dies wird als Text der Newsletter-Mail verschickt. Sie können mit Hilfe der "
+"Knöpfe oben Formatierungen wie in einer Textverarbeitung verwenden."
+
+#: src/plugins/type_school/school_blurb.php:143
+msgid ""
+"This installation is not yet very useful, no school classes have been "
+"defined yet."
+msgstr ""
+"Diese Installation ist noch nicht sehr nützlich, da noch keine Klassen "
+"angelegt wurden."
+
+#: src/plugins/type_school/school_ticket_newsletter.php:60
+msgid "This will also be used as the email subject line."
+msgstr "Dies wird auch als Betreffzeile der E-Mail verwendet werden."
+
+#: src/plugins/type_school/school_class.php:193
+msgid "Welcome to %DOREEN%"
+msgstr "Welcome to %DOREEN%"
+
+#: src/plugins/type_school/school_blurb.php:60
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: src/plugins/type_school/school_blurb.php:128
+msgid "Write newsletter"
+msgstr "Newsletter schreiben"
+
+#: src/plugins/type_school/type_school.php:240
+msgid "class"
+msgstr "Klasse"
+
+#: src/plugins/type_school/school_ticket_newsletter.php:103
+msgid "This will immediately send the newsletter as email to one parent."
+msgid_plural ""
+"This will immediately send the newsletter as email to %COUNT% parents."
+msgstr[0] "Damit wird der Newsletter sofort an eine Elternadresse verschickt."
+msgstr[1] ""
+"Damit wird der Newsletter sofort an %COUNT% Elternadressen verschickt werden."

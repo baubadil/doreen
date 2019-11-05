@@ -1,0 +1,173 @@
+#
+# (C) 2015--2016 Baubadil GmbH. All rights reserved.
+#
+
+PATH_OUT_BASE           := $(PATH_PROJECT_ROOT)/out
+PATH_OUT_JS_TEMP        := $(PATH_OUT_BASE)/1_js-temp
+PATH_OUT_TS_TEMP        := $(PATH_OUT_BASE)/2_ts-temp
+PATH_OUT_BUILD_JS       := $(PATH_OUT_BASE)/9_final/js
+PATH_OUT_BUILD_CSS      := $(PATH_OUT_BASE)/9_final/css
+
+PATH_OUT_DIST           := $(PATH_PROJECT_ROOT)/$(DISTDIR_BASENAME)
+PATH_OUT_DIST_JS        := $(PATH_OUT_DIST)/js
+PATH_OUT_DIST_CSS       := $(PATH_OUT_DIST)/css
+PATH_OUT_DIST_FONTS     := $(PATH_OUT_DIST)/fonts
+PATH_OUT_DIST_IMG       := $(PATH_OUT_DIST)/img
+
+PATH_LOCALE             := $(PATH_PROJECT_ROOT)/locale
+
+FULLPATH_HEADER_IN = $(PATH_PROJECT_ROOT)/dBuild/header.in
+FULLPATH_FOOTER_IN = $(PATH_PROJECT_ROOT)/dBuild/footer.in
+
+NODE_MODULES_ROOT       := $(PATH_PROJECT_ROOT)/node_modules
+
+ifdef DEBUG
+UGLIFY_DEBUG        := --beautify
+else
+UGLIFY_DEBUG        := --mangle --compress
+endif
+
+MKDIR               := mkdir -p
+CP                  := cp
+MV                  := mv
+UGLIFYJS            := $(NODE_MODULES_ROOT)/uglify-js/bin/uglifyjs $(UGLIFY_DEBUG) --comments --source-map-root file://
+UGLIFYJSTS          := $(NODE_MODULES_ROOT)/uglify-js/bin/uglifyjs $(UGLIFY_DEBUG) --comments --source-map-root file://
+
+# file:///home/ufm/src/doreen/src/plugins/user_hardcoded is a horrible hack because the file names in the map files are prefixed with ../../../ and
+# uglify's --prefix command doesn't seem to work.
+# --beautify
+UGLIFYCSS           := $(NODE_MODULES_ROOT)/.bin/uglifycss
+LESSC               := $(NODE_MODULES_ROOT)/.bin/lessc
+MAPCAT              := $(NODE_MODULES_ROOT)/.bin/mapcat
+TSC                 := $(NODE_MODULES_ROOT)/.bin/tsc --declaration --sourceMap
+
+ifndef VERBOSE
+QUIET = @
+endif
+
+# Stop GNU make from deleting intermediary files. Otherwise the ones under PATH_OUT_BUILD_*
+# are always removed.
+.INTERMEDIARY:
+.SECONDARY:
+
+#
+# Global variables that functions append to
+#
+
+GLOBALS_TRIGGERING_REBUILD 	:= $(PATH_PROJECT_ROOT)/Makefile $(PATH_PROJECT_ROOT)/dBuild/core.in
+
+GLOBAL_UGLIFY_TARGETS 		:=
+GLOBAL_UGLIFY_TS_TARGETS 		:=
+GLOBAL_CSS_TARGETS 		:=
+TS_FILES_TRIGGERING_REBUILD     :=
+
+#
+# Functions
+#
+
+#
+# $(call myinfo,msg)
+#
+define myinfo
+$(if $(VERBOSE),$(info [$(DIRTHIS)] $1))
+endef
+
+.PHONY: --in-source-map
+
+#
+# $(make_ts_rule,<MODULENAME>,<FULLSOURCEFILES>)
+# Adds a rule to compile FULLSOURCEFILES to a temp JS file and adds the temp JS file to the list of
+# uglify targets for the given module. Used by footer.in.
+# This compiles several .TS files into a JS bundle.
+define make_ts_rule
+$(PATH_OUT_TS_TEMP)/$1/$1_ts.js: $2 $(TS_FILES_TRIGGERING_REBUILD) $(GLOBALS_TRIGGERING_REBUILD)
+	@echo Typescript: compiling $1_ts.js from $2 ...
+	$(QUIET)$(TSC) --out $(PATH_OUT_TS_TEMP)/$1/$1_ts.js $2
+
+JSFILES_TS_$1 += $(PATH_OUT_TS_TEMP)/$1/$1_ts.js
+endef
+
+#
+# $(make_js_copy_rule,<MODULENAME>,<FULLSOURCEFILE>)
+# Adds a target to to the global JSFILES_<MODULENAME> variable and a rule for it that depends on <FULLSOURCEFILE>.
+# This gets called from footer.in with a list of JS source files for the module.
+# As a second step, footer.in then calls add_global_js_target for every file in JSFILES_<MODULENAME>.
+#
+define make_js_copy_rule
+JSFILES_$1 += $(PATH_OUT_JS_TEMP)/$1/$(notdir $2)
+
+$(PATH_OUT_JS_TEMP)/$1/$(notdir $2): $2
+	$(QUIET)$(CP) $2 $(PATH_OUT_JS_TEMP)/$1/$(notdir $2)
+endef
+
+#
+# $(add_global_js_target,<MODULENAME>,<DEPS>)
+# Adds PATH_OUT_BUILD/MODULENAME.js to the list of global JS targets.
+#
+define add_global_js_target
+$(PATH_OUT_BUILD_JS)/$1.js: $2 $(GLOBALS_TRIGGERING_REBUILD)
+	@echo JS: producing uglified $1.js from legacy JS...
+	$(QUIET)$(MKDIR) $(PATH_OUT_BUILD_JS)
+#	$(QUIET)$(CP) $2 $(PATH_OUT_DIST_JS)/orig-src/
+	$(QUIET)cd $(PATH_OUT_BUILD_JS) && $(UGLIFYJS) --output $1.js $2 --source-map $1.map
+# --source-map-include-sources
+
+GLOBAL_UGLIFY_TARGETS += $(PATH_OUT_BUILD_JS)/$1.js
+endef
+
+#
+# $(add_global_js_ts_target,<MODULENAME>,<DEPS>)
+# Adds PATH_OUT_BUILD/MODULENAME.js to the list of global JS/TS targets.
+#
+define add_global_js_ts_target
+$(PATH_OUT_BUILD_JS)/$1_ts.js: $2 $(GLOBALS_TRIGGERING_REBUILD)
+	@echo JS: producing uglified $1_ts.js from TypeScript...
+	$(QUIET)$(MKDIR) $(PATH_OUT_BUILD_JS)
+#	$(QUIET)$(CP) $2 $(PATH_OUT_DIST_JS)/orig-src/
+	$(QUIET)cd $(PATH_OUT_BUILD_JS) && $(UGLIFYJSTS) --output $1_ts.js  $2 --source-map $1_ts.map --source-map-url $1_ts.map
+
+
+# Uglify cannot handle more than one --in-source-map and just crashes unceremonously even though this bug has been open for years https://github.com/mishoo/UglifyJS2/issues/145
+# Use the mapcat tool to concatenate the source maps first
+# 	$(MAPCAT) $(foreach a,$2,$a.map) -m $(PATH_OUT_TS_TEMP)/$1/joined.map
+# 	$(QUIET)cd $(PATH_OUT_TS_TEMP)/$1 && $(UGLIFYJSTS) --output $(PATH_OUT_BUILD_JS)/$1_ts.js \
+# 		--in-source-map $(PATH_OUT_TS_TEMP)/$1/joined.map \
+		--source-map $(PATH_OUT_BUILD_JS)/$1_ts.map --source-map-url $1_ts.map && cd $(PATH_PROJECT_ROOT)
+
+GLOBAL_UGLIFY_TS_TARGETS += $(PATH_OUT_BUILD_JS)/$1_ts.js
+endef
+
+#
+# $(make_img_copy_rule,<MODULENAME>,<FULLSOURCEFILE>)
+# Adds a copy target that copies <FULLSOURCEFILE> to htdocs/img.
+#
+define make_img_copy_rule
+GLOBAL_ALL_IMAGES += $(PATH_OUT_DIST_IMG)/$(notdir $2)
+
+$(PATH_OUT_DIST_IMG)/$(notdir $2): $2
+	$(QUIET)$(CP) $2 $(PATH_OUT_DIST_IMG)/$(notdir $2)
+endef
+
+#
+# $(add_global_css_target,<MODULENAME>,<DEPS>)
+#
+define add_global_css_target
+$(PATH_OUT_BUILD_CSS)/$1.css: $2 $(GLOBALS_TRIGGERING_REBUILD)
+	@echo CSS: producing minified $1.css...
+	$(QUIET)$(MKDIR) $(PATH_OUT_BUILD_CSS)
+	$(QUIET)$(UGLIFYCSS) $2 > $(PATH_OUT_BUILD_CSS)/$1.css
+
+GLOBAL_CSS_TARGETS += $(PATH_OUT_BUILD_CSS)/$1.css
+endef
+
+#
+# Phony targets (all MUST COME FIRST)
+#
+
+all: webpack css js img_fonts translations end
+	@echo "All done, Doreen says thank you."
+
+clean:
+	rm -rf $(PATH_OUT_BASE)/* htdocs/js/*
+
+.PHONY: all clean css js fonts translations doc
