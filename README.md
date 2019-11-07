@@ -1,7 +1,48 @@
+Doreen is (C) 2015--2019 Baubadil GmbH and, as of Nov 5 2019, released under the GNU GNU Affero General Public License version 3. See the LICENSE.TXT file.
+
+
+Introduction
+------------
+
 Welcome to Doreen, a universal ticket system with plugins that can track and
 organize almost anything and make it searchable at lightning speed.
 
-Doreen is (C) 2015--2019 Baubadil GmbH and, as of Nov 5 2019, released under the GNU GNU Affero General Public License version 3. See the LICENSE.TXT file.
+Doreen has a number of features that make it stand out among the many ticket systems that already exist:
+
+1. Doreen has a modern user interface using the latest web technologies, with a responsive, themeable Bootstrap
+       design that looks great on mobile devices as well.
+
+2. Doreen is *fast* and scales well; it is regularly tested on databases with about a million tickets, on 
+	commodity  hardware.
+
+3. Arbitrary files can be attached to tickets. Multiple files can be uploaded in parallel, with a useful and
+	pretty user interface with progress reports.
+	Doreen can use Elasticsearch to provide a powerful full-text search engine that can index binary attachments
+     (e.g. PDF, ODT, DOC, PPT) as well.
+
+3. Doreen has been designed from the ground up to be extensible through plugins. Four plugins ship with Doreen
+   by default (see the `src/plugins` directory); one of them is the code to run the fischertechnik database at 
+	https://ft-datenbank.de (a good showcase of what Doreen can do).
+
+4. Doreen has a very fine-grained, but flexible access control system, while remaining very intuitive to the end user.
+   Users can have user accounts and belong to an arbitrary number of groups, and all access control is based
+   on groups.
+
+5. Doreen's entire API is exposed through an HTTP REST interface. As a result, in addition to using the
+   pre-defined user interface in the browser, other programs can get, post and put tickets and their configuration 
+	through the REST API as well.
+
+7. 	Doreen uses the concept of "ticket types" to organize *at run-time* which fields are visible for tickets.
+ 	A ticket type contains a list of ticket fields (e.g. "title", "description", "priority" etc.), and all tickets
+    of that type will accept and display such data. This is not hard-coded, but can be configured by an
+   administrator, and extended through plugins.
+
+8. Doreen uses many tables in the actual database, but if you are familiar with relational databases in general,
+	it may help to think of Doreen as one big table, wherein tickets are the rows and the ticket fields are the
+	columns. The interesting bit is that each such "row" may use only some of the "columns", whereas another one
+	may use other columns, and data is managed intelligently according to which columns are used.
+
+9. To help with organizing lots of tickets, Doreen can display visualizations of ticket relationships.
 
 
 
